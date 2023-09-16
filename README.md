@@ -43,6 +43,6 @@ Usage:
 # grab video of DRS track from youtube
 yt-dlp -f bv[ext=webm] https://youtu.be/o7I0scmptmo -o "drs_video.webm"
 
-# grab song-id from "resources\data.json"
+# grab song-id from "resources\data.json" or https://arcade-songs.zetaraku.dev/drs/
 .venv/Scripts/python drs2dd.py "drs_video.webm" --song-id "BOOMBAYAH-JP Ver.-"
 ```
