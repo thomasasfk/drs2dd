@@ -2,6 +2,8 @@
 
 Convert videos of DANCERUSH STARDOM tracks into Dance Dash beat maps
 
+Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) and ask!
+
 ## Stuff
 
 ### Completed:
