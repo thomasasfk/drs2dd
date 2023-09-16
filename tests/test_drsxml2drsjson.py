@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from drsxml2drsjson import get_songdata_from_track_id
+from drsxml2json import get_songdata_from_track_id
 from model.dancerush import DRSSongData
 
 

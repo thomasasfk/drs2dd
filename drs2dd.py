@@ -6,8 +6,8 @@ import os
 import shutil
 from dataclasses import asdict
 
-from drsxml2drsjson import get_songdata_from_track_id
-from drsxml2drsjson import TRACK_ID_TO_PATH
+from drsxml2json import get_songdata_from_track_id
+from drsxml2json import TRACK_ID_TO_PATH
 from model.dancedash import DDBeatMap
 from model.dancedash import DDBeatMapData
 from model.dancedash import DDBeatMapInfoFile
