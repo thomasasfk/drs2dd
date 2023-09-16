@@ -6,6 +6,13 @@ from dataclasses import field
 import xmltodict
 
 
+def safe_int(value):
+    try:
+        return int(value)
+    except (ValueError, TypeError):
+        return None
+
+
 @dataclass
 class DRSSheetDataZetaraku:
     type: str
@@ -299,11 +306,17 @@ class DRSTrackStep:
             DRSTrackStepPlayerInfo(int(data['player_id']['#text'])),
             [
                 DRSTrackPoint(
-                    tick=point.get('tick', {}).get('#text'),
-                    left_pos=point.get('left_pos', {}).get('#text'),
-                    right_pos=point.get('right_pos', {}).get('#text'),
-                    left_end_pos=point.get('left_end_pos', {}).get('#text'),
-                    right_end_pos=point.get('right_end_pos', {}).get('#text'),
+                    tick=safe_int(point.get('tick', {}).get('#text')),
+                    left_pos=safe_int(point.get('left_pos', {}).get('#text')),
+                    right_pos=safe_int(
+                        point.get('right_pos', {}).get('#text'),
+                    ),
+                    left_end_pos=safe_int(
+                        point.get('left_end_pos', {}).get('#text'),
+                    ),
+                    right_end_pos=safe_int(
+                        point.get('right_end_pos', {}).get('#text'),
+                    ),
                 ) for point in points
             ],
         )
