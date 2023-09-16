@@ -35,7 +35,7 @@ class DDLineNode:
 
 
 @dataclass
-class DDLSphereNode:
+class DDSphereNode:
     noteOrder: int
     time: float
     position: X_Y
@@ -52,7 +52,7 @@ def create_note_sphere(
         note_order: int,
         note_type: LEFT_NOTE | RIGHT_NOTE,
 ):
-    return DDLSphereNode(
+    return DDSphereNode(
         noteOrder=note_order,
         time=time,
         position=X_Y(x=position, y=0),
@@ -71,7 +71,7 @@ class DDBeatMapData:
     gridSize: X_Y
     planeSize: X_Y
     orderCountPerBeat: int
-    sphereNodes: list[DDLSphereNode] = field(default_factory=list)
+    sphereNodes: list[DDSphereNode] = field(default_factory=list)
     lineNodes: list[DDLineNode] = field(default_factory=list)
     effectNodes: list = field(default_factory=list)
     roadBlockNodes: list = field(default_factory=list)
@@ -97,7 +97,7 @@ class DDBeatMap:
             name: str,
             interval_per_second: float,
             order_count_per_beat: int,
-            sphere_nodes: list[DDLSphereNode],
+            sphere_nodes: list[DDSphereNode],
             beat_subs: int,
             bpm: int,
             info: str,

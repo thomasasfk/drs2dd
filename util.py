@@ -9,7 +9,7 @@ import numpy as np
 import requests
 from PIL import Image
 
-from model.dancerush import DRSSongData
+from model.dancerush import DRSSongDataZetaraku
 
 ORDER_COUNT_PER_BEAT = 24
 DEFAULT_THRESHOLD = 0.8
@@ -42,13 +42,13 @@ def _get_song_metadata_json():
     return json.load(open('resources/data.json', encoding='utf-8'))
 
 
-def get_song_metadata_remote(song_id: str) -> DRSSongData | None:
+def get_song_metadata_remote(song_id: str) -> DRSSongDataZetaraku | None:
     if not song_id:
         return None
     drs_data = _get_song_metadata_json()
     song_id_to_song = {s['songId']: s for s in drs_data['songs']}
     if metadata := song_id_to_song.get(song_id):
-        return DRSSongData.from_dict(metadata)
+        return DRSSongDataZetaraku.from_dict(metadata)
 
 
 def crop_frame(frame, x, y, width, height):
