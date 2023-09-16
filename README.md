@@ -44,5 +44,5 @@ Usage:
 yt-dlp -f bv[ext=webm] https://youtu.be/o7I0scmptmo -o "drs_video.webm"
 
 # grab song-id from "resources\data.json"
-.venv/Scripts/python process_drs_video.py "drs_video.webm" --song-id "BOOMBAYAH-JP Ver.-"
+.venv/Scripts/python drs2dd.py "drs_video.webm" --song-id "BOOMBAYAH-JP Ver.-"
 ```
