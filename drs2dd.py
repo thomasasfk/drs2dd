@@ -121,6 +121,10 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     song_data = get_songdata_from_track_id(args.song_id)
+    if not song_data:
+        print(f'No song data found for song id {args.song_id}')
+        raise SystemExit(1)
+
     created = create_dd_tracks_from_DRSSongData(
         song_data, song_data.info.title_name,
     )

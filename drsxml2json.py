@@ -21,11 +21,15 @@ TRACK_ID_TO_PATH = {
 }
 
 
-def get_songdata_from_track_id(track_id: int) -> DRSSongData:
+def get_songdata_from_track_id(track_id: int) -> DRSSongData | None:
     if os.getenv('HAS_XML'):
         return TRACK_ID_TO_SONGDATA.get(track_id)
     track_path = TRACK_ID_TO_PATH.get(track_id)
+    if not track_path:
+        return None
     songs_json_path = os.path.join(track_path, 'songs.json')
+    if not os.path.exists(songs_json_path):
+        return None
     songs_dict = json.load(open(songs_json_path, encoding='utf-8'))
     song_data = DRSSongData.from_json_dict(songs_dict)
     return song_data
