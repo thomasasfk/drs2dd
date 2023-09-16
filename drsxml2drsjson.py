@@ -12,8 +12,8 @@ from model.dancerush import DRSSongDifficulties
 from model.dancerush import DRSSongDifficulty
 from model.dancerush import DRSTrack
 
-TRACK_LIST = r'drs-files\datax\music\music-info-base.xml'
-TRACKS_BASE_DIR = r'drs-files\datax\music'
+TRACK_LIST = r'resources\drs\datax\music\music-info-base.xml'
+TRACKS_BASE_DIR = r'resources\drs\datax\music'
 
 ALL_SONG_METADATA = open(TRACK_LIST, encoding='utf-8').read()
 ALL_SONG_METADATA_DICT = xmltodict.parse(ALL_SONG_METADATA)
