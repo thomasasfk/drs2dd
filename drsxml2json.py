@@ -12,8 +12,8 @@ from model.dancerush import DRSSongDifficulties
 from model.dancerush import DRSSongDifficulty
 from model.dancerush import DRSTrack
 
-TRACK_LIST = r'resources\drs\datax\music\music-info-base.xml'
-TRACKS_BASE_DIR = r'resources\drs\datax\music'
+TRACK_LIST = r'resources/drs/datax/music/music-info-base.xml'
+TRACKS_BASE_DIR = r'resources/drs/datax/music'
 ALL_TRACK_PATHS = [x for x in os.listdir(TRACKS_BASE_DIR) if x.isdigit()]
 TRACK_ID_TO_PATH = {
     int(x): os.path.join(TRACKS_BASE_DIR, x)
