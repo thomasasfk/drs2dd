@@ -36,79 +36,81 @@ def extract_spheres_from_drs_video(video_path: str, bpm: int):  # noqa
     duration_seconds = total_frames / video_fps
     bps = bpm / 60
 
-    with alive_bar(
+    logger.info(f'Starting to process video: {video_path}')
+    logger.info(f'Total frames: {total_frames}')
+
+    bar = alive_bar(
         total=total_frames,
         title='Finding stage',
         bar='notes',
         spinner='notes',
-    ) as bar:
-        logger.info(f'Starting to process video: {video_path}')
-        logger.info(f'Total frames: {total_frames}')
+    )
+    pbar = bar.__enter__()
+    stage_found = False
+    while not stage_found:
+        pbar()
+        ret, frame = cap.read()
+        if not ret:
+            raise ValueError('Unable to find stage.')
 
-        stage_found = False
-        while not stage_found:
-            bar()
-            ret, frame = cap.read()
-            if not ret:
-                raise ValueError('Unable to find stage.')
+        frame_number = cap.get(cv2.CAP_PROP_POS_FRAMES)
+        if int(frame_number % 5) != 0:
+            continue
 
-            frame_number = cap.get(cv2.CAP_PROP_POS_FRAMES)
-            if int(frame_number % 5) != 0:
-                continue
+        frame = cv2.resize(frame, WORKING_RESOLUTION)
+        search_area = crop_frame(frame, *SIGN_SEARCH_AREA)
+        stage_found = find_stage(search_area)
 
-            frame = cv2.resize(frame, WORKING_RESOLUTION)
-            search_area = crop_frame(frame, *SIGN_SEARCH_AREA)
-            stage_found = find_stage(search_area)
+    bar.title = 'Finding notes'
 
-        bar.title = 'Finding notes'
+    frames_since_l = 0
+    frames_since_r = 0
 
-        frames_since_l = 0
-        frames_since_r = 0
+    spheres = []
+    while True:
+        pbar()
 
-        spheres = []
-        while True:
-            bar()
+        ret, frame = cap.read()
+        if not ret:
+            break
 
-            ret, frame = cap.read()
-            if not ret:
-                break
+        frame = cv2.resize(frame, WORKING_RESOLUTION)
+        current_position_seconds = cap.get(cv2.CAP_PROP_POS_MSEC) / 1000.0
 
-            frame = cv2.resize(frame, WORKING_RESOLUTION)
-            current_position_seconds = cap.get(cv2.CAP_PROP_POS_MSEC) / 1000.0
+        # float between 0 and 1 representing the time in the song
+        progress_percentage = current_position_seconds / duration_seconds
 
-            # float between 0 and 1 representing the time in the song
-            progress_percentage = current_position_seconds / duration_seconds
+        frames_since_l -= 1
+        frames_since_r -= 1
 
-            frames_since_l -= 1
-            frames_since_r -= 1
+        note_order = int(
+            bps * current_position_seconds *
+            ORDER_COUNT_PER_BEAT,
+        )
+        search_area = crop_frame(frame, *NOTE_SEARCH_AREA)
+        if frames_since_l < 1:
+            if left := find_l(search_area):
+                frames_since_l = 5
+                note = create_note_sphere(  # noqa
+                    progress_percentage,
+                    map_position_to_dd_x(left[0]),
+                    note_order,
+                    LEFT_NOTE,
+                )
+                spheres.append(note)
 
-            note_order = int(
-                bps * current_position_seconds *
-                ORDER_COUNT_PER_BEAT,
-            )
-            search_area = crop_frame(frame, *NOTE_SEARCH_AREA)
-            if frames_since_l < 1:
-                if left := find_l(search_area):
-                    frames_since_l = 5
-                    note = create_note_sphere(  # noqa
-                        progress_percentage,
-                        map_position_to_dd_x(left[0]),
-                        note_order,
-                        LEFT_NOTE,
-                    )
-                    spheres.append(note)
+        if frames_since_r < 1:
+            if right := find_r(search_area):
+                frames_since_r = 5
+                note = create_note_sphere(  # noqa
+                    progress_percentage,
+                    map_position_to_dd_x(right[0]),
+                    note_order,
+                    RIGHT_NOTE,
+                )
+                spheres.append(note)
 
-            if frames_since_r < 1:
-                if right := find_r(search_area):
-                    frames_since_r = 5
-                    note = create_note_sphere(  # noqa
-                        progress_percentage,
-                        map_position_to_dd_x(right[0]),
-                        note_order,
-                        RIGHT_NOTE,
-                    )
-                    spheres.append(note)
-
+    bar.__exit__(None, None, None)
     cap.release()
     return spheres
 
