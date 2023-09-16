@@ -36,10 +36,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -51,10 +51,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -66,10 +66,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -81,10 +81,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -96,10 +96,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -111,10 +111,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -126,10 +126,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -141,10 +141,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -156,10 +156,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -171,10 +171,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -186,10 +186,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -201,10 +201,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -216,10 +216,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -231,10 +231,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -246,10 +246,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -261,10 +261,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -276,10 +276,67 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "9120",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "9600",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "10080",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "10560",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "11040",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "11520",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "12000",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "12480",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -291,10 +348,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -306,10 +363,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -321,10 +378,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -336,10 +393,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -351,10 +408,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -366,10 +423,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -381,10 +438,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -396,10 +453,67 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "12960",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "13440",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "13920",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "14400",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "14880",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "15360",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "15840",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "16320",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -411,10 +525,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -426,10 +540,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -441,10 +555,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -456,10 +570,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -471,10 +585,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -486,10 +600,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -501,10 +615,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -516,10 +630,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -531,10 +645,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -546,10 +660,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -561,10 +675,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -576,10 +690,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -591,10 +705,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -606,10 +720,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -621,10 +735,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -636,10 +750,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -651,10 +765,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -666,10 +780,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -681,10 +795,10 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -696,10 +810,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -711,10 +825,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -726,10 +840,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -741,10 +855,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -756,10 +870,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "24240",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -771,10 +893,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "24720",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -786,10 +916,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "25200",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -801,10 +939,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "25680",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -816,10 +962,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "26160",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -831,10 +985,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "26640",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -846,10 +1008,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "27120",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -861,10 +1031,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "27600",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -876,10 +1054,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "28080",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -891,10 +1077,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "28560",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -906,10 +1100,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "29040",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -921,10 +1123,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "29520",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -936,10 +1146,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "30000",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -951,10 +1169,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "30480",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -966,10 +1192,10 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -981,10 +1207,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -996,10 +1222,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1011,10 +1237,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1026,10 +1252,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1041,10 +1267,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1056,10 +1282,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1071,10 +1297,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1086,10 +1312,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1101,10 +1327,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1116,10 +1342,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1131,10 +1357,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1146,10 +1372,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1161,10 +1387,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1176,10 +1402,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1191,10 +1417,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1206,10 +1432,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1221,10 +1447,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1236,10 +1462,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "39600",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1251,10 +1485,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "40080",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1266,10 +1508,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "40560",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1281,10 +1531,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "41040",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1296,10 +1554,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "41520",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1311,10 +1577,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "42000",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1326,10 +1600,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "42480",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1341,10 +1623,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "42960",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1356,10 +1646,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "43440",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1371,10 +1669,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "43920",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1386,10 +1692,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "44400",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1401,10 +1715,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "44880",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1416,10 +1738,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "45360",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1431,10 +1761,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "45840",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1446,10 +1784,10 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1461,10 +1799,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "50880",
+                        "left_pos": "20480",
+                        "right_pos": "40960",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1476,10 +1822,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1491,10 +1837,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1506,10 +1852,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1521,10 +1867,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1536,10 +1882,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1551,10 +1897,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1566,10 +1912,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1581,10 +1927,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1596,10 +1942,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1611,10 +1957,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1626,10 +1972,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1641,10 +1987,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "58560",
+                        "left_pos": "24576",
+                        "right_pos": "45056",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1656,10 +2010,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1671,10 +2025,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1686,10 +2040,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1701,10 +2055,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1716,10 +2070,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1731,10 +2085,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1746,10 +2100,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1761,10 +2115,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1776,10 +2130,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1791,10 +2145,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1806,10 +2160,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1821,10 +2175,18 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "66240",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1836,10 +2198,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1851,10 +2213,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1866,10 +2228,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1881,10 +2243,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1896,10 +2258,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1911,10 +2273,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1926,10 +2288,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1941,10 +2303,18 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "70080",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -1956,10 +2326,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1971,10 +2341,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -1986,10 +2356,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2001,10 +2371,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2016,10 +2386,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2031,10 +2401,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2046,10 +2416,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2061,10 +2431,18 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "73920",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2076,10 +2454,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2091,10 +2469,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2106,10 +2484,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2121,10 +2499,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2136,10 +2514,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2151,10 +2529,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2166,10 +2544,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2181,10 +2559,18 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "74400",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2196,10 +2582,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2211,10 +2597,18 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "75360",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2226,10 +2620,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2241,10 +2635,18 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "76800",
+                        "left_pos": "8192",
+                        "right_pos": "28672",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2256,10 +2658,18 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "76800",
+                        "left_pos": "36864",
+                        "right_pos": "57344",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2271,10 +2681,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2286,10 +2696,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "81600",
+                        "left_pos": "20480",
+                        "right_pos": "40960",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2301,10 +2719,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2316,10 +2734,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2331,10 +2749,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2346,10 +2764,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2361,10 +2779,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2376,10 +2794,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2391,10 +2809,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2406,10 +2824,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "85440",
+                        "left_pos": "24576",
+                        "right_pos": "45056",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2421,10 +2847,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2436,10 +2862,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2451,10 +2877,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2466,10 +2892,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2481,10 +2907,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2496,10 +2922,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2511,10 +2937,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2526,10 +2952,10 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2541,10 +2967,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2556,10 +2982,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2571,10 +2997,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2586,10 +3012,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2601,10 +3027,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2616,10 +3042,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2631,10 +3057,10 @@
                     "left_pos": 16384,
                     "right_pos": 36864
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2646,10 +3072,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2661,10 +3087,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2676,10 +3102,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2691,10 +3117,10 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2706,10 +3132,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2721,10 +3147,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2736,10 +3162,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2751,10 +3177,67 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "93600",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "94080",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "94560",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "95040",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "95520",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "96000",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "96480",
+                        "left_pos": "40960",
+                        "right_pos": "61440",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "96960",
+                        "left_pos": "28672",
+                        "right_pos": "49152",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2766,10 +3249,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2781,10 +3264,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2796,10 +3279,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2811,10 +3294,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2826,10 +3309,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2841,10 +3324,10 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2856,10 +3339,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2871,10 +3354,67 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "97440",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "97920",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "98400",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "98880",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "99360",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "99840",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "100320",
+                        "left_pos": "4096",
+                        "right_pos": "24576",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    },
+                    {
+                        "tick": "100800",
+                        "left_pos": "16384",
+                        "right_pos": "36864",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -2886,10 +3426,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2901,10 +3441,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2916,10 +3456,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2931,10 +3471,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2946,10 +3486,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2961,10 +3501,10 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2976,10 +3516,10 @@
                     "left_pos": 24576,
                     "right_pos": 45056
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -2991,10 +3531,10 @@
                     "left_pos": 28672,
                     "right_pos": 49152
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3006,10 +3546,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3021,10 +3561,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3036,10 +3576,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3051,10 +3591,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3066,10 +3606,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3081,10 +3621,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3096,10 +3636,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3111,10 +3651,10 @@
                     "left_pos": 40960,
                     "right_pos": 61440
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3126,10 +3666,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3141,10 +3681,10 @@
                     "left_pos": 4096,
                     "right_pos": 24576
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3156,10 +3696,10 @@
                     "left_pos": 20480,
                     "right_pos": 40960
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3171,10 +3711,18 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "107520",
+                        "left_pos": "36864",
+                        "right_pos": "57344",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3186,10 +3734,18 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "107520",
+                        "left_pos": "8192",
+                        "right_pos": "28672",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3201,10 +3757,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3216,10 +3772,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3231,10 +3787,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3246,10 +3802,10 @@
                     "left_pos": 12288,
                     "right_pos": 32768
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3261,10 +3817,10 @@
                     "left_pos": 32768,
                     "right_pos": 53248
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3276,10 +3832,10 @@
                     "left_pos": 0,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 4
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3291,10 +3847,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "112560",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3306,10 +3870,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "113040",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3321,10 +3893,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "113520",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3336,10 +3916,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "114000",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3351,10 +3939,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "114480",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3366,10 +3962,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "114960",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3381,10 +3985,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "115440",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3396,10 +4008,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "115920",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3411,10 +4031,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "116400",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3426,10 +4054,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "116880",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3441,10 +4077,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "117360",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3456,10 +4100,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "117840",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3471,10 +4123,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "118320",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3486,10 +4146,18 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "118800",
+                        "left_pos": "45056",
+                        "right_pos": "65536",
+                        "left_end_pos": "36864",
+                        "right_end_pos": "57344"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3501,10 +4169,10 @@
                     "left_pos": 45056,
                     "right_pos": 65536
                 },
-                "long_point": false,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": []
             },
             {
                 "tick_info": {
@@ -3516,10 +4184,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "120240",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3531,10 +4207,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "120720",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3546,10 +4230,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "121200",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3561,10 +4253,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "121680",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3576,10 +4276,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "122160",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3591,10 +4299,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "122640",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3606,10 +4322,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "123120",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3621,10 +4345,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "123600",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3636,10 +4368,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "124080",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3651,10 +4391,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "124560",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3666,10 +4414,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "125040",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3681,10 +4437,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "125520",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3696,10 +4460,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "126000",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3711,10 +4483,18 @@
                     "left_pos": 0,
                     "right_pos": 20480
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "126480",
+                        "left_pos": "0",
+                        "right_pos": "20480",
+                        "left_end_pos": "8192",
+                        "right_end_pos": "28672"
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3726,10 +4506,18 @@
                     "left_pos": 8192,
                     "right_pos": 28672
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "133440",
+                        "left_pos": "8192",
+                        "right_pos": "28672",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             },
             {
                 "tick_info": {
@@ -3741,10 +4529,18 @@
                     "left_pos": 36864,
                     "right_pos": 57344
                 },
-                "long_point": true,
                 "player_info": {
                     "player_id": 0
-                }
+                },
+                "long_point": [
+                    {
+                        "tick": "133440",
+                        "left_pos": "36864",
+                        "right_pos": "57344",
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
             }
         ]
     },

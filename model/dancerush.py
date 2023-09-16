@@ -249,20 +249,41 @@ class DRSTrackStepPositionInfo:
 
 
 @dataclass
+class DRSTrackPoint:
+    tick: int
+    left_pos: int
+    right_pos: int
+    left_end_pos: int
+    right_end_pos: int
+
+
+@dataclass
 class DRSTrackStepPlayerInfo:
     player_id: int
+
+
+DRS_LEFT = 1
+DRS_RIGHT = 2
+DRS_DOWN = 3
 
 
 @dataclass
 class DRSTrackStep:
     tick_info: DRSTrackStepTickInfo
-    kind: int
+    kind: DRS_LEFT | DRS_RIGHT | DRS_DOWN
     position_info: DRSTrackStepPositionInfo
-    long_point: bool | None
     player_info: DRSTrackStepPlayerInfo
+    long_point: list[DRSTrackPoint] = field(default_factory=list)
 
     @classmethod
     def from_xml_dict(cls, data: dict):
+
+        points = []
+        if long_point := data.get('long_point'):
+            if points := long_point.get('point'):
+                if not isinstance(points, list):
+                    points = [points]
+
         return cls(
             DRSTrackStepTickInfo(
                 int(data['start_tick']['#text']), int(
@@ -275,8 +296,16 @@ class DRSTrackStep:
                     data['right_pos']['#text'],
                 ),
             ),
-            bool(data.get('long_point')),  # Optional field
             DRSTrackStepPlayerInfo(int(data['player_id']['#text'])),
+            [
+                DRSTrackPoint(
+                    tick=point.get('tick', {}).get('#text'),
+                    left_pos=point.get('left_pos', {}).get('#text'),
+                    right_pos=point.get('right_pos', {}).get('#text'),
+                    left_end_pos=point.get('left_end_pos', {}).get('#text'),
+                    right_end_pos=point.get('right_end_pos', {}).get('#text'),
+                ) for point in points
+            ],
         )
 
     @classmethod
@@ -291,8 +320,24 @@ class DRSTrackStep:
                 int(data['position_info']['left_pos']),
                 int(data['position_info']['right_pos']),
             ),
-            bool(data['long_point']),
             DRSTrackStepPlayerInfo(int(data['player_info']['player_id'])),
+            [
+                DRSTrackPoint(
+                    tick=int(point['tick']) if point.get('tick') else None,
+                    left_pos=int(point['left_pos']) if point.get(
+                        'left_pos',
+                    ) else None,
+                    right_pos=int(point['right_pos']) if point.get(
+                        'right_pos',
+                    ) else None,
+                    left_end_pos=int(point['left_end_pos']) if point.get(
+                        'left_end_pos',
+                    ) else None,
+                    right_end_pos=int(point['right_end_pos']) if point.get(
+                        'right_end_pos',
+                    ) else None,
+                ) for point in data['long_point']
+            ],
         )
 
 

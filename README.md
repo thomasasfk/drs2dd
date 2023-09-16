@@ -65,7 +65,7 @@ yt-dlp -f bv[ext=webm] https://youtu.be/o7I0scmptmo -o "drs_video.webm"
 Generate json files from xml files (needs xml files and a brave soul)
 
 ```bash
-HAS_XML=1 .venv/Scripts/python drsxml2drsjson.py
+HAS_XML=1 .venv/Scripts/python drsxml2json.py
 ```
 
 Generate full DD Beat Map from json files in repository (does not map notes atm, todo)
