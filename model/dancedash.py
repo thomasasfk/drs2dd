@@ -117,7 +117,8 @@ class DDBeatMap:
             ),
             beatSubs=beat_subs,
             BPM=bpm,
-            songStartOffset=-0.4,  # -0.4 is arbitrary, figure out a better value. (because we detect notes early)
+            # -0.4 is arbitrary, figure out a better value. (because we detect notes early)
+            songStartOffset=-0.4,
             NPS='0.0',
             developerMode=False,
             noteSpeed=1.0,

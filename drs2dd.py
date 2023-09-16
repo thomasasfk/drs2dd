@@ -13,7 +13,6 @@ from model.dancedash import create_note_sphere
 from model.dancedash import DDBeatMap
 from model.dancedash import LEFT_NOTE
 from model.dancedash import RIGHT_NOTE
-from util import ORDER_COUNT_PER_BEAT
 from util import crop_frame
 from util import find_l
 from util import find_r
@@ -21,6 +20,7 @@ from util import find_stage
 from util import get_song_metadata_remote
 from util import map_position_to_dd_x
 from util import NOTE_SEARCH_AREA
+from util import ORDER_COUNT_PER_BEAT
 from util import SIGN_SEARCH_AREA
 from util import WORKING_RESOLUTION
 

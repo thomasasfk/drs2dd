@@ -22,7 +22,7 @@ namespace DanceDashLaunchHelper
         }
     }
 
-    
+
     // when we first start the game, we set the ready button to be interactable & click it programmatically
     [HarmonyPatch(typeof(ControllerSwitchUI), "Start")]
     class ControllerSwitchUI_Start_Patch
@@ -49,7 +49,7 @@ namespace DanceDashLaunchHelper
             Traverse.Create(__instance).Method("OnToggleHpChange", true).GetValue();
         }
     }
-    
+
     // this patch is bad, it hijacks init and toggles the albums and invokes them as true, happens to
     // toggle on the last album (custom songs) purely based on the order of execution, but again, this sucks
     [HarmonyPatch(typeof(VolListItem), "Init")]
@@ -63,7 +63,7 @@ namespace DanceDashLaunchHelper
             __instance.Invoke(true);
         }
     }
-    
+
     // hijacks the ost selection happening as a side effect of VolListItem_Init_Patch, and clicks the play button
     [HarmonyPatch(typeof(PanelSelect), "OnSelectOst")]
     class PanelSelect_OnSelectOst_Patch
@@ -135,5 +135,5 @@ namespace DanceDashLaunchHelper
             return false;
         }
     }
-    
+
 }
