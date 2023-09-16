@@ -34,7 +34,7 @@ Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) 
 
 ---
 
-Setup:
+### Setup:
 
 - Install Python 3.10 (pyenv recommended)
 
@@ -52,7 +52,7 @@ pre-commit install
 
 ---
 
-Usage:
+### Usage:
 
 Convert a DRS track video to a DD beat map
 
