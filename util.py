@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import contextlib
 import json
 import os
+import subprocess
 from functools import partial
 
 import cv2
@@ -78,3 +80,33 @@ SIGN_TEMPLATE = Image.open(
 SIGN_SEARCH_AREA = 850, 143, 223, 49
 
 find_stage = partial(match_template, template=SIGN_TEMPLATE)
+
+
+def get_m4a_and_duration(folder_path) -> tuple[str, str] | tuple[None, None]:
+    m4a_files = [f for f in os.listdir(folder_path) if f.endswith('.m4a')]
+    if not m4a_files:
+        return None, None
+
+    m4a_file = os.path.join(folder_path, m4a_files[0])
+    with contextlib.suppress(subprocess.CalledProcessError):
+        ffprobe_cmd = [
+            'ffprobe',
+            '-i', m4a_file,
+            '-show_entries', 'format=duration',
+            '-v', 'error',
+            '-of', 'default=noprint_wrappers=1:nokey=1',
+        ]
+        duration_str = subprocess.check_output(ffprobe_cmd, text=True).strip()
+        return m4a_file, duration_str
+
+    return None, None
+
+
+def get_song_cover_path(folder_path) -> str | None:
+    cover_files = [
+        f for f in os.listdir(folder_path) if f.startswith('jk_') and f.endswith('_b.png')
+    ]
+    if not cover_files:
+        return None
+
+    return os.path.join(folder_path, cover_files[0])

@@ -40,6 +40,8 @@ pre-commit install
 
 Usage:
 
+Convert a DRS track video to a DD beat map
+
 ```bash
 # grab video of DRS track from youtube
 yt-dlp -f bv[ext=webm] https://youtu.be/o7I0scmptmo -o "drs_video.webm"
@@ -48,7 +50,14 @@ yt-dlp -f bv[ext=webm] https://youtu.be/o7I0scmptmo -o "drs_video.webm"
 .venv/Scripts/python drsvideo2dd.py "drs_video.webm" --song-id "BOOMBAYAH-JP Ver.-"
 ```
 
+Generate json files from xml files (needs xml files and a brave soul)
+
 ```bash
-# you will need relevant xml files (not from DRS, that's illegal...)
-.venv/Scripts/python drsxml2drsjson.py
+HAS_XML=1 .venv/Scripts/python drsxml2drsjson.py
+```
+
+Generate full DD Beat Map from json files in repository (does not map notes atm, todo)
+
+```bash
+.venv/Scripts/python drs2dd.py --song-id 187
 ```

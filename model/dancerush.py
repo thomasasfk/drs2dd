@@ -63,6 +63,15 @@ class DRSSongDifficulties:
     difficulty_2a: DRSSongDifficulty | None = None
     difficulty_2b: DRSSongDifficulty | None = None
 
+    @property
+    def with_attrs_as_str(self) -> dict[str, DRSSongDifficulty]:
+        return {
+            'difficulty_1a': self.difficulty_1a,
+            'difficulty_1b': self.difficulty_1b,
+            'difficulty_2a': self.difficulty_2a,
+            'difficulty_2b': self.difficulty_2b,
+        }
+
 
 @dataclass
 class DRSSongData:
@@ -71,7 +80,7 @@ class DRSSongData:
     info: DRSSongInfo | None = None
 
     @classmethod
-    def from_dict(cls, data: dict, difficulties: DRSSongDifficulties) -> DRSSongData:
+    def from_xml_dict(cls, data: dict, difficulties: DRSSongDifficulties) -> DRSSongData:
         return cls(
             song_id=int(data['@id']),
             difficulties=difficulties,
@@ -89,6 +98,53 @@ class DRSSongData:
                 license=data['info']['license'].get('#text'),
                 region=data['info']['region']['#text'],
                 volume=int(data['info']['volume']['#text']),
+            ),
+        )
+
+    @classmethod
+    def from_json_dict(cls, data: dict):
+        difficulties = data['difficulties']
+        info = data['info']
+        return cls(
+            song_id=int(data['song_id']),
+            difficulties=DRSSongDifficulties(
+                difficulty_1a=DRSSongDifficulty(
+                    track=DRSTrack.from_json_dict(
+                        difficulties['difficulty_1a']['track'],
+                    ),
+                    difnum=difficulties['difficulty_1a']['difnum'],
+                ) if difficulties['difficulty_1a'] else None,
+                difficulty_1b=DRSSongDifficulty(
+                    track=DRSTrack.from_json_dict(
+                        difficulties['difficulty_1b']['track'],
+                    ),
+                    difnum=difficulties['difficulty_1b']['difnum'],
+                ) if difficulties['difficulty_1b'] else None,
+                difficulty_2a=DRSSongDifficulty(
+                    track=DRSTrack.from_json_dict(
+                        difficulties['difficulty_2a']['track'],
+                    ),
+                    difnum=difficulties['difficulty_2a']['difnum'],
+                ) if difficulties['difficulty_2a'] else None,
+                difficulty_2b=DRSSongDifficulty(
+                    track=DRSTrack.from_json_dict(
+                        difficulties['difficulty_2b']['track'],
+                    ),
+                    difnum=difficulties['difficulty_2b']['difnum'],
+                ) if difficulties['difficulty_2b'] else None,
+            ),
+            info=DRSSongInfo(
+                artist_name=info['artist_name'],
+                artist_yomigana=info['artist_yomigana'],
+                genre=info['genre'],
+                title_name=info['title_name'],
+                title_yomigana=info['title_yomigana'],
+                bpm_max=info['bpm_max'],
+                bpm_min=info['bpm_min'],
+                distribution_date=info['distribution_date'],
+                license=info['license'],
+                region=info['region'],
+                volume=info['volume'],
             ),
         )
 
@@ -119,7 +175,7 @@ class DRSTrackInfo:
     measure_info: list[DRSTrackMeasureInfo] = field(default_factory=list)
 
     @classmethod
-    def from_dict(cls, data: dict):
+    def from_xml_dict(cls, data: dict):
         if type(data['measure_info']['measure']) is list:
             drs_track_measure_info = [
                 DRSTrackMeasureInfo(
@@ -159,6 +215,26 @@ class DRSTrackInfo:
             measure_info=drs_track_measure_info,
         )
 
+    @classmethod
+    def from_json_dict(cls, data: dict):
+        return cls(
+            end_tick=int(data['end_tick']),
+            time_unit=DRSTrackTimeInfo(int(data['time_unit']['time_unit'])),
+            bpm_info=[
+                DRSTrackBPMInfo(
+                    bpm=int(bpm['bpm']),
+                    tick=int(bpm['tick']),
+                ) for bpm in data['bpm_info']
+            ],
+            measure_info=[
+                DRSTrackMeasureInfo(
+                    denomi=int(measure['denomi']),
+                    num=int(measure['num']),
+                    tick=int(measure['tick']),
+                ) for measure in data['measure_info']
+            ],
+        )
+
 
 @dataclass
 class DRSTrackStepTickInfo:
@@ -186,7 +262,7 @@ class DRSTrackStep:
     player_info: DRSTrackStepPlayerInfo
 
     @classmethod
-    def from_dict(cls, data: dict):
+    def from_xml_dict(cls, data: dict):
         return cls(
             DRSTrackStepTickInfo(
                 int(data['start_tick']['#text']), int(
@@ -203,6 +279,22 @@ class DRSTrackStep:
             DRSTrackStepPlayerInfo(int(data['player_id']['#text'])),
         )
 
+    @classmethod
+    def from_json_dict(cls, data: dict):
+        return cls(
+            DRSTrackStepTickInfo(
+                int(data['tick_info']['start_tick']),
+                int(data['tick_info']['end_tick']),
+            ),
+            int(data['kind']),
+            DRSTrackStepPositionInfo(
+                int(data['position_info']['left_pos']),
+                int(data['position_info']['right_pos']),
+            ),
+            bool(data['long_point']),
+            DRSTrackStepPlayerInfo(int(data['player_info']['player_id'])),
+        )
+
 
 @dataclass
 class DRSTrack:
@@ -213,13 +305,13 @@ class DRSTrack:
     rec_data = None  # TODO: Implement this ???
 
     @classmethod
-    def from_dict(cls, data: dict):
+    def from_xml_dict(cls, data: dict):
         data = data['data']
         return cls(
             int(data['seq_version']['#text']),
-            DRSTrackInfo.from_dict(data['info']),
+            DRSTrackInfo.from_xml_dict(data['info']),
             [
-                DRSTrackStep.from_dict(step)
+                DRSTrackStep.from_xml_dict(step)
                 for step in data['sequence_data']['step']
             ],
         )
@@ -227,4 +319,15 @@ class DRSTrack:
     @classmethod
     def from_xml(cls, path: str):
         data = open(path, encoding='utf-8').read()
-        return cls.from_dict(xmltodict.parse(data))
+        return cls.from_xml_dict(xmltodict.parse(data))
+
+    @classmethod
+    def from_json_dict(cls, data: dict):
+        return cls(
+            int(data['seq_version']),
+            DRSTrackInfo.from_json_dict(data['info']),
+            [
+                DRSTrackStep.from_json_dict(step)
+                for step in data['sequence_data']
+            ],
+        )

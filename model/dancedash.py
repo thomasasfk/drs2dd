@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from dataclasses import field
 
+
 LEFT_NOTE = 8
 RIGHT_NOTE = 9
 
@@ -126,3 +127,32 @@ class DDBeatMap:
             interval=1.0,
             info=info,
         )
+
+
+@dataclass
+class DDBeatMapInfoFile:
+    EditorVersion: str
+    BeatMapId: int
+    OstId: int
+    CreateTicks: int
+    CreateTime: str
+    SongName: str
+    SongLength: str
+    SongAuthorName: str
+    LevelAuthorName: str
+    SongPreviewSection: int
+    Bpm: str
+    SongPath: str
+    OstName: str | None = None
+    CoverPath: str | None = None
+    DDVR_Easy: str | None = None
+    DDVR_Normal: str | None = None
+    DDVR_Hard: str | None = None
+    DRS_Easy: str | None = None
+    DRS_Normal: str | None = None
+    DRS_Hard: str | None = None
+    DRS_Expert: str | None = None
+    DRS_Master: str | None = None
+    DRS_ACE: str | None = None
+    DDVR_Env: str | None = None
+    DRS_Env: str | None = None
