@@ -1,6 +1,6 @@
 # DANCERUSH STARDOM to Dance Dash
 
-Convert videos of DANCERUSH STARDOM tracks into Dance Dash beat maps
+Convert videos of [DANCERUSH STARDOM](https://remywiki.com/AC_DRS) tracks into [Dance Dash](https://store.steampowered.com/app/2005050/Dance_Dash/) beat maps
 
 Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) and ask!
 
