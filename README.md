@@ -1,6 +1,6 @@
-# DANCERUSH STARDOM Track Annotator
+# DANCERUSH STARDOM to Dance Dash
 
-Convert videos of DANCERUSH STARDOM tracks into a defined data schema.
+Convert videos of DANCERUSH STARDOM tracks into Dance Dash beat maps
 
 ## Stuff
 
