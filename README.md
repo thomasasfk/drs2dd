@@ -6,17 +6,29 @@ Convert videos of DANCERUSH STARDOM tracks into Dance Dash beat maps
 
 ### Completed:
 
-- [x] Detect right & left notes, including position & timing
-- [x] Define models based on dd & drs schemas
-- [x] Fetch metadata from data store (https://arcade-songs.zetaraku.dev/drs/)
-- [x] Simple BepinEx plugin to launch Dance Dash w/o VR
+- Video converter:
+  - [x] Detect right & left notes, including position & timing
+  - [x] Define models based on dd & drs schemas
+  - [x] Fetch metadata from data store (https://arcade-songs.zetaraku.dev/drs/)
+  - [x] Simple BepinEx plugin to launch Dance Dash w/o VR
+
+- Parser
+  - [x] Parse XML files into JSON files
+  - [x] Parse JSON files into DD info metadata
+  - [x] Create DD beat map folder structure with song & cover
 
 ### To-Do:
 
-- [ ] Detect down and jump notes (?)
-- [ ] Detect hold notes (? hard)
-- [ ] Write tests based on total note count (?) (https://remywiki.com/AC_DRS)
-- [ ] Generate other metadata json file
+- Video converter:
+  - [ ] Detect down and jump notes (?)
+  - [ ] Detect hold notes (? hard)
+  - [ ] Write tests based on total note count (?) (https://remywiki.com/AC_DRS)
+  - [ ] Generate other metadata json file
+
+- Parser
+  - [ ] Actually parse notes & lines into DD beat map
+  - [ ] Parse down and jump notes into DD beat map
+  - [ ] Test folder structure, sort bmp, note speed, order, etc.
 
 ---
 
