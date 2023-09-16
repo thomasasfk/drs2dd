@@ -75,3 +75,9 @@ Generate full DD Beat Map from json files in repository (does not map notes atm,
 ```bash
 .venv/Scripts/python drs2dd.py --song-id 187
 ```
+
+Generate all DD Beat Maps from json files in repository (does not map notes atm, todo)
+
+```bash
+.venv/Scripts/python drs2dd_all.py
+```
