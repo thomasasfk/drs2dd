@@ -19,7 +19,7 @@ Convert videos of DANCERUSH STARDOM tracks into Dance Dash beat maps
 
 ### To-Do:
 
-- Video converter:
+- Video converter (don't know if we'll even do this now...)
   - [ ] Detect down and jump notes (?)
   - [ ] Detect hold notes (? hard)
   - [ ] Write tests based on total note count (?) (https://remywiki.com/AC_DRS)
