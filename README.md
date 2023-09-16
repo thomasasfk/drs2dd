@@ -14,8 +14,8 @@ Convert videos of DANCERUSH STARDOM tracks into a defined data schema.
 ### To-Do:
 
 - [ ] Detect down and jump notes (?)
-- [ ] Determine final data schema
-- [ ] Write tests based on total note count (https://remywiki.com/AC_DRS)
+- [ ] Detect hold notes (? hard)
+- [ ] Write tests based on total note count (?) (https://remywiki.com/AC_DRS)
 
 ---
 
@@ -26,11 +26,23 @@ Setup:
 - Install the required Python packages
 ```bash
 python -m venv .venv
-. .venv/bin/activate
+. .venv/bin/activate # or .venv\Scripts\activate.bat on Windows
 python -m pip install -r requirements.txt
 ```
 
 - Install pre-commit hooks
 ```bash
 pre-commit install
+```
+
+--- 
+
+Usage:
+
+```bash
+# grab video of DRS track from youtube
+yt-dlp -f bv[ext=webm] https://youtu.be/o7I0scmptmo -o "drs_video.webm"
+
+# grab song-id from "resources\data.json"
+.venv/Scripts/python process_drs_video.py "drs_video.webm" --song-id "BOOMBAYAH-JP Ver.-"
 ```
