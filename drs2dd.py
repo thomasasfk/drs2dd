@@ -85,6 +85,8 @@ def create_dd_tracks_from_DRSSongData(
         CoverPath=os.path.basename(
             song_cover_path,
         ) if song_cover_path else None,
+        # TODO PROPERLY MAP DIFFICULTIES BASED ON DIF NUMBERS
+        # ALSO REMOVE 2 PLAYER DIFFICULTIES
         DRS_Easy=os.path.basename(song_paths[0]) if len(
             song_paths,
         ) > 0 else None,
