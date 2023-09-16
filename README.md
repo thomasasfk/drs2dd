@@ -16,6 +16,7 @@ Convert videos of DANCERUSH STARDOM tracks into Dance Dash beat maps
 - [ ] Detect down and jump notes (?)
 - [ ] Detect hold notes (? hard)
 - [ ] Write tests based on total note count (?) (https://remywiki.com/AC_DRS)
+- [ ] Generate other metadata json file
 
 ---
 
