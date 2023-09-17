@@ -8464,7 +8464,92 @@
             }
         ],
         "effectNodes": [],
-        "roadBlockNodes": [],
+        "roadBlockNodes": [
+            {
+                "noteOrder": 872,
+                "time": 0.15254237288135594,
+                "position": {
+                    "x": 5,
+                    "y": 9
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 1066,
+                "time": 0.1864406779661017,
+                "position": {
+                    "x": 5,
+                    "y": 9
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 4226.0,
+                "time": 0.7372881355932204,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": 4.33
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            }
+        ],
         "trapNodes": []
     },
     "beatSubs": 1,

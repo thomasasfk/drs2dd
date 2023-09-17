@@ -48,7 +48,8 @@
                         "right_pos": 65536,
                         "tick": 2400,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -75,7 +76,8 @@
                         "right_pos": 20480,
                         "tick": 2400,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -140,7 +142,8 @@
                         "right_pos": 49152,
                         "tick": 3360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -167,7 +170,8 @@
                         "right_pos": 36864,
                         "tick": 3360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -232,7 +236,8 @@
                         "right_pos": 53248,
                         "tick": 4320,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -259,7 +264,8 @@
                         "right_pos": 32768,
                         "tick": 4320,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -324,7 +330,8 @@
                         "right_pos": 20480,
                         "tick": 5280,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -351,7 +358,8 @@
                         "right_pos": 65536,
                         "tick": 5280,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -568,7 +576,8 @@
                         "right_pos": 28672,
                         "tick": 8160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -595,7 +604,8 @@
                         "right_pos": 57344,
                         "tick": 8160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -660,7 +670,8 @@
                         "right_pos": 65536,
                         "tick": 9120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -687,7 +698,8 @@
                         "right_pos": 20480,
                         "tick": 9120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -752,7 +764,8 @@
                         "right_pos": 45056,
                         "tick": 11520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -779,7 +792,8 @@
                         "right_pos": 40960,
                         "tick": 11520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -920,7 +934,8 @@
                         "right_pos": 53248,
                         "tick": 13440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -947,7 +962,8 @@
                         "right_pos": 32768,
                         "tick": 13440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -1392,7 +1408,8 @@
                         "right_pos": 45056,
                         "tick": 15600,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -1419,7 +1436,8 @@
                         "right_pos": 40960,
                         "tick": 15600,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -1446,7 +1464,8 @@
                         "right_pos": 65536,
                         "tick": 16080,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     }
                 ]
             },
@@ -1473,7 +1492,8 @@
                         "right_pos": 20480,
                         "tick": 16080,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     }
                 ]
             },
@@ -1652,14 +1672,16 @@
                         "right_pos": 24576,
                         "tick": 17520,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 17760,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -1686,14 +1708,16 @@
                         "right_pos": 61440,
                         "tick": 17520,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 17760,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -1720,14 +1744,16 @@
                         "right_pos": 61440,
                         "tick": 18000,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 18240,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -1754,14 +1780,16 @@
                         "right_pos": 24576,
                         "tick": 18000,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 18240,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -1788,28 +1816,32 @@
                         "right_pos": 24576,
                         "tick": 18480,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 18720,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 18960,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 19200,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -1836,28 +1868,32 @@
                         "right_pos": 61440,
                         "tick": 18480,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 18720,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 18960,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 19200,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -1922,14 +1958,16 @@
                         "right_pos": 61440,
                         "tick": 19440,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 19680,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -1956,14 +1994,16 @@
                         "right_pos": 24576,
                         "tick": 19440,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 19680,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -1990,14 +2030,16 @@
                         "right_pos": 24576,
                         "tick": 19920,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 20160,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -2024,14 +2066,16 @@
                         "right_pos": 61440,
                         "tick": 19920,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 20160,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -2058,28 +2102,32 @@
                         "right_pos": 61440,
                         "tick": 20400,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 20640,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 20880,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 21120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -2106,28 +2154,32 @@
                         "right_pos": 24576,
                         "tick": 20400,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 20640,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 20880,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 21120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -2192,7 +2244,8 @@
                         "right_pos": 24576,
                         "tick": 21360,
                         "left_end_pos": 8192,
-                        "right_end_pos": 28672
+                        "right_end_pos": 28672,
+                        "point_time": null
                     }
                 ]
             },
@@ -2219,7 +2272,8 @@
                         "right_pos": 61440,
                         "tick": 21360,
                         "left_end_pos": 36864,
-                        "right_end_pos": 57344
+                        "right_end_pos": 57344,
+                        "point_time": null
                     }
                 ]
             },
@@ -2246,7 +2300,8 @@
                         "right_pos": 49152,
                         "tick": 21840,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -2273,7 +2328,8 @@
                         "right_pos": 36864,
                         "tick": 21840,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -2300,7 +2356,8 @@
                         "right_pos": 65536,
                         "tick": 22320,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     }
                 ]
             },
@@ -2327,7 +2384,8 @@
                         "right_pos": 20480,
                         "tick": 22320,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     }
                 ]
             },
@@ -2506,21 +2564,24 @@
                         "right_pos": 45056,
                         "tick": 23760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 24240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 24480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -2547,21 +2608,24 @@
                         "right_pos": 65536,
                         "tick": 23760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 24240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 24480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -2588,21 +2652,24 @@
                         "right_pos": 40960,
                         "tick": 23760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 24240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 24480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -2629,21 +2696,24 @@
                         "right_pos": 20480,
                         "tick": 23760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 24240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 24480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -2689,14 +2759,16 @@
                         "right_pos": 61440,
                         "tick": 25200,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 25440,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -2723,14 +2795,16 @@
                         "right_pos": 24576,
                         "tick": 25200,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 25440,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -2757,14 +2831,16 @@
                         "right_pos": 61440,
                         "tick": 25680,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 25920,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -2791,14 +2867,16 @@
                         "right_pos": 24576,
                         "tick": 25680,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 25920,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -2825,28 +2903,32 @@
                         "right_pos": 61440,
                         "tick": 26160,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 26400,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 26640,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 26880,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -2873,28 +2955,32 @@
                         "right_pos": 24576,
                         "tick": 26160,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 26400,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 26640,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 26880,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -2959,14 +3045,16 @@
                         "right_pos": 24576,
                         "tick": 27120,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 27360,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -2993,14 +3081,16 @@
                         "right_pos": 61440,
                         "tick": 27120,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 27360,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -3027,14 +3117,16 @@
                         "right_pos": 24576,
                         "tick": 27600,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 27840,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -3061,14 +3153,16 @@
                         "right_pos": 61440,
                         "tick": 27600,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 27840,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -3095,28 +3189,32 @@
                         "right_pos": 24576,
                         "tick": 28080,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 28320,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 28560,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 28800,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3143,28 +3241,32 @@
                         "right_pos": 61440,
                         "tick": 28080,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 28320,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 28560,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 28800,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3229,7 +3331,8 @@
                         "right_pos": 24576,
                         "tick": 29040,
                         "left_end_pos": 8192,
-                        "right_end_pos": 28672
+                        "right_end_pos": 28672,
+                        "point_time": null
                     }
                 ]
             },
@@ -3256,7 +3359,8 @@
                         "right_pos": 61440,
                         "tick": 29040,
                         "left_end_pos": 36864,
-                        "right_end_pos": 57344
+                        "right_end_pos": 57344,
+                        "point_time": null
                     }
                 ]
             },
@@ -3283,7 +3387,8 @@
                         "right_pos": 49152,
                         "tick": 29520,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -3310,7 +3415,8 @@
                         "right_pos": 36864,
                         "tick": 29520,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -3337,7 +3443,8 @@
                         "right_pos": 65536,
                         "tick": 30000,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     }
                 ]
             },
@@ -3364,7 +3471,8 @@
                         "right_pos": 20480,
                         "tick": 30000,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     }
                 ]
             },
@@ -3543,7 +3651,8 @@
                         "right_pos": 45056,
                         "tick": 32160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3570,7 +3679,8 @@
                         "right_pos": 65536,
                         "tick": 32160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3597,7 +3707,8 @@
                         "right_pos": 40960,
                         "tick": 32160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3624,7 +3735,8 @@
                         "right_pos": 20480,
                         "tick": 32160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3670,14 +3782,16 @@
                         "right_pos": 61440,
                         "tick": 32880,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 33120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3704,14 +3818,16 @@
                         "right_pos": 24576,
                         "tick": 32880,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 33120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3776,14 +3892,16 @@
                         "right_pos": 61440,
                         "tick": 33840,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 34080,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3810,14 +3928,16 @@
                         "right_pos": 24576,
                         "tick": 33840,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 34080,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3882,14 +4002,16 @@
                         "right_pos": 24576,
                         "tick": 34800,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 35040,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -3916,14 +4038,16 @@
                         "right_pos": 61440,
                         "tick": 34800,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 35040,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -3950,14 +4074,16 @@
                         "right_pos": 24576,
                         "tick": 35280,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 35520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -3984,14 +4110,16 @@
                         "right_pos": 61440,
                         "tick": 35280,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 35520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4018,7 +4146,8 @@
                         "right_pos": 36864,
                         "tick": 36000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4045,7 +4174,8 @@
                         "right_pos": 49152,
                         "tick": 36000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4072,14 +4202,16 @@
                         "right_pos": 40960,
                         "tick": 36720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 36864,
                         "tick": 36960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4106,14 +4238,16 @@
                         "right_pos": 40960,
                         "tick": 36720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 45056,
                         "tick": 36960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4140,14 +4274,16 @@
                         "right_pos": 28672,
                         "tick": 37200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 8192,
                         "right_pos": 24576,
                         "tick": 37440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4174,14 +4310,16 @@
                         "right_pos": 53248,
                         "tick": 37200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 57344,
                         "tick": 37440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4208,14 +4346,16 @@
                         "right_pos": 40960,
                         "tick": 37680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 36864,
                         "tick": 37920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4242,14 +4382,16 @@
                         "right_pos": 40960,
                         "tick": 37680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 45056,
                         "tick": 37920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4276,7 +4418,8 @@
                         "right_pos": 28672,
                         "tick": 38160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4303,7 +4446,8 @@
                         "right_pos": 53248,
                         "tick": 38160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4330,14 +4474,16 @@
                         "right_pos": 24576,
                         "tick": 38640,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 38880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4364,14 +4510,16 @@
                         "right_pos": 61440,
                         "tick": 38640,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 38880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4436,14 +4584,16 @@
                         "right_pos": 61440,
                         "tick": 39600,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 39840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4470,14 +4620,16 @@
                         "right_pos": 24576,
                         "tick": 39600,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 39840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4542,14 +4694,16 @@
                         "right_pos": 24576,
                         "tick": 40560,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 40800,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -4576,14 +4730,16 @@
                         "right_pos": 61440,
                         "tick": 40560,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 40800,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -4610,14 +4766,16 @@
                         "right_pos": 61440,
                         "tick": 41040,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 41280,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4644,14 +4802,16 @@
                         "right_pos": 24576,
                         "tick": 41040,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 41280,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4678,7 +4838,8 @@
                         "right_pos": 49152,
                         "tick": 41760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4705,7 +4866,8 @@
                         "right_pos": 36864,
                         "tick": 41760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4732,14 +4894,16 @@
                         "right_pos": 40960,
                         "tick": 42480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 36864,
                         "tick": 42720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4766,14 +4930,16 @@
                         "right_pos": 40960,
                         "tick": 42480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 45056,
                         "tick": 42720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4800,14 +4966,16 @@
                         "right_pos": 28672,
                         "tick": 42960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 8192,
                         "right_pos": 24576,
                         "tick": 43200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4834,14 +5002,16 @@
                         "right_pos": 53248,
                         "tick": 42960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 57344,
                         "tick": 43200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4868,14 +5038,16 @@
                         "right_pos": 40960,
                         "tick": 43440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 45056,
                         "tick": 43680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4902,14 +5074,16 @@
                         "right_pos": 40960,
                         "tick": 43440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 36864,
                         "tick": 43680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4936,7 +5110,8 @@
                         "right_pos": 53248,
                         "tick": 43920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -4963,7 +5138,8 @@
                         "right_pos": 28672,
                         "tick": 43920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5142,14 +5318,16 @@
                         "right_pos": 24576,
                         "tick": 45360,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 45600,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -5176,14 +5354,16 @@
                         "right_pos": 61440,
                         "tick": 45360,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 45600,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -5248,7 +5428,8 @@
                         "right_pos": 65536,
                         "tick": 46320,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     }
                 ]
             },
@@ -5275,7 +5456,8 @@
                         "right_pos": 20480,
                         "tick": 46320,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     }
                 ]
             },
@@ -5302,7 +5484,8 @@
                         "right_pos": 36864,
                         "tick": 46800,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -5329,7 +5512,8 @@
                         "right_pos": 49152,
                         "tick": 46800,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -5356,7 +5540,8 @@
                         "right_pos": 49152,
                         "tick": 47520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5383,7 +5568,8 @@
                         "right_pos": 20480,
                         "tick": 47520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5410,7 +5596,8 @@
                         "right_pos": 36864,
                         "tick": 47520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5437,7 +5624,8 @@
                         "right_pos": 65536,
                         "tick": 47520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5483,14 +5671,16 @@
                         "right_pos": 61440,
                         "tick": 48480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 49920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5517,14 +5707,16 @@
                         "right_pos": 24576,
                         "tick": 48480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 49920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5665,14 +5857,16 @@
                         "right_pos": 24576,
                         "tick": 50400,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 51360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5699,14 +5893,16 @@
                         "right_pos": 61440,
                         "tick": 50400,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 51360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -5999,56 +6195,64 @@
                         "right_pos": 40960,
                         "tick": 54000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 54240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 54480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 54720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 54960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 55200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 55440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 55680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6075,63 +6279,72 @@
                         "right_pos": 65536,
                         "tick": 54000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 54240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 54480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 54720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 54960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 55200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 55440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 55680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 56160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6158,63 +6371,72 @@
                         "right_pos": 20480,
                         "tick": 54000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 54240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 54480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 54720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 54960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 55200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 55440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 55680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 56160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6241,56 +6463,64 @@
                         "right_pos": 45056,
                         "tick": 54000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 54240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 54480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 54720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 54960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 55200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 55440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 55680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6374,7 +6604,8 @@
                         "right_pos": 45056,
                         "tick": 57120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6401,7 +6632,8 @@
                         "right_pos": 40960,
                         "tick": 57120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6466,7 +6698,8 @@
                         "right_pos": 32768,
                         "tick": 59520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6493,7 +6726,8 @@
                         "right_pos": 53248,
                         "tick": 59520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6634,7 +6868,8 @@
                         "right_pos": 45056,
                         "tick": 60960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6661,7 +6896,8 @@
                         "right_pos": 40960,
                         "tick": 60960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6878,21 +7114,24 @@
                         "right_pos": 45056,
                         "tick": 62160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 62640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 62880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6919,21 +7158,24 @@
                         "right_pos": 65536,
                         "tick": 62160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 62640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 62880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -6960,21 +7202,24 @@
                         "right_pos": 40960,
                         "tick": 62160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 62640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 62880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -7001,21 +7246,24 @@
                         "right_pos": 20480,
                         "tick": 62160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 62640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 62880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -7061,14 +7309,16 @@
                         "right_pos": 61440,
                         "tick": 63840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 65280,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -7095,14 +7345,16 @@
                         "right_pos": 24576,
                         "tick": 63840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 65280,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -7243,14 +7495,16 @@
                         "right_pos": 61440,
                         "tick": 65760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 66720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -7277,14 +7531,16 @@
                         "right_pos": 24576,
                         "tick": 65760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 66720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -7425,7 +7681,8 @@
                         "right_pos": 20480,
                         "tick": 67440,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     }
                 ]
             },
@@ -7452,7 +7709,8 @@
                         "right_pos": 65536,
                         "tick": 67440,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     }
                 ]
             },
@@ -7479,7 +7737,8 @@
                         "right_pos": 40960,
                         "tick": 67920,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -7506,7 +7765,8 @@
                         "right_pos": 45056,
                         "tick": 67920,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -7533,7 +7793,8 @@
                         "right_pos": 20480,
                         "tick": 68400,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     }
                 ]
             },
@@ -7560,7 +7821,8 @@
                         "right_pos": 65536,
                         "tick": 68400,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     }
                 ]
             },
@@ -7587,7 +7849,8 @@
                         "right_pos": 40960,
                         "tick": 68880,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -7614,7 +7877,8 @@
                         "right_pos": 45056,
                         "tick": 68880,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -7641,14 +7905,16 @@
                         "right_pos": 24576,
                         "tick": 69360,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 69600,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -7675,14 +7941,16 @@
                         "right_pos": 61440,
                         "tick": 69360,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 69600,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -7709,42 +7977,48 @@
                         "right_pos": 24576,
                         "tick": 69840,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 70080,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 70320,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 70560,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 70800,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 71040,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -7771,42 +8045,48 @@
                         "right_pos": 61440,
                         "tick": 69840,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 70080,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 70320,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 70560,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 70800,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 71040,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -7909,14 +8189,16 @@
                         "right_pos": 61440,
                         "tick": 71280,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 71520,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -7943,14 +8225,16 @@
                         "right_pos": 24576,
                         "tick": 71280,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 71520,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -7977,14 +8261,16 @@
                         "right_pos": 24576,
                         "tick": 71760,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 72000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8011,14 +8297,16 @@
                         "right_pos": 61440,
                         "tick": 71760,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 72000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8045,7 +8333,8 @@
                         "right_pos": 49152,
                         "tick": 72480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8072,7 +8361,8 @@
                         "right_pos": 36864,
                         "tick": 72480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8099,14 +8389,16 @@
                         "right_pos": 61440,
                         "tick": 73200,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 73440,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -8133,14 +8425,16 @@
                         "right_pos": 24576,
                         "tick": 73200,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 73440,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -8167,42 +8461,48 @@
                         "right_pos": 24576,
                         "tick": 73680,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 73920,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 74160,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 74400,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 74640,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 74880,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -8229,42 +8529,48 @@
                         "right_pos": 61440,
                         "tick": 73680,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 73920,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 74160,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 74400,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 74640,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 74880,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -8367,14 +8673,16 @@
                         "right_pos": 61440,
                         "tick": 75120,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 75360,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -8401,14 +8709,16 @@
                         "right_pos": 24576,
                         "tick": 75120,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 75360,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -8435,14 +8745,16 @@
                         "right_pos": 61440,
                         "tick": 75600,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 75840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8469,14 +8781,16 @@
                         "right_pos": 24576,
                         "tick": 75600,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 75840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8503,7 +8817,8 @@
                         "right_pos": 36864,
                         "tick": 76320,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8530,7 +8845,8 @@
                         "right_pos": 49152,
                         "tick": 76320,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8633,21 +8949,24 @@
                         "right_pos": 36864,
                         "tick": 77520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 78000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 78240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8674,21 +8993,24 @@
                         "right_pos": 20480,
                         "tick": 77520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 78000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 78240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8715,21 +9037,24 @@
                         "right_pos": 49152,
                         "tick": 77520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 78000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 78240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8756,21 +9081,24 @@
                         "right_pos": 65536,
                         "tick": 77520,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 78000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 78240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8816,105 +9144,120 @@
                         "right_pos": 61440,
                         "tick": 78960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 79200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 79440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 79680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 79920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 80160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 80400,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 80640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 36864,
                         "right_pos": 57344,
                         "tick": 80880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 36864,
                         "right_pos": 57344,
                         "tick": 81120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 81360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 81600,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 36864,
                         "right_pos": 57344,
                         "tick": 81840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 36864,
                         "right_pos": 57344,
                         "tick": 82080,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 61440,
                         "tick": 82320,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -8941,105 +9284,120 @@
                         "right_pos": 45056,
                         "tick": 78960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 79200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 79440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 79680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 79920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 80160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 80400,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 80640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 80880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 81120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 81360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 81600,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 81840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 28672,
                         "right_pos": 49152,
                         "tick": 82080,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 82320,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9066,105 +9424,120 @@
                         "right_pos": 24576,
                         "tick": 78960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 79200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 79440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 79680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 79920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 80160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 80400,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 80640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 8192,
                         "right_pos": 28672,
                         "tick": 80880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 8192,
                         "right_pos": 28672,
                         "tick": 81120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 81360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 81600,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 8192,
                         "right_pos": 28672,
                         "tick": 81840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 8192,
                         "right_pos": 28672,
                         "tick": 82080,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 24576,
                         "tick": 82320,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9191,105 +9564,120 @@
                         "right_pos": 40960,
                         "tick": 78960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 79200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 79440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 79680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 79920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 80160,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 80400,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 80640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 80880,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 81120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 81360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 81600,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 81840,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 16384,
                         "right_pos": 36864,
                         "tick": 82080,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 82320,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9468,14 +9856,16 @@
                         "right_pos": 36864,
                         "tick": 83760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 40960,
                         "tick": 84000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9502,14 +9892,16 @@
                         "right_pos": 45056,
                         "tick": 83760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 40960,
                         "tick": 84000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9536,14 +9928,16 @@
                         "right_pos": 24576,
                         "tick": 84240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 20480,
                         "tick": 84480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9570,14 +9964,16 @@
                         "right_pos": 57344,
                         "tick": 84240,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 61440,
                         "tick": 84480,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9604,14 +10000,16 @@
                         "right_pos": 36864,
                         "tick": 84720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 40960,
                         "tick": 84960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9638,14 +10036,16 @@
                         "right_pos": 45056,
                         "tick": 84720,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 40960,
                         "tick": 84960,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9672,28 +10072,32 @@
                         "right_pos": 57344,
                         "tick": 85200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 61440,
                         "tick": 85440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 40960,
                         "right_pos": 57344,
                         "tick": 85680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 61440,
                         "tick": 85920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9720,28 +10124,32 @@
                         "right_pos": 24576,
                         "tick": 85200,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 20480,
                         "tick": 85440,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 8192,
                         "right_pos": 24576,
                         "tick": 85680,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 4096,
                         "right_pos": 20480,
                         "tick": 85920,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9844,21 +10252,24 @@
                         "right_pos": 20480,
                         "tick": 86640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 87120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 87360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9885,21 +10296,24 @@
                         "right_pos": 65536,
                         "tick": 86640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 87120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 87360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9926,21 +10340,24 @@
                         "right_pos": 40960,
                         "tick": 86640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 87120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 45056,
                         "right_pos": 65536,
                         "tick": 87360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -9967,21 +10384,24 @@
                         "right_pos": 45056,
                         "tick": 86640,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 87120,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     },
                     {
                         "left_pos": 0,
                         "right_pos": 20480,
                         "tick": 87360,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10103,7 +10523,8 @@
                         "right_pos": 32768,
                         "tick": 88800,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10130,7 +10551,8 @@
                         "right_pos": 53248,
                         "tick": 88800,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10157,7 +10579,8 @@
                         "right_pos": 49152,
                         "tick": 89280,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10184,7 +10607,8 @@
                         "right_pos": 36864,
                         "tick": 89280,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10211,7 +10635,8 @@
                         "right_pos": 53248,
                         "tick": 89760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10238,7 +10663,8 @@
                         "right_pos": 32768,
                         "tick": 89760,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10265,7 +10691,8 @@
                         "right_pos": 49152,
                         "tick": 90000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10292,7 +10719,8 @@
                         "right_pos": 36864,
                         "tick": 90000,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10471,14 +10899,16 @@
                         "right_pos": 61440,
                         "tick": 91440,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 91680,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -10505,14 +10935,16 @@
                         "right_pos": 24576,
                         "tick": 91440,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 91680,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -10539,14 +10971,16 @@
                         "right_pos": 24576,
                         "tick": 91920,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 92160,
                         "left_end_pos": 4096,
-                        "right_end_pos": 24576
+                        "right_end_pos": 24576,
+                        "point_time": null
                     }
                 ]
             },
@@ -10573,14 +11007,16 @@
                         "right_pos": 61440,
                         "tick": 91920,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 92160,
                         "left_end_pos": 40960,
-                        "right_end_pos": 61440
+                        "right_end_pos": 61440,
+                        "point_time": null
                     }
                 ]
             },
@@ -10607,14 +11043,16 @@
                         "right_pos": 24576,
                         "tick": 92400,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 92640,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     }
                 ]
             },
@@ -10641,14 +11079,16 @@
                         "right_pos": 61440,
                         "tick": 92400,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 92640,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     }
                 ]
             },
@@ -10675,21 +11115,24 @@
                         "right_pos": 61440,
                         "tick": 92880,
                         "left_end_pos": 32768,
-                        "right_end_pos": 53248
+                        "right_end_pos": 53248,
+                        "point_time": null
                     },
                     {
                         "left_pos": 32768,
                         "right_pos": 53248,
                         "tick": 93120,
                         "left_end_pos": 24576,
-                        "right_end_pos": 45056
+                        "right_end_pos": 45056,
+                        "point_time": null
                     },
                     {
                         "left_pos": 24576,
                         "right_pos": 45056,
                         "tick": 93600,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10716,21 +11159,24 @@
                         "right_pos": 24576,
                         "tick": 92880,
                         "left_end_pos": 12288,
-                        "right_end_pos": 32768
+                        "right_end_pos": 32768,
+                        "point_time": null
                     },
                     {
                         "left_pos": 12288,
                         "right_pos": 32768,
                         "tick": 93120,
                         "left_end_pos": 20480,
-                        "right_end_pos": 40960
+                        "right_end_pos": 40960,
+                        "point_time": null
                     },
                     {
                         "left_pos": 20480,
                         "right_pos": 40960,
                         "tick": 93600,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10757,7 +11203,8 @@
                         "right_pos": 61440,
                         "tick": 93600,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },
@@ -10784,7 +11231,8 @@
                         "right_pos": 24576,
                         "tick": 93600,
                         "left_end_pos": null,
-                        "right_end_pos": null
+                        "right_end_pos": null,
+                        "point_time": null
                     }
                 ]
             },

@@ -12,10 +12,15 @@ from drsxml2json import TRACK_ID_TO_PATH
 from model.dancedash import DDBeatMap
 from model.dancedash import DDBeatMapData
 from model.dancedash import DDBeatMapInfoFile
+from model.dancedash import DDDownPos
+from model.dancedash import DDJumpPos
 from model.dancedash import DDLineNode
+from model.dancedash import DDRoadBlockNode
 from model.dancedash import DDSphereNode
 from model.dancedash import DRS_TO_DDS_LINE_NOTE_TYPE
 from model.dancedash import DRS_TO_DDS_NOTE_TYPE
+from model.dancedash import DDDownPos2D
+from model.dancedash import DDJumpPos2D
 from model.dancedash import X_Y
 from model.dancedash import X_Y_Z
 from model.dancerush import DRS_DOWN
@@ -40,13 +45,16 @@ def map_sphere_nodes(
         # Long note get mapped elsewhere
         if track_step.long_point or track_step.kind in (DRS_DOWN, DRS_JUMP):
             continue
-
         bps = bpm / 60
-        ticks_per_second = difficulty.track.info.end_tick / total_time_seconds
-        time = track_step.tick_info.end_tick / ticks_per_second
+        if track_step.tick_info.start_tick:
+            ticks_per_second = difficulty.track.info.end_tick / total_time_seconds
+            seconds = track_step.tick_info.end_tick / ticks_per_second
+        else:
+            seconds = track_step.tick_info.stime_ms / 1000
+
         sphere = DDSphereNode(
-            noteOrder=round(bps * time * ORDER_COUNT_PER_BEAT),
-            time=time / total_time_seconds,
+            noteOrder=round(bps * seconds * ORDER_COUNT_PER_BEAT),
+            time=seconds / total_time_seconds,
             position=X_Y(x=track_step.position_info.to_dance_dash_x, y=0),
             position2D=X_Y(x=0, y=0),
             size=X_Y_Z(x=1, y=1, z=1),
@@ -71,7 +79,6 @@ def map_line_nodes(
             continue
 
         bps = bpm / 60
-        ticks_per_second = difficulty.track.info.end_tick / total_time_seconds
 
         # DANCERUSH defines the first line step as a point, with the first point being the start of the line.
         # So we need to add a point at the start of the line for Dance Dash.
@@ -79,6 +86,7 @@ def map_line_nodes(
             tick=track_step.tick_info.start_tick,
             left_pos=track_step.position_info.left_pos,
             right_pos=track_step.position_info.right_pos,
+            point_time=track_step.tick_info.stime_ms,
         )
         track_step.long_point.insert(0, initial_track_point)
 
@@ -87,13 +95,18 @@ def map_line_nodes(
             index_in_line += 1
             drs_track_point: DRSTrackPoint = drs_track_point
 
-            time = drs_track_point.tick / ticks_per_second
+            if drs_track_point.tick is not None:
+                ticks_per_second = difficulty.track.info.end_tick / total_time_seconds
+                seconds = drs_track_point.tick / ticks_per_second
+            else:
+                seconds = drs_track_point.point_time / 1000
+
             line = DDLineNode(
                 lineGroupId=line_group_id,
                 indexInLine=index_in_line,
                 isSliding=False,
-                noteOrder=round(bps * time * ORDER_COUNT_PER_BEAT),
-                time=time / total_time_seconds,
+                noteOrder=round(bps * seconds * ORDER_COUNT_PER_BEAT),
+                time=seconds / total_time_seconds,
                 position=X_Y(x=drs_track_point.to_dance_dash_x, y=0),
                 position2D=X_Y(x=0, y=0),
                 size=X_Y_Z(x=1, y=1, z=1),
@@ -113,27 +126,61 @@ def map_line_nodes(
     return lines
 
 
+def map_down_and_jump_notes(
+        difficulty: DRSSongDifficulty,
+        total_time_seconds: float,
+        bpm: int,
+) -> list[DDRoadBlockNode]:
+
+    road_blocks = []
+    for track_step in difficulty.track.sequence_data:
+        if track_step.kind not in (DRS_DOWN, DRS_JUMP):
+            continue
+
+        bps = bpm / 60
+        if track_step.tick_info.start_tick:
+            ticks_per_second = difficulty.track.info.end_tick / total_time_seconds
+            seconds = track_step.tick_info.end_tick / ticks_per_second
+        else:
+            seconds = track_step.tick_info.stime_ms / 1000
+
+        note_order = round(bps * seconds * ORDER_COUNT_PER_BEAT)
+        if track_step.kind == DRS_JUMP:
+            note_order += ORDER_COUNT_PER_BEAT / 2  # user jumps OVER in DD, not ON like in DRS
+
+        road_block = DDRoadBlockNode(
+            noteOrder=note_order,
+            time=seconds / total_time_seconds,
+            position=DDJumpPos if track_step.kind == DRS_JUMP else DDDownPos,
+            position2D=DDJumpPos2D if track_step.kind == DRS_JUMP else DDDownPos2D,
+        )
+        road_blocks.append(road_block)
+
+    return road_blocks
+
+
 def create_dd_tracks_from_DRSSongData(
         drs_song_data: DRSSongData, target_dir: str,
 ) -> bool:
-    if not os.path.exists(target_dir):
-        os.makedirs(target_dir)
-        print(f'Created directory: {target_dir}')
-
     dd_bmp = int(drs_song_data.info.bpm_max / 100)
     folder_path = TRACK_ID_TO_PATH.get(drs_song_data.song_id)
     song_path, song_length = get_mp3_and_duration(folder_path)
-    if song_path and song_length:
-        shutil.copy(song_path, target_dir)
-
-    if song_cover_path := get_song_cover_path(folder_path):
-        shutil.copy(song_cover_path, target_dir)
 
     if not song_path or not song_length:
         print(
             f'Could not find song path or song length for {drs_song_data.info.title_name}',
         )
         return False
+
+    if not os.path.exists(target_dir):
+        os.makedirs(target_dir)
+        print(f'Created directory: {target_dir}')
+
+    if song_path and song_length:
+        shutil.copy(song_path, target_dir)
+
+    if song_cover_path := get_song_cover_path(folder_path):
+        shutil.copy(song_cover_path, target_dir)
 
     song_paths = []
     for attr, difficulty in drs_song_data.difficulties.with_attrs_as_str.items():
@@ -164,7 +211,11 @@ def create_dd_tracks_from_DRSSongData(
                     dd_bmp,
                 ),
                 effectNodes=[],
-                roadBlockNodes=[],
+                roadBlockNodes=map_down_and_jump_notes(
+                    difficulty,
+                    float(song_length),
+                    dd_bmp,
+                ),
                 trapNodes=[],
             ),
             beatSubs=1,

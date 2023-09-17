@@ -12,6 +12,8 @@ DD_RIGHT = 9
 DD_LINE_LEFT = 12
 DD_LINE_RIGHT = 13
 
+DD_ROAD_BLOCK = 14
+
 DRS_TO_DDS_NOTE_TYPE = {
     DRS_LEFT: DD_LEFT,
     DRS_RIGHT: DD_RIGHT,
@@ -59,6 +61,29 @@ class DDSphereNode:
     noteType: DD_LEFT | DD_RIGHT
     postionOffset: dict | None
     isPlayAudio: bool
+
+
+DDJumpPos2D = X_Y(x=1.49, y=4.33)
+DDDownPos2D = X_Y(x=1.49, y=-3.932)
+
+DDJumpPos = X_Y(x=5, y=0)
+DDDownPos = X_Y(x=5, y=9)
+
+
+@dataclass
+class DDRoadBlockNode:
+    noteOrder: int
+    time: float
+    position: X_Y
+    position2D: X_Y
+    length: int = 1
+    noteType: DD_ROAD_BLOCK = DD_ROAD_BLOCK
+    postionOffset: X_Y_Z = X_Y_Z(x=0, y=0, z=0)
+    size: X_Y_Z = X_Y_Z(x=1, y=1, z=1)
+    isPlayAudio: bool = False
+    startPosSelctOrder: int = -1
+    endPosSelctOrder: int = -1
+    duration: float = 0.000157683025
 
 
 @dataclass

@@ -253,20 +253,25 @@ class DRSTrackInfo:
 
     @classmethod
     def from_json_dict(cls, data: dict):
+
         return cls(
-            end_tick=int(data['end_tick']),
+            end_tick=int(data['end_tick']) if data.get(
+                'end_tick') is not None else None,
             time_unit=DRSTrackTimeInfo(int(data['time_unit']['time_unit'])),
             bpm_info=[
                 DRSTrackBPMInfo(
-                    bpm=int(bpm['bpm']),
-                    tick=int(bpm['tick']),
+                    bpm=int(bpm['bpm']) if bpm.get(
+                        'bpm') is not None else None,
+                    tick=int(bpm['tick']) if bpm.get(
+                        'tick') is not None else None,
                 ) for bpm in data['bpm_info']
             ],
             measure_info=[
                 DRSTrackMeasureInfo(
                     denomi=int(measure['denomi']),
                     num=int(measure['num']),
-                    tick=int(measure['tick']),
+                    tick=int(measure['tick']) if measure.get(
+                        'tick') is not None else None,
                 ) for measure in data['measure_info']
             ],
         )
@@ -299,6 +304,7 @@ class DRSTrackPoint(DRSTrackStepPositionInfo):
     tick: int
     left_end_pos: int | None = None
     right_end_pos: int | None = None
+    point_time: int | None = None
 
     @property
     def to_dance_dash_end_x(self):
@@ -337,12 +343,48 @@ class DRSTrackStep:
         has_stime_dt = 'stime_dt' in data
         has_etime_dt = 'etime_dt' in data
 
-        left_pos = int(data['left_pos']['#text']) if 'left_pos' in data else int(
+        main_left_pos = int(data['left_pos']['#text']) if 'left_pos' in data else int(
             data['pos_left']['#text'],
         )
-        right_pos = int(data['right_pos']['#text']) if 'right_pos' in data else int(
+        main_right_pos = int(data['right_pos']['#text']) if 'right_pos' in data else int(
             data['pos_right']['#text'],
         )
+
+        track_points = []
+        for point in points:
+            if 'left_pos' in point:
+                left_pos = safe_int(point['left_pos']['#text'])
+            elif 'pos_left' in point:
+                left_pos = safe_int(point['pos_left']['#text'])
+
+            if 'right_pos' in point:
+                right_pos = safe_int(point['right_pos']['#text'])
+            elif 'pos_right' in point:
+                right_pos = safe_int(point['pos_right']['#text'])
+
+            left_end_pos = None
+            if 'left_end_pos' in point:
+                left_end_pos = safe_int(point['left_end_pos']['#text'])
+            elif 'pos_lend' in point:
+                left_end_pos = safe_int(point['pos_lend']['#text'])
+
+            right_end_pos = None
+            if 'right_end_pos' in point:
+                right_end_pos = safe_int(point['right_end_pos']['#text'])
+            elif 'pos_rend' in point:
+                right_end_pos = safe_int(point['pos_rend']['#text'])
+
+            drs_track_point = DRSTrackPoint(
+                tick=safe_int(point.get('tick', {}).get('#text')),
+                left_pos=left_pos,
+                right_pos=right_pos,
+                left_end_pos=left_end_pos,
+                right_end_pos=right_end_pos,
+                point_time=safe_int(
+                    point.get('point_time', {}).get('#text'),
+                ),
+            )
+            track_points.append(drs_track_point)
 
         return cls(
             DRSTrackStepTickInfo(
@@ -367,33 +409,61 @@ class DRSTrackStep:
             ),
             int(data['kind']['#text']),
             DRSTrackStepPositionInfo(
-                left_pos=left_pos,
-                right_pos=right_pos,
+                left_pos=main_left_pos,
+                right_pos=main_right_pos,
             ),
             DRSTrackStepPlayerInfo(int(data['player_id']['#text'])),
-            [
-                DRSTrackPoint(
-                    tick=safe_int(point.get('tick', {}).get('#text')),
-                    left_pos=safe_int(point.get('left_pos', {}).get('#text')),
-                    right_pos=safe_int(
-                        point.get('right_pos', {}).get('#text'),
-                    ),
-                    left_end_pos=safe_int(
-                        point.get('left_end_pos', {}).get('#text'),
-                    ),
-                    right_end_pos=safe_int(
-                        point.get('right_end_pos', {}).get('#text'),
-                    ),
-                ) for point in points
-            ],
+            track_points,
         )
 
     @classmethod
     def from_json_dict(cls, data: dict):
+
+        track_points = []
+        for point in data['long_point']:
+            if 'left_pos' in point:
+                left_pos = safe_int(point['left_pos'])
+            elif 'pos_left' in point:
+                left_pos = safe_int(point['pos_left'])
+            if 'right_pos' in point:
+                right_pos = safe_int(point['right_pos'])
+            elif 'pos_right' in point:
+                right_pos = safe_int(point['pos_right'])
+
+            track_point = DRSTrackPoint(
+                tick=safe_int(point['tick']),
+                left_pos=left_pos,
+                right_pos=right_pos,
+                left_end_pos=int(point['left_end_pos']) if point.get(
+                    'left_end_pos',
+                ) is not None else None,
+                right_end_pos=int(point['right_end_pos']) if point.get(
+                    'right_end_pos',
+                ) is not None else None,
+                point_time=safe_int(point['point_time']),
+            )
+            track_points.append(track_point)
+
         return cls(
             DRSTrackStepTickInfo(
-                int(data['tick_info']['start_tick']),
-                int(data['tick_info']['end_tick']),
+                start_tick=int(data['tick_info']['start_tick']) if data['tick_info'].get(
+                    'start_tick',
+                ) is not None else None,
+                end_tick=int(data['tick_info']['end_tick']) if data['tick_info'].get(
+                    'end_tick',
+                ) is not None else None,
+                stime_ms=int(data['tick_info']['stime_ms']) if data['tick_info'].get(
+                    'stime_ms',
+                ) is not None else None,
+                etime_ms=int(data['tick_info']['etime_ms']) if data['tick_info'].get(
+                    'etime_ms',
+                ) is not None else None,
+                stime_dt=int(data['tick_info']['stime_dt']) if data['tick_info'].get(
+                    'stime_dt',
+                ) is not None else None,
+                etime_dt=int(data['tick_info']['etime_dt']) if data['tick_info'].get(
+                    'etime_dt',
+                ) is not None else None,
             ),
             int(data['kind']),
             DRSTrackStepPositionInfo(
@@ -401,23 +471,7 @@ class DRSTrackStep:
                 int(data['position_info']['right_pos']),
             ),
             DRSTrackStepPlayerInfo(int(data['player_info']['player_id'])),
-            [
-                DRSTrackPoint(
-                    tick=int(point['tick']) if point.get('tick') else None,
-                    left_pos=int(point['left_pos']) if point.get(
-                        'left_pos',
-                    ) is not None else None,
-                    right_pos=int(point['right_pos']) if point.get(
-                        'right_pos',
-                    ) is not None else None,
-                    left_end_pos=int(point['left_end_pos']) if point.get(
-                        'left_end_pos',
-                    ) is not None else None,
-                    right_end_pos=int(point['right_end_pos']) if point.get(
-                        'right_end_pos',
-                    ) is not None else None,
-                ) for point in data['long_point']
-            ],
+            track_points,
         )
 
 

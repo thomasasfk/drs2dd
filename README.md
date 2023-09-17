@@ -15,10 +15,10 @@ https://github.com/thomasasfk/drs2dd/assets/22506439/8e2953c5-3c39-423f-971a-47b
 - [x] Create DD beat map folder structure with song & cover
 - [x] Parse notes & lines into DD beat map
 - [x] Parse shuffles into DD beat map
+- [x] Parse down and jump notes into DD beat map
 
 ### To-Do:
 
-- [ ] Parse down and jump notes into DD beat map
 - [ ] Test folder structure, sort bmp, note speed, order, etc.
 - [ ] Create album specifically for these tracks (does DD support this yet?)
 

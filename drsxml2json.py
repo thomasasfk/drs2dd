@@ -41,7 +41,11 @@ if os.getenv('HAS_XML'):
 
     TRACK_ID_TO_SONGDATA = {}
     TRACK_ID_TO_SONGDATA_DICT = {}
+
     for song in ALL_SONG_METADATA_DICT['mdb']['music']:
+        if os.getenv('TRACK') and song['@id'] != os.getenv('TRACK'):
+            continue
+
         song_id = int(song['@id'])
         path = TRACK_ID_TO_PATH.get(song_id)
 
@@ -76,15 +80,26 @@ if os.getenv('HAS_XML'):
         TRACK_ID_TO_SONGDATA[song_id] = song_data
         TRACK_ID_TO_SONGDATA_DICT[song_id] = song_data_dict
 
-    if __name__ == '__main__':
-        for song_id, song_data_dict in TRACK_ID_TO_SONGDATA_DICT.items():
-            SONG_JSON_PATH = os.path.join(
-                TRACK_ID_TO_PATH[song_id], 'songs.json',
-            )
-            with open(SONG_JSON_PATH, 'w', encoding='utf-8') as f:
-                json.dump(song_data_dict, f, ensure_ascii=False, indent=4)
 
-            for key, data in song_data_dict['difficulties'].items():
-                path = os.path.join(TRACK_ID_TO_PATH[song_id], f'{key}.json')
-                with open(path, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, ensure_ascii=False, indent=4)
+    def map_and_save_song(song_id, song_data_dict):
+        song_json_path = os.path.join(
+            TRACK_ID_TO_PATH[song_id], 'songs.json',
+        )
+        with open(song_json_path, 'w', encoding='utf-8') as f:
+            json.dump(song_data_dict, f, ensure_ascii=False, indent=4)
+
+        for key, data in song_data_dict['difficulties'].items():
+            path = os.path.join(TRACK_ID_TO_PATH[song_id], f'{key}.json')
+            with open(path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+    if __name__ == '__main__':
+        if track_id := os.getenv('TRACK'):
+            track_id = int(track_id)
+            song_data_dict = TRACK_ID_TO_SONGDATA_DICT[track_id]
+            map_and_save_song(track_id, song_data_dict)
+            raise SystemExit(0)
+
+        for song_id, song_data_dict in TRACK_ID_TO_SONGDATA_DICT.items():
+            map_and_save_song(song_id, song_data_dict)
