@@ -12,12 +12,13 @@ Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) 
 - [x] Parse JSON files into DD info metadata
 - [x] Create DD beat map folder structure with song & cover
 - [x] Parse notes & lines into DD beat map
+- [x] Parse shuffles into DD beat map
 
 ### To-Do:
 
 - [ ] Parse down and jump notes into DD beat map
-- [ ] Parse shuffles into DD beat map
 - [ ] Test folder structure, sort bmp, note speed, order, etc.
+- [ ] Create album specifically for these tracks (does DD support this yet?)
 
 ---
 
