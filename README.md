@@ -1,6 +1,6 @@
 # DANCERUSH STARDOM to Dance Dash
 
-Convert videos & data of [DANCERUSH STARDOM](https://remywiki.com/AC_DRS) tracks into [Dance Dash](https://store.steampowered.com/app/2005050/Dance_Dash/) beat maps
+Convert data of [DANCERUSH STARDOM](https://remywiki.com/AC_DRS) tracks into [Dance Dash](https://store.steampowered.com/app/2005050/Dance_Dash/) beat maps
 
 Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) and ask!
 
@@ -8,30 +8,16 @@ Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) 
 
 ### Completed:
 
-- Video converter:
-  - [x] Detect right & left notes, including position & timing
-  - [x] Define models based on dd & drs schemas
-  - [x] Fetch metadata from data store (https://arcade-songs.zetaraku.dev/drs/)
-  - [x] Simple BepinEx plugin to launch Dance Dash w/o VR
-
-- Parser
-  - [x] Parse XML files into JSON files
-  - [x] Parse JSON files into DD info metadata
-  - [x] Create DD beat map folder structure with song & cover
-  - [x] Parse notes & lines into DD beat map
+- [x] Parse XML files into JSON files
+- [x] Parse JSON files into DD info metadata
+- [x] Create DD beat map folder structure with song & cover
+- [x] Parse notes & lines into DD beat map
 
 ### To-Do:
 
-- Video converter (don't know if we'll even do this now...)
-  - [ ] Detect down and jump notes (?)
-  - [ ] Detect hold notes (? hard)
-  - [ ] Write tests based on total note count (?) (https://remywiki.com/AC_DRS)
-  - [ ] Generate other metadata json file
-
-- Parser
-  - [ ] Parse down and jump notes into DD beat map
-  - [ ] Parse shuffles into DD beat map
-  - [ ] Test folder structure, sort bmp, note speed, order, etc.
+- [ ] Parse down and jump notes into DD beat map
+- [ ] Parse shuffles into DD beat map
+- [ ] Test folder structure, sort bmp, note speed, order, etc.
 
 ---
 
@@ -54,16 +40,6 @@ pre-commit install
 ---
 
 ### Usage:
-
-Convert a DRS track video to a DD beat map
-
-```bash
-# grab video of DRS track from youtube
-yt-dlp -f bv[ext=webm] https://youtu.be/o7I0scmptmo -o "drs_video.webm"
-
-# grab song-id from "resources\data.json" or https://arcade-songs.zetaraku.dev/drs/
-.venv/Scripts/python drsvideo2dd.py "drs_video.webm" --song-id "BOOMBAYAH-JP Ver.-"
-```
 
 Generate json files from xml files (needs xml files and a brave soul)
 

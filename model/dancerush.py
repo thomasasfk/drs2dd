@@ -8,41 +8,10 @@ import xmltodict
 MIN_POS = 0
 MAX_POS = 65536
 
-
-def safe_int(value):
-    try:
-        return int(value)
-    except (ValueError, TypeError):
-        return None
-
-
-@dataclass
-class DRSSheetDataZetaraku:
-    type: str
-    difficulty: str
-    level: str
-    levelValue: int
-
-
-@dataclass
-class DRSSongDataZetaraku:
-    songId: str
-    category: str
-    title: str
-    artist: str
-    bpm: int
-    imageName: str
-    version: str | None = None
-    releaseDate: str | None = None
-    isNew: bool | None = None
-    isLocked: bool = False
-    sheets: list[DRSSheetDataZetaraku] = field(default_factory=list)
-
-    @classmethod
-    def from_dict(cls, data_dict):
-        sheets_data = data_dict.get('sheets') or []
-        sheets = [DRSSheetDataZetaraku(**sheet) for sheet in sheets_data]
-        return cls(**{**data_dict, 'sheets': sheets})
+DRS_LEFT = 1
+DRS_RIGHT = 2
+DRS_DOWN = 3
+DRS_JUMP = 4
 
 
 @dataclass
@@ -276,12 +245,6 @@ class DRSTrackStepPlayerInfo:
     player_id: int
 
 
-DRS_LEFT = 1
-DRS_RIGHT = 2
-DRS_DOWN = 3
-DRS_JUMP = 4
-
-
 @dataclass
 class DRSTrackStep:
     tick_info: DRSTrackStepTickInfo
@@ -367,8 +330,6 @@ class DRSTrack:
     seq_version: int
     info: DRSTrackInfo
     sequence_data: list[DRSTrackStep] = field(default_factory=list)
-    extend_data = None  # TODO: Implement this ???
-    rec_data = None  # TODO: Implement this ???
 
     @classmethod
     def from_xml_dict(cls, data: dict):
@@ -397,3 +358,10 @@ class DRSTrack:
                 for step in data['sequence_data']
             ],
         )
+
+
+def safe_int(value):
+    try:
+        return int(value)
+    except (ValueError, TypeError):
+        return None
