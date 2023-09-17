@@ -4014,7 +4014,8 @@
                         },
                         "long_point": []
                     }
-                ]
+                ],
+                "clip": null
             },
             "difnum": 6
         },
@@ -5766,7 +5767,8 @@
                         },
                         "long_point": []
                     }
-                ]
+                ],
+                "clip": null
             },
             "difnum": 1
         },
@@ -11719,7 +11721,11 @@
                         },
                         "long_point": []
                     }
-                ]
+                ],
+                "clip": {
+                    "start_time": 0,
+                    "end_time": 95510
+                }
             },
             "difnum": 6
         },
@@ -14945,7 +14951,11 @@
                         },
                         "long_point": []
                     }
-                ]
+                ],
+                "clip": {
+                    "start_time": 0,
+                    "end_time": 95510
+                }
             },
             "difnum": 1
         }

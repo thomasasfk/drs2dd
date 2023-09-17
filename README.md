@@ -50,14 +50,10 @@ Generate json files from xml files (needs xml files and a brave soul)
 HAS_XML=1 .venv/Scripts/python drsxml2json.py
 ```
 
-Generate full DD Beat Map from json files in repository (does not map notes atm, todo)
+Generate full DD Beat Map from json files in repository (no --song-id does all)
 
 ```bash
 .venv/Scripts/python drs2dd.py --song-id 187
 ```
 
-Generate all DD Beat Maps from json files in repository (does not map notes atm, todo)
-
-```bash
-.venv/Scripts/python drs2dd_all.py
-```
+Generate all DD Beat Maps from json files in repository

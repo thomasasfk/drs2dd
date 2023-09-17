@@ -256,14 +256,17 @@ class DRSTrackInfo:
 
         return cls(
             end_tick=int(data['end_tick']) if data.get(
-                'end_tick') is not None else None,
+                'end_tick',
+            ) is not None else None,
             time_unit=DRSTrackTimeInfo(int(data['time_unit']['time_unit'])),
             bpm_info=[
                 DRSTrackBPMInfo(
                     bpm=int(bpm['bpm']) if bpm.get(
-                        'bpm') is not None else None,
+                        'bpm',
+                    ) is not None else None,
                     tick=int(bpm['tick']) if bpm.get(
-                        'tick') is not None else None,
+                        'tick',
+                    ) is not None else None,
                 ) for bpm in data['bpm_info']
             ],
             measure_info=[
@@ -271,7 +274,8 @@ class DRSTrackInfo:
                     denomi=int(measure['denomi']),
                     num=int(measure['num']),
                     tick=int(measure['tick']) if measure.get(
-                        'tick') is not None else None,
+                        'tick',
+                    ) is not None else None,
                 ) for measure in data['measure_info']
             ],
         )
@@ -476,14 +480,50 @@ class DRSTrackStep:
 
 
 @dataclass
+class DRSClip:
+    start_time: int
+    end_time: int
+
+    @classmethod
+    def from_xml_dict(cls, data: dict):
+        start_time = None
+        if 'start_time' in data:
+            start_time = int(data['start_time']['#text'])
+        elif 'stime_ms' in data:
+            start_time = int(data['stime_ms']['#text'])
+
+        end_time = None
+        if 'end_time' in data:
+            end_time = int(data['end_time']['#text'])
+        elif 'etime_ms' in data:
+            end_time = int(data['etime_ms']['#text'])
+
+        return cls(start_time, end_time)
+
+    @classmethod
+    def from_json_dict(cls, data: dict):
+        return cls(
+            int(data['start_time']),
+            int(data['end_time']),
+        )
+
+
+@dataclass
 class DRSTrack:
     seq_version: int
     info: DRSTrackInfo
     sequence_data: list[DRSTrackStep] = field(default_factory=list)
+    clip: DRSClip = None
 
     @classmethod
     def from_xml_dict(cls, data: dict):
         data = data['data']
+
+        # not really representing the data properly, but we need this for timings on 9 songs (i think)
+        clip = None
+        if 'rec_data' in data and data['rec_data'] and type(data['rec_data']['clip']) is not list:
+            clip = DRSClip.from_xml_dict(data['rec_data']['clip'])
+
         return cls(
             int(data['seq_version']['#text']),
             DRSTrackInfo.from_xml_dict(data['info']),
@@ -491,6 +531,7 @@ class DRSTrack:
                 DRSTrackStep.from_xml_dict(step)
                 for step in data['sequence_data']['step']
             ],
+            clip,
         )
 
     @classmethod
@@ -507,6 +548,8 @@ class DRSTrack:
                 DRSTrackStep.from_json_dict(step)
                 for step in data['sequence_data']
             ],
+            clip=DRSClip.from_json_dict(data['clip']) if data.get(
+                'clip') is not None else None,
         )
 
 

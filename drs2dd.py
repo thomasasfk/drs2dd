@@ -7,20 +7,21 @@ import shutil
 from copy import deepcopy
 from dataclasses import asdict
 
+from drsxml2json import ALL_TRACK_PATHS
 from drsxml2json import get_songdata_from_track_id
 from drsxml2json import TRACK_ID_TO_PATH
 from model.dancedash import DDBeatMap
 from model.dancedash import DDBeatMapData
 from model.dancedash import DDBeatMapInfoFile
 from model.dancedash import DDDownPos
+from model.dancedash import DDDownPos2D
 from model.dancedash import DDJumpPos
+from model.dancedash import DDJumpPos2D
 from model.dancedash import DDLineNode
 from model.dancedash import DDRoadBlockNode
 from model.dancedash import DDSphereNode
 from model.dancedash import DRS_TO_DDS_LINE_NOTE_TYPE
 from model.dancedash import DRS_TO_DDS_NOTE_TYPE
-from model.dancedash import DDDownPos2D
-from model.dancedash import DDJumpPos2D
 from model.dancedash import X_Y
 from model.dancedash import X_Y_Z
 from model.dancerush import DRS_DOWN
@@ -47,14 +48,16 @@ def map_sphere_nodes(
             continue
         bps = bpm / 60
         if track_step.tick_info.start_tick:
-            ticks_per_second = difficulty.track.info.end_tick / total_time_seconds
+            end_time_seconds = difficulty.track.clip.end_time / 1000
+            ticks_per_second = difficulty.track.info.end_tick / end_time_seconds
             seconds = track_step.tick_info.end_tick / ticks_per_second
         else:
             seconds = track_step.tick_info.stime_ms / 1000
 
+        time = seconds / total_time_seconds
         sphere = DDSphereNode(
             noteOrder=round(bps * seconds * ORDER_COUNT_PER_BEAT),
-            time=seconds / total_time_seconds,
+            time=time,
             position=X_Y(x=track_step.position_info.to_dance_dash_x, y=0),
             position2D=X_Y(x=0, y=0),
             size=X_Y_Z(x=1, y=1, z=1),
@@ -96,7 +99,8 @@ def map_line_nodes(
             drs_track_point: DRSTrackPoint = drs_track_point
 
             if drs_track_point.tick is not None:
-                ticks_per_second = difficulty.track.info.end_tick / total_time_seconds
+                end_time_seconds = difficulty.track.clip.end_time / 1000
+                ticks_per_second = difficulty.track.info.end_tick / end_time_seconds
                 seconds = drs_track_point.tick / ticks_per_second
             else:
                 seconds = drs_track_point.point_time / 1000
@@ -139,14 +143,16 @@ def map_down_and_jump_notes(
 
         bps = bpm / 60
         if track_step.tick_info.start_tick:
-            ticks_per_second = difficulty.track.info.end_tick / total_time_seconds
+            end_time_seconds = difficulty.track.clip.end_time / 1000
+            ticks_per_second = difficulty.track.info.end_tick / end_time_seconds
             seconds = track_step.tick_info.end_tick / ticks_per_second
         else:
             seconds = track_step.tick_info.stime_ms / 1000
 
         note_order = round(bps * seconds * ORDER_COUNT_PER_BEAT)
         if track_step.kind == DRS_JUMP:
-            note_order += ORDER_COUNT_PER_BEAT / 2  # user jumps OVER in DD, not ON like in DRS
+            # user jumps OVER in DD, not ON like in DRS
+            note_order += ORDER_COUNT_PER_BEAT / 2
 
         road_block = DDRoadBlockNode(
             noteOrder=note_order,
@@ -266,18 +272,31 @@ if __name__ == '__main__':
     )
     parser.add_argument(
         '--song-id', type=int,
-        help='ID of the song to process (number of folder)', required=True,
+        help='ID of the song to process (number of folder)',
     )
 
     args = parser.parse_args()
 
-    song_data = get_songdata_from_track_id(args.song_id)
-    if not song_data:
-        print(f'No song data found for song id {args.song_id}')
-        raise SystemExit(1)
+    if args.song_id:
+        song_data = get_songdata_from_track_id(args.song_id)
+        if not song_data:
+            print(f'No song data found for song id {args.song_id}')
+            raise SystemExit(1)
 
-    created = create_dd_tracks_from_DRSSongData(
-        song_data, song_data.info.title_name,
-    )
+        created = create_dd_tracks_from_DRSSongData(
+            song_data, song_data.info.title_name,
+        )
 
-    print(f'Song {args.song_id} created?: {created}')
+        print(f'Song {args.song_id} created?: {created}')
+        raise SystemExit(0)
+
+    for song_id in ALL_TRACK_PATHS:
+        if song_data := get_songdata_from_track_id(int(song_id)):
+            try:
+                created = create_dd_tracks_from_DRSSongData(
+                    song_data, f'tracks/{song_data.info.title_name}',
+                )
+            except Exception as e:
+                print(f'Error creating song {song_id}: {e}')
+                created = False
+            print(f'Song {song_id} created?: {created}')
