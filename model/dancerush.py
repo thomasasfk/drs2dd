@@ -131,14 +131,18 @@ class DRSSongData:
 @dataclass
 class DRSTrackBPMInfo:
     bpm: int
-    tick: int
+    tick: int | None = None
+    time: int | None = None
+    delta_time: int | None = None
 
 
 @dataclass
 class DRSTrackMeasureInfo:
     denomi: int
     num: int
-    tick: int
+    tick: int | None = None
+    time: int | None = None
+    delta_time: int | None = None
 
 
 @dataclass
@@ -156,40 +160,93 @@ class DRSTrackInfo:
     @classmethod
     def from_xml_dict(cls, data: dict):
         if type(data['measure_info']['measure']) is list:
-            drs_track_measure_info = [
-                DRSTrackMeasureInfo(
+            drs_track_measure_info = []
+            for measure in data['measure_info']['measure']:
+                has_tick = 'tick' in measure
+                has_time = 'time' in measure
+                has_delta_time = 'delta_time' in measure
+                measure_info = DRSTrackMeasureInfo(
                     int(measure['denomi']['#text']),
                     int(measure['num']['#text']),
-                    int(measure['tick']['#text']),
-                ) for measure in data['measure_info']['measure']
-            ]
+                    int(measure['tick']['#text']) if has_tick else None,
+                    int(measure['time']['#text']) if has_time else None,
+                    int(
+                        measure['delta_time']['#text'],
+                    ) if has_delta_time else None,
+                )
+                drs_track_measure_info.append(measure_info)
         else:
+            has_tick = 'tick' in data['measure_info']['measure']
+            has_time = 'time' in data['measure_info']['measure']
+            has_delta_time = 'delta_time' in data['measure_info']['measure']
             drs_track_measure_info = [
                 DRSTrackMeasureInfo(
                     int(data['measure_info']['measure']['denomi']['#text']),
                     int(data['measure_info']['measure']['num']['#text']),
-                    int(data['measure_info']['measure']['tick']['#text']),
+                    int(
+                        data['measure_info']['measure']['tick']
+                        ['#text'],
+                    ) if has_tick else None,
+                    int(
+                        data['measure_info']['measure']['time']
+                        ['#text'],
+                    ) if has_time else None,
+                    int(
+                        data['measure_info']['measure']['delta_time']
+                        ['#text'],
+                    ) if has_delta_time else None,
                 ),
             ]
 
         if type(data['bpm_info']['bpm']) is list:
-            drs_track_bpm_info = [
-                DRSTrackBPMInfo(
+            drs_track_bpm_info = []
+            for bpm in data['bpm_info']['bpm']:
+                has_tick = 'tick' in bpm
+                has_time = 'time' in bpm
+                has_delta_time = 'delta_time' in bpm
+                bmp_info = DRSTrackBPMInfo(
                     int(bpm['bpm']['#text']),
-                    int(bpm['tick']['#text']),
-                ) for bpm in data['bpm_info']['bpm']
-            ]
+                    int(bpm['tick']['#text']) if has_tick else None,
+                    int(bpm['time']['#text']) if has_time else None,
+                    int(
+                        bpm['delta_time']['#text'],
+                    ) if has_delta_time else None,
+                )
+                drs_track_bpm_info.append(bmp_info)
         else:
+            has_tick = 'tick' in data['bpm_info']['bpm']
+            has_time = 'time' in data['bpm_info']['bpm']
+            has_delta_time = 'delta_time' in data['bpm_info']['bpm']
             drs_track_bpm_info = [
                 DRSTrackBPMInfo(
                     int(data['bpm_info']['bpm']['bpm']['#text']),
-                    int(data['bpm_info']['bpm']['tick']['#text']),
+                    int(
+                        data['bpm_info']['bpm']['tick']
+                        ['#text'],
+                    ) if has_tick else None,
+                    int(
+                        data['bpm_info']['bpm']['time']
+                        ['#text'],
+                    ) if has_time else None,
+                    int(
+                        data['bpm_info']['bpm']['delta_time']
+                        ['#text'],
+                    ) if has_delta_time else None,
                 ),
             ]
 
+        if 'time_unit' in data:
+            time_unit = int(data['time_unit']['#text'])
+        elif 'tick' in data:
+            time_unit = int(data['tick']['#text'])
+        else:
+            time_unit = 480
+
         return cls(
-            end_tick=int(data['end_tick']['#text']),
-            time_unit=DRSTrackTimeInfo(int(data['time_unit']['#text'])),
+            end_tick=int(
+                data['end_tick']['#text'],
+            ) if 'end_tick' in data else None,
+            time_unit=DRSTrackTimeInfo(time_unit),
             bpm_info=drs_track_bpm_info,
             measure_info=drs_track_measure_info,
         )
@@ -217,8 +274,12 @@ class DRSTrackInfo:
 
 @dataclass
 class DRSTrackStepTickInfo:
-    start_tick: int
-    end_tick: int
+    start_tick: int | None = None
+    end_tick: int | None = None
+    stime_ms: int | None = None
+    etime_ms: int | None = None
+    stime_dt: int | None = None
+    etime_dt: int | None = None
 
 
 @dataclass
@@ -268,17 +329,46 @@ class DRSTrackStep:
                 if not isinstance(points, list):
                     points = [points]
 
+        has_start_tick = 'start_tick' in data
+        has_end_tick = 'end_tick' in data
+
+        has_stime_ms = 'stime_ms' in data
+        has_etime_ms = 'etime_ms' in data
+        has_stime_dt = 'stime_dt' in data
+        has_etime_dt = 'etime_dt' in data
+
+        left_pos = int(data['left_pos']['#text']) if 'left_pos' in data else int(
+            data['pos_left']['#text'],
+        )
+        right_pos = int(data['right_pos']['#text']) if 'right_pos' in data else int(
+            data['pos_right']['#text'],
+        )
+
         return cls(
             DRSTrackStepTickInfo(
-                int(data['start_tick']['#text']), int(
+                start_tick=int(
+                    data['start_tick']['#text'],
+                ) if has_start_tick else None,
+                end_tick=int(
                     data['end_tick']['#text'],
-                ),
+                ) if has_end_tick else None,
+                stime_ms=int(
+                    data['stime_ms']['#text'],
+                ) if has_stime_ms else None,
+                etime_ms=int(
+                    data['etime_ms']['#text'],
+                ) if has_etime_ms else None,
+                stime_dt=int(
+                    data['stime_dt']['#text'],
+                ) if has_stime_dt else None,
+                etime_dt=int(
+                    data['etime_dt']['#text'],
+                ) if has_etime_dt else None,
             ),
             int(data['kind']['#text']),
             DRSTrackStepPositionInfo(
-                int(data['left_pos']['#text']), int(
-                    data['right_pos']['#text'],
-                ),
+                left_pos=left_pos,
+                right_pos=right_pos,
             ),
             DRSTrackStepPlayerInfo(int(data['player_id']['#text'])),
             [

@@ -9,14 +9,18 @@
             "bpm_info": [
                 {
                     "bpm": 18500,
-                    "tick": 0
+                    "tick": 0,
+                    "time": null,
+                    "delta_time": null
                 }
             ],
             "measure_info": [
                 {
                     "denomi": 4,
                     "num": 4,
-                    "tick": 0
+                    "tick": 0,
+                    "time": null,
+                    "delta_time": null
                 }
             ]
         },
@@ -24,7 +28,11 @@
             {
                 "tick_info": {
                     "start_tick": 3840,
-                    "end_tick": 6720
+                    "end_tick": 6720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -54,7 +62,11 @@
             {
                 "tick_info": {
                     "start_tick": 3840,
-                    "end_tick": 6720
+                    "end_tick": 6720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -84,7 +96,11 @@
             {
                 "tick_info": {
                     "start_tick": 7680,
-                    "end_tick": 10560
+                    "end_tick": 10560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -114,7 +130,11 @@
             {
                 "tick_info": {
                     "start_tick": 7680,
-                    "end_tick": 10560
+                    "end_tick": 10560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -144,7 +164,11 @@
             {
                 "tick_info": {
                     "start_tick": 11520,
-                    "end_tick": 14400
+                    "end_tick": 14400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -174,7 +198,11 @@
             {
                 "tick_info": {
                     "start_tick": 11520,
-                    "end_tick": 14400
+                    "end_tick": 14400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -204,7 +232,11 @@
             {
                 "tick_info": {
                     "start_tick": 15360,
-                    "end_tick": 18240
+                    "end_tick": 18240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -234,7 +266,11 @@
             {
                 "tick_info": {
                     "start_tick": 15360,
-                    "end_tick": 18240
+                    "end_tick": 18240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -264,7 +300,11 @@
             {
                 "tick_info": {
                     "start_tick": 19200,
-                    "end_tick": 19680
+                    "end_tick": 19680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -287,7 +327,11 @@
             {
                 "tick_info": {
                     "start_tick": 19200,
-                    "end_tick": 19680
+                    "end_tick": 19680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -310,7 +354,11 @@
             {
                 "tick_info": {
                     "start_tick": 20160,
-                    "end_tick": 20640
+                    "end_tick": 20640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -333,7 +381,11 @@
             {
                 "tick_info": {
                     "start_tick": 20160,
-                    "end_tick": 20640
+                    "end_tick": 20640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -356,7 +408,11 @@
             {
                 "tick_info": {
                     "start_tick": 21120,
-                    "end_tick": 21600
+                    "end_tick": 21600,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -379,7 +435,11 @@
             {
                 "tick_info": {
                     "start_tick": 21120,
-                    "end_tick": 21600
+                    "end_tick": 21600,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -402,7 +462,11 @@
             {
                 "tick_info": {
                     "start_tick": 22080,
-                    "end_tick": 22560
+                    "end_tick": 22560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -425,7 +489,11 @@
             {
                 "tick_info": {
                     "start_tick": 22080,
-                    "end_tick": 22560
+                    "end_tick": 22560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -448,7 +516,11 @@
             {
                 "tick_info": {
                     "start_tick": 23040,
-                    "end_tick": 24000
+                    "end_tick": 24000,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -471,7 +543,11 @@
             {
                 "tick_info": {
                     "start_tick": 23040,
-                    "end_tick": 24000
+                    "end_tick": 24000,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -494,7 +570,11 @@
             {
                 "tick_info": {
                     "start_tick": 24000,
-                    "end_tick": 24960
+                    "end_tick": 24960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -517,7 +597,11 @@
             {
                 "tick_info": {
                     "start_tick": 24000,
-                    "end_tick": 24960
+                    "end_tick": 24960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -540,7 +624,11 @@
             {
                 "tick_info": {
                     "start_tick": 24960,
-                    "end_tick": 24960
+                    "end_tick": 24960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -555,7 +643,11 @@
             {
                 "tick_info": {
                     "start_tick": 25920,
-                    "end_tick": 25920
+                    "end_tick": 25920,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -570,7 +662,11 @@
             {
                 "tick_info": {
                     "start_tick": 26880,
-                    "end_tick": 27360
+                    "end_tick": 27360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -593,7 +689,11 @@
             {
                 "tick_info": {
                     "start_tick": 26880,
-                    "end_tick": 27360
+                    "end_tick": 27360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -616,7 +716,11 @@
             {
                 "tick_info": {
                     "start_tick": 27840,
-                    "end_tick": 28320
+                    "end_tick": 28320,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -639,7 +743,11 @@
             {
                 "tick_info": {
                     "start_tick": 27840,
-                    "end_tick": 28320
+                    "end_tick": 28320,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -662,7 +770,11 @@
             {
                 "tick_info": {
                     "start_tick": 28800,
-                    "end_tick": 29280
+                    "end_tick": 29280,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -685,7 +797,11 @@
             {
                 "tick_info": {
                     "start_tick": 28800,
-                    "end_tick": 29280
+                    "end_tick": 29280,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -708,7 +824,11 @@
             {
                 "tick_info": {
                     "start_tick": 29760,
-                    "end_tick": 30240
+                    "end_tick": 30240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -731,7 +851,11 @@
             {
                 "tick_info": {
                     "start_tick": 29760,
-                    "end_tick": 30240
+                    "end_tick": 30240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -754,7 +878,11 @@
             {
                 "tick_info": {
                     "start_tick": 30720,
-                    "end_tick": 31680
+                    "end_tick": 31680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -777,7 +905,11 @@
             {
                 "tick_info": {
                     "start_tick": 30720,
-                    "end_tick": 31680
+                    "end_tick": 31680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -800,7 +932,11 @@
             {
                 "tick_info": {
                     "start_tick": 31680,
-                    "end_tick": 32640
+                    "end_tick": 32640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -823,7 +959,11 @@
             {
                 "tick_info": {
                     "start_tick": 31680,
-                    "end_tick": 32640
+                    "end_tick": 32640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -846,7 +986,11 @@
             {
                 "tick_info": {
                     "start_tick": 32640,
-                    "end_tick": 32640
+                    "end_tick": 32640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -861,7 +1005,11 @@
             {
                 "tick_info": {
                     "start_tick": 33600,
-                    "end_tick": 33600
+                    "end_tick": 33600,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -876,7 +1024,11 @@
             {
                 "tick_info": {
                     "start_tick": 34560,
-                    "end_tick": 36480
+                    "end_tick": 36480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -906,7 +1058,11 @@
             {
                 "tick_info": {
                     "start_tick": 34560,
-                    "end_tick": 36480
+                    "end_tick": 36480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -936,7 +1092,11 @@
             {
                 "tick_info": {
                     "start_tick": 36480,
-                    "end_tick": 38400
+                    "end_tick": 38400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -966,7 +1126,11 @@
             {
                 "tick_info": {
                     "start_tick": 36480,
-                    "end_tick": 38400
+                    "end_tick": 38400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -996,7 +1160,11 @@
             {
                 "tick_info": {
                     "start_tick": 38400,
-                    "end_tick": 40320
+                    "end_tick": 40320,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1026,7 +1194,11 @@
             {
                 "tick_info": {
                     "start_tick": 38400,
-                    "end_tick": 40320
+                    "end_tick": 40320,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1056,7 +1228,11 @@
             {
                 "tick_info": {
                     "start_tick": 40320,
-                    "end_tick": 42240
+                    "end_tick": 42240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1086,7 +1262,11 @@
             {
                 "tick_info": {
                     "start_tick": 40320,
-                    "end_tick": 42240
+                    "end_tick": 42240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1116,7 +1296,11 @@
             {
                 "tick_info": {
                     "start_tick": 42240,
-                    "end_tick": 42240
+                    "end_tick": 42240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -1131,7 +1315,11 @@
             {
                 "tick_info": {
                     "start_tick": 43200,
-                    "end_tick": 43200
+                    "end_tick": 43200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1146,7 +1334,11 @@
             {
                 "tick_info": {
                     "start_tick": 43200,
-                    "end_tick": 43200
+                    "end_tick": 43200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1161,7 +1353,11 @@
             {
                 "tick_info": {
                     "start_tick": 44160,
-                    "end_tick": 44160
+                    "end_tick": 44160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1176,7 +1372,11 @@
             {
                 "tick_info": {
                     "start_tick": 44160,
-                    "end_tick": 44160
+                    "end_tick": 44160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1191,7 +1391,11 @@
             {
                 "tick_info": {
                     "start_tick": 45120,
-                    "end_tick": 45120
+                    "end_tick": 45120,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1206,7 +1410,11 @@
             {
                 "tick_info": {
                     "start_tick": 45120,
-                    "end_tick": 45120
+                    "end_tick": 45120,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1221,7 +1429,11 @@
             {
                 "tick_info": {
                     "start_tick": 46080,
-                    "end_tick": 48000
+                    "end_tick": 48000,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1244,7 +1456,11 @@
             {
                 "tick_info": {
                     "start_tick": 46080,
-                    "end_tick": 48000
+                    "end_tick": 48000,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1267,7 +1483,11 @@
             {
                 "tick_info": {
                     "start_tick": 48000,
-                    "end_tick": 48000
+                    "end_tick": 48000,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -1282,7 +1502,11 @@
             {
                 "tick_info": {
                     "start_tick": 49920,
-                    "end_tick": 52800
+                    "end_tick": 52800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1305,7 +1529,11 @@
             {
                 "tick_info": {
                     "start_tick": 49920,
-                    "end_tick": 52800
+                    "end_tick": 52800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1328,7 +1556,11 @@
             {
                 "tick_info": {
                     "start_tick": 50880,
-                    "end_tick": 50880
+                    "end_tick": 50880,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1343,7 +1575,11 @@
             {
                 "tick_info": {
                     "start_tick": 50880,
-                    "end_tick": 50880
+                    "end_tick": 50880,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1358,7 +1594,11 @@
             {
                 "tick_info": {
                     "start_tick": 51840,
-                    "end_tick": 51840
+                    "end_tick": 51840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1373,7 +1613,11 @@
             {
                 "tick_info": {
                     "start_tick": 51840,
-                    "end_tick": 51840
+                    "end_tick": 51840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1388,7 +1632,11 @@
             {
                 "tick_info": {
                     "start_tick": 52800,
-                    "end_tick": 52800
+                    "end_tick": 52800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1403,7 +1651,11 @@
             {
                 "tick_info": {
                     "start_tick": 52800,
-                    "end_tick": 52800
+                    "end_tick": 52800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1418,7 +1670,11 @@
             {
                 "tick_info": {
                     "start_tick": 53760,
-                    "end_tick": 56640
+                    "end_tick": 56640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1441,7 +1697,11 @@
             {
                 "tick_info": {
                     "start_tick": 53760,
-                    "end_tick": 56640
+                    "end_tick": 56640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1464,7 +1724,11 @@
             {
                 "tick_info": {
                     "start_tick": 54720,
-                    "end_tick": 54720
+                    "end_tick": 54720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1479,7 +1743,11 @@
             {
                 "tick_info": {
                     "start_tick": 54720,
-                    "end_tick": 54720
+                    "end_tick": 54720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1494,7 +1762,11 @@
             {
                 "tick_info": {
                     "start_tick": 55680,
-                    "end_tick": 55680
+                    "end_tick": 55680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1509,7 +1781,11 @@
             {
                 "tick_info": {
                     "start_tick": 55680,
-                    "end_tick": 55680
+                    "end_tick": 55680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1524,7 +1800,11 @@
             {
                 "tick_info": {
                     "start_tick": 56640,
-                    "end_tick": 56640
+                    "end_tick": 56640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1539,7 +1819,11 @@
             {
                 "tick_info": {
                     "start_tick": 56640,
-                    "end_tick": 56640
+                    "end_tick": 56640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1554,7 +1838,11 @@
             {
                 "tick_info": {
                     "start_tick": 57600,
-                    "end_tick": 59520
+                    "end_tick": 59520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1584,7 +1872,11 @@
             {
                 "tick_info": {
                     "start_tick": 57600,
-                    "end_tick": 59520
+                    "end_tick": 59520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1614,7 +1906,11 @@
             {
                 "tick_info": {
                     "start_tick": 59520,
-                    "end_tick": 61440
+                    "end_tick": 61440,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1644,7 +1940,11 @@
             {
                 "tick_info": {
                     "start_tick": 59520,
-                    "end_tick": 61440
+                    "end_tick": 61440,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1674,7 +1974,11 @@
             {
                 "tick_info": {
                     "start_tick": 61440,
-                    "end_tick": 63360
+                    "end_tick": 63360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1704,7 +2008,11 @@
             {
                 "tick_info": {
                     "start_tick": 61440,
-                    "end_tick": 63360
+                    "end_tick": 63360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1734,7 +2042,11 @@
             {
                 "tick_info": {
                     "start_tick": 63360,
-                    "end_tick": 65280
+                    "end_tick": 65280,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1764,7 +2076,11 @@
             {
                 "tick_info": {
                     "start_tick": 63360,
-                    "end_tick": 65280
+                    "end_tick": 65280,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1794,7 +2110,11 @@
             {
                 "tick_info": {
                     "start_tick": 65280,
-                    "end_tick": 65280
+                    "end_tick": 65280,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -1809,7 +2129,11 @@
             {
                 "tick_info": {
                     "start_tick": 66240,
-                    "end_tick": 72960
+                    "end_tick": 72960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1846,7 +2170,11 @@
             {
                 "tick_info": {
                     "start_tick": 66240,
-                    "end_tick": 72960
+                    "end_tick": 72960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -1890,7 +2218,11 @@
             {
                 "tick_info": {
                     "start_tick": 66240,
-                    "end_tick": 72960
+                    "end_tick": 72960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1927,7 +2259,11 @@
             {
                 "tick_info": {
                     "start_tick": 66240,
-                    "end_tick": 72960
+                    "end_tick": 72960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -1971,7 +2307,11 @@
             {
                 "tick_info": {
                     "start_tick": 69120,
-                    "end_tick": 69120
+                    "end_tick": 69120,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -1986,7 +2326,11 @@
             {
                 "tick_info": {
                     "start_tick": 72960,
-                    "end_tick": 72960
+                    "end_tick": 72960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -2001,7 +2345,11 @@
             {
                 "tick_info": {
                     "start_tick": 74400,
-                    "end_tick": 74400
+                    "end_tick": 74400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 4,
                 "position_info": {
@@ -2016,7 +2364,11 @@
             {
                 "tick_info": {
                     "start_tick": 76320,
-                    "end_tick": 76320
+                    "end_tick": 76320,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 4,
                 "position_info": {
@@ -2031,7 +2383,11 @@
             {
                 "tick_info": {
                     "start_tick": 78240,
-                    "end_tick": 78240
+                    "end_tick": 78240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2046,7 +2402,11 @@
             {
                 "tick_info": {
                     "start_tick": 78240,
-                    "end_tick": 78240
+                    "end_tick": 78240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2061,7 +2421,11 @@
             {
                 "tick_info": {
                     "start_tick": 78240,
-                    "end_tick": 78240
+                    "end_tick": 78240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2076,7 +2440,11 @@
             {
                 "tick_info": {
                     "start_tick": 78240,
-                    "end_tick": 78240
+                    "end_tick": 78240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2091,7 +2459,11 @@
             {
                 "tick_info": {
                     "start_tick": 79200,
-                    "end_tick": 79200
+                    "end_tick": 79200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2106,7 +2478,11 @@
             {
                 "tick_info": {
                     "start_tick": 79200,
-                    "end_tick": 79200
+                    "end_tick": 79200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2121,7 +2497,11 @@
             {
                 "tick_info": {
                     "start_tick": 79200,
-                    "end_tick": 79200
+                    "end_tick": 79200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2136,7 +2516,11 @@
             {
                 "tick_info": {
                     "start_tick": 79200,
-                    "end_tick": 79200
+                    "end_tick": 79200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2151,7 +2535,11 @@
             {
                 "tick_info": {
                     "start_tick": 80640,
-                    "end_tick": 83520
+                    "end_tick": 83520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2174,7 +2562,11 @@
             {
                 "tick_info": {
                     "start_tick": 80640,
-                    "end_tick": 83520
+                    "end_tick": 83520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2197,7 +2589,11 @@
             {
                 "tick_info": {
                     "start_tick": 81600,
-                    "end_tick": 81600
+                    "end_tick": 81600,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2212,7 +2608,11 @@
             {
                 "tick_info": {
                     "start_tick": 81600,
-                    "end_tick": 81600
+                    "end_tick": 81600,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2227,7 +2627,11 @@
             {
                 "tick_info": {
                     "start_tick": 82560,
-                    "end_tick": 82560
+                    "end_tick": 82560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2242,7 +2646,11 @@
             {
                 "tick_info": {
                     "start_tick": 82560,
-                    "end_tick": 82560
+                    "end_tick": 82560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2257,7 +2665,11 @@
             {
                 "tick_info": {
                     "start_tick": 83520,
-                    "end_tick": 83520
+                    "end_tick": 83520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2272,7 +2684,11 @@
             {
                 "tick_info": {
                     "start_tick": 83520,
-                    "end_tick": 83520
+                    "end_tick": 83520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2287,7 +2703,11 @@
             {
                 "tick_info": {
                     "start_tick": 84480,
-                    "end_tick": 87360
+                    "end_tick": 87360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2310,7 +2730,11 @@
             {
                 "tick_info": {
                     "start_tick": 84480,
-                    "end_tick": 87360
+                    "end_tick": 87360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2333,7 +2757,11 @@
             {
                 "tick_info": {
                     "start_tick": 85440,
-                    "end_tick": 85440
+                    "end_tick": 85440,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2348,7 +2776,11 @@
             {
                 "tick_info": {
                     "start_tick": 85440,
-                    "end_tick": 85440
+                    "end_tick": 85440,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2363,7 +2795,11 @@
             {
                 "tick_info": {
                     "start_tick": 86400,
-                    "end_tick": 86400
+                    "end_tick": 86400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2378,7 +2814,11 @@
             {
                 "tick_info": {
                     "start_tick": 86400,
-                    "end_tick": 86400
+                    "end_tick": 86400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2393,7 +2833,11 @@
             {
                 "tick_info": {
                     "start_tick": 87360,
-                    "end_tick": 87360
+                    "end_tick": 87360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2408,7 +2852,11 @@
             {
                 "tick_info": {
                     "start_tick": 87360,
-                    "end_tick": 87360
+                    "end_tick": 87360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2423,7 +2871,11 @@
             {
                 "tick_info": {
                     "start_tick": 88320,
-                    "end_tick": 88320
+                    "end_tick": 88320,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -2438,7 +2890,11 @@
             {
                 "tick_info": {
                     "start_tick": 90240,
-                    "end_tick": 90240
+                    "end_tick": 90240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2453,7 +2909,11 @@
             {
                 "tick_info": {
                     "start_tick": 90240,
-                    "end_tick": 90240
+                    "end_tick": 90240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2468,7 +2928,11 @@
             {
                 "tick_info": {
                     "start_tick": 91200,
-                    "end_tick": 91200
+                    "end_tick": 91200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2483,7 +2947,11 @@
             {
                 "tick_info": {
                     "start_tick": 91200,
-                    "end_tick": 91200
+                    "end_tick": 91200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2498,7 +2966,11 @@
             {
                 "tick_info": {
                     "start_tick": 92160,
-                    "end_tick": 92160
+                    "end_tick": 92160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 4,
                 "position_info": {
@@ -2513,7 +2985,11 @@
             {
                 "tick_info": {
                     "start_tick": 94080,
-                    "end_tick": 94080
+                    "end_tick": 94080,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 4,
                 "position_info": {
@@ -2528,7 +3004,11 @@
             {
                 "tick_info": {
                     "start_tick": 96000,
-                    "end_tick": 102720
+                    "end_tick": 102720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2572,7 +3052,11 @@
             {
                 "tick_info": {
                     "start_tick": 96000,
-                    "end_tick": 102720
+                    "end_tick": 102720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2616,7 +3100,11 @@
             {
                 "tick_info": {
                     "start_tick": 103680,
-                    "end_tick": 110400
+                    "end_tick": 110400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2660,7 +3148,11 @@
             {
                 "tick_info": {
                     "start_tick": 103680,
-                    "end_tick": 110400
+                    "end_tick": 110400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2704,7 +3196,11 @@
             {
                 "tick_info": {
                     "start_tick": 111360,
-                    "end_tick": 111840
+                    "end_tick": 111840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2727,7 +3223,11 @@
             {
                 "tick_info": {
                     "start_tick": 111360,
-                    "end_tick": 111840
+                    "end_tick": 111840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2750,7 +3250,11 @@
             {
                 "tick_info": {
                     "start_tick": 112320,
-                    "end_tick": 112800
+                    "end_tick": 112800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2773,7 +3277,11 @@
             {
                 "tick_info": {
                     "start_tick": 112320,
-                    "end_tick": 112800
+                    "end_tick": 112800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2796,7 +3304,11 @@
             {
                 "tick_info": {
                     "start_tick": 113280,
-                    "end_tick": 113760
+                    "end_tick": 113760,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2819,7 +3331,11 @@
             {
                 "tick_info": {
                     "start_tick": 113280,
-                    "end_tick": 113760
+                    "end_tick": 113760,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2842,7 +3358,11 @@
             {
                 "tick_info": {
                     "start_tick": 114240,
-                    "end_tick": 114720
+                    "end_tick": 114720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2865,7 +3385,11 @@
             {
                 "tick_info": {
                     "start_tick": 114240,
-                    "end_tick": 114720
+                    "end_tick": 114720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2888,7 +3412,11 @@
             {
                 "tick_info": {
                     "start_tick": 115200,
-                    "end_tick": 116160
+                    "end_tick": 116160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2911,7 +3439,11 @@
             {
                 "tick_info": {
                     "start_tick": 115200,
-                    "end_tick": 116160
+                    "end_tick": 116160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2934,7 +3466,11 @@
             {
                 "tick_info": {
                     "start_tick": 116160,
-                    "end_tick": 117120
+                    "end_tick": 117120,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -2957,7 +3493,11 @@
             {
                 "tick_info": {
                     "start_tick": 116160,
-                    "end_tick": 117120
+                    "end_tick": 117120,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -2980,7 +3520,11 @@
             {
                 "tick_info": {
                     "start_tick": 117120,
-                    "end_tick": 117120
+                    "end_tick": 117120,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -2995,7 +3539,11 @@
             {
                 "tick_info": {
                     "start_tick": 119040,
-                    "end_tick": 119520
+                    "end_tick": 119520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3018,7 +3566,11 @@
             {
                 "tick_info": {
                     "start_tick": 119040,
-                    "end_tick": 119520
+                    "end_tick": 119520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3041,7 +3593,11 @@
             {
                 "tick_info": {
                     "start_tick": 120000,
-                    "end_tick": 120480
+                    "end_tick": 120480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3064,7 +3620,11 @@
             {
                 "tick_info": {
                     "start_tick": 120000,
-                    "end_tick": 120480
+                    "end_tick": 120480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3087,7 +3647,11 @@
             {
                 "tick_info": {
                     "start_tick": 120960,
-                    "end_tick": 121440
+                    "end_tick": 121440,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3110,7 +3674,11 @@
             {
                 "tick_info": {
                     "start_tick": 120960,
-                    "end_tick": 121440
+                    "end_tick": 121440,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3133,7 +3701,11 @@
             {
                 "tick_info": {
                     "start_tick": 121920,
-                    "end_tick": 122400
+                    "end_tick": 122400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3156,7 +3728,11 @@
             {
                 "tick_info": {
                     "start_tick": 121920,
-                    "end_tick": 122400
+                    "end_tick": 122400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3179,7 +3755,11 @@
             {
                 "tick_info": {
                     "start_tick": 122880,
-                    "end_tick": 123840
+                    "end_tick": 123840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3202,7 +3782,11 @@
             {
                 "tick_info": {
                     "start_tick": 122880,
-                    "end_tick": 123840
+                    "end_tick": 123840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3225,7 +3809,11 @@
             {
                 "tick_info": {
                     "start_tick": 123840,
-                    "end_tick": 124800
+                    "end_tick": 124800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3248,7 +3836,11 @@
             {
                 "tick_info": {
                     "start_tick": 123840,
-                    "end_tick": 124800
+                    "end_tick": 124800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3271,7 +3863,11 @@
             {
                 "tick_info": {
                     "start_tick": 124800,
-                    "end_tick": 124800
+                    "end_tick": 124800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -3286,7 +3882,11 @@
             {
                 "tick_info": {
                     "start_tick": 126720,
-                    "end_tick": 128640
+                    "end_tick": 128640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3316,7 +3916,11 @@
             {
                 "tick_info": {
                     "start_tick": 126720,
-                    "end_tick": 128640
+                    "end_tick": 128640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3346,7 +3950,11 @@
             {
                 "tick_info": {
                     "start_tick": 128640,
-                    "end_tick": 130560
+                    "end_tick": 130560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3376,7 +3984,11 @@
             {
                 "tick_info": {
                     "start_tick": 128640,
-                    "end_tick": 130560
+                    "end_tick": 130560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3406,7 +4018,11 @@
             {
                 "tick_info": {
                     "start_tick": 130560,
-                    "end_tick": 132480
+                    "end_tick": 132480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3436,7 +4052,11 @@
             {
                 "tick_info": {
                     "start_tick": 130560,
-                    "end_tick": 132480
+                    "end_tick": 132480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3466,7 +4086,11 @@
             {
                 "tick_info": {
                     "start_tick": 132480,
-                    "end_tick": 134400
+                    "end_tick": 134400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3496,7 +4120,11 @@
             {
                 "tick_info": {
                     "start_tick": 132480,
-                    "end_tick": 134400
+                    "end_tick": 134400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3526,7 +4154,11 @@
             {
                 "tick_info": {
                     "start_tick": 134400,
-                    "end_tick": 134400
+                    "end_tick": 134400,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -3541,7 +4173,11 @@
             {
                 "tick_info": {
                     "start_tick": 135360,
-                    "end_tick": 135360
+                    "end_tick": 135360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3556,7 +4192,11 @@
             {
                 "tick_info": {
                     "start_tick": 135360,
-                    "end_tick": 135360
+                    "end_tick": 135360,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3571,7 +4211,11 @@
             {
                 "tick_info": {
                     "start_tick": 136320,
-                    "end_tick": 136320
+                    "end_tick": 136320,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3586,7 +4230,11 @@
             {
                 "tick_info": {
                     "start_tick": 136320,
-                    "end_tick": 136320
+                    "end_tick": 136320,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3601,7 +4249,11 @@
             {
                 "tick_info": {
                     "start_tick": 137280,
-                    "end_tick": 137280
+                    "end_tick": 137280,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3616,7 +4268,11 @@
             {
                 "tick_info": {
                     "start_tick": 137280,
-                    "end_tick": 137280
+                    "end_tick": 137280,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3631,7 +4287,11 @@
             {
                 "tick_info": {
                     "start_tick": 138240,
-                    "end_tick": 140160
+                    "end_tick": 140160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3654,7 +4314,11 @@
             {
                 "tick_info": {
                     "start_tick": 138240,
-                    "end_tick": 140160
+                    "end_tick": 140160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3677,7 +4341,11 @@
             {
                 "tick_info": {
                     "start_tick": 140160,
-                    "end_tick": 140160
+                    "end_tick": 140160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -3692,7 +4360,11 @@
             {
                 "tick_info": {
                     "start_tick": 142080,
-                    "end_tick": 144960
+                    "end_tick": 144960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3715,7 +4387,11 @@
             {
                 "tick_info": {
                     "start_tick": 142080,
-                    "end_tick": 144960
+                    "end_tick": 144960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3738,7 +4414,11 @@
             {
                 "tick_info": {
                     "start_tick": 143040,
-                    "end_tick": 143040
+                    "end_tick": 143040,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3753,7 +4433,11 @@
             {
                 "tick_info": {
                     "start_tick": 143040,
-                    "end_tick": 143040
+                    "end_tick": 143040,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3768,7 +4452,11 @@
             {
                 "tick_info": {
                     "start_tick": 144000,
-                    "end_tick": 144000
+                    "end_tick": 144000,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3783,7 +4471,11 @@
             {
                 "tick_info": {
                     "start_tick": 144000,
-                    "end_tick": 144000
+                    "end_tick": 144000,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3798,7 +4490,11 @@
             {
                 "tick_info": {
                     "start_tick": 144960,
-                    "end_tick": 144960
+                    "end_tick": 144960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3813,7 +4509,11 @@
             {
                 "tick_info": {
                     "start_tick": 144960,
-                    "end_tick": 144960
+                    "end_tick": 144960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3828,7 +4528,11 @@
             {
                 "tick_info": {
                     "start_tick": 145920,
-                    "end_tick": 148800
+                    "end_tick": 148800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3851,7 +4555,11 @@
             {
                 "tick_info": {
                     "start_tick": 145920,
-                    "end_tick": 148800
+                    "end_tick": 148800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3874,7 +4582,11 @@
             {
                 "tick_info": {
                     "start_tick": 146880,
-                    "end_tick": 146880
+                    "end_tick": 146880,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3889,7 +4601,11 @@
             {
                 "tick_info": {
                     "start_tick": 146880,
-                    "end_tick": 146880
+                    "end_tick": 146880,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3904,7 +4620,11 @@
             {
                 "tick_info": {
                     "start_tick": 147840,
-                    "end_tick": 147840
+                    "end_tick": 147840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3919,7 +4639,11 @@
             {
                 "tick_info": {
                     "start_tick": 147840,
-                    "end_tick": 147840
+                    "end_tick": 147840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3934,7 +4658,11 @@
             {
                 "tick_info": {
                     "start_tick": 148800,
-                    "end_tick": 148800
+                    "end_tick": 148800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3949,7 +4677,11 @@
             {
                 "tick_info": {
                     "start_tick": 148800,
-                    "end_tick": 148800
+                    "end_tick": 148800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -3964,7 +4696,11 @@
             {
                 "tick_info": {
                     "start_tick": 149760,
-                    "end_tick": 152640
+                    "end_tick": 152640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -3987,7 +4723,11 @@
             {
                 "tick_info": {
                     "start_tick": 149760,
-                    "end_tick": 152640
+                    "end_tick": 152640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4010,7 +4750,11 @@
             {
                 "tick_info": {
                     "start_tick": 150720,
-                    "end_tick": 150720
+                    "end_tick": 150720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4025,7 +4769,11 @@
             {
                 "tick_info": {
                     "start_tick": 150720,
-                    "end_tick": 150720
+                    "end_tick": 150720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4040,7 +4788,11 @@
             {
                 "tick_info": {
                     "start_tick": 151680,
-                    "end_tick": 151680
+                    "end_tick": 151680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4055,7 +4807,11 @@
             {
                 "tick_info": {
                     "start_tick": 151680,
-                    "end_tick": 151680
+                    "end_tick": 151680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4070,7 +4826,11 @@
             {
                 "tick_info": {
                     "start_tick": 152640,
-                    "end_tick": 152640
+                    "end_tick": 152640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4085,7 +4845,11 @@
             {
                 "tick_info": {
                     "start_tick": 152640,
-                    "end_tick": 152640
+                    "end_tick": 152640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4100,7 +4864,11 @@
             {
                 "tick_info": {
                     "start_tick": 153600,
-                    "end_tick": 155520
+                    "end_tick": 155520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4123,7 +4891,11 @@
             {
                 "tick_info": {
                     "start_tick": 153600,
-                    "end_tick": 155520
+                    "end_tick": 155520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4146,7 +4918,11 @@
             {
                 "tick_info": {
                     "start_tick": 154560,
-                    "end_tick": 154560
+                    "end_tick": 154560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4161,7 +4937,11 @@
             {
                 "tick_info": {
                     "start_tick": 154560,
-                    "end_tick": 154560
+                    "end_tick": 154560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4176,7 +4956,11 @@
             {
                 "tick_info": {
                     "start_tick": 155520,
-                    "end_tick": 155520
+                    "end_tick": 155520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -4191,7 +4975,11 @@
             {
                 "tick_info": {
                     "start_tick": 155520,
-                    "end_tick": 155520
+                    "end_tick": 155520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4206,7 +4994,11 @@
             {
                 "tick_info": {
                     "start_tick": 155520,
-                    "end_tick": 155520
+                    "end_tick": 155520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4221,7 +5013,11 @@
             {
                 "tick_info": {
                     "start_tick": 156480,
-                    "end_tick": 156480
+                    "end_tick": 156480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -4236,7 +5032,11 @@
             {
                 "tick_info": {
                     "start_tick": 157440,
-                    "end_tick": 157920
+                    "end_tick": 157920,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4259,7 +5059,11 @@
             {
                 "tick_info": {
                     "start_tick": 157440,
-                    "end_tick": 157920
+                    "end_tick": 157920,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4282,7 +5086,11 @@
             {
                 "tick_info": {
                     "start_tick": 158400,
-                    "end_tick": 158880
+                    "end_tick": 158880,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4305,7 +5113,11 @@
             {
                 "tick_info": {
                     "start_tick": 158400,
-                    "end_tick": 158880
+                    "end_tick": 158880,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4328,7 +5140,11 @@
             {
                 "tick_info": {
                     "start_tick": 159360,
-                    "end_tick": 159840
+                    "end_tick": 159840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4351,7 +5167,11 @@
             {
                 "tick_info": {
                     "start_tick": 159360,
-                    "end_tick": 159840
+                    "end_tick": 159840,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4374,7 +5194,11 @@
             {
                 "tick_info": {
                     "start_tick": 160320,
-                    "end_tick": 160800
+                    "end_tick": 160800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4397,7 +5221,11 @@
             {
                 "tick_info": {
                     "start_tick": 160320,
-                    "end_tick": 160800
+                    "end_tick": 160800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4420,7 +5248,11 @@
             {
                 "tick_info": {
                     "start_tick": 161280,
-                    "end_tick": 164160
+                    "end_tick": 164160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4443,7 +5275,11 @@
             {
                 "tick_info": {
                     "start_tick": 161280,
-                    "end_tick": 164160
+                    "end_tick": 164160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4466,7 +5302,11 @@
             {
                 "tick_info": {
                     "start_tick": 162240,
-                    "end_tick": 162240
+                    "end_tick": 162240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4481,7 +5321,11 @@
             {
                 "tick_info": {
                     "start_tick": 162240,
-                    "end_tick": 162240
+                    "end_tick": 162240,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4496,7 +5340,11 @@
             {
                 "tick_info": {
                     "start_tick": 163200,
-                    "end_tick": 163200
+                    "end_tick": 163200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4511,7 +5359,11 @@
             {
                 "tick_info": {
                     "start_tick": 163200,
-                    "end_tick": 163200
+                    "end_tick": 163200,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4526,7 +5378,11 @@
             {
                 "tick_info": {
                     "start_tick": 164160,
-                    "end_tick": 164160
+                    "end_tick": 164160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4541,7 +5397,11 @@
             {
                 "tick_info": {
                     "start_tick": 164160,
-                    "end_tick": 164160
+                    "end_tick": 164160,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4556,7 +5416,11 @@
             {
                 "tick_info": {
                     "start_tick": 165120,
-                    "end_tick": 167040
+                    "end_tick": 167040,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4586,7 +5450,11 @@
             {
                 "tick_info": {
                     "start_tick": 165120,
-                    "end_tick": 167040
+                    "end_tick": 167040,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4616,7 +5484,11 @@
             {
                 "tick_info": {
                     "start_tick": 167040,
-                    "end_tick": 168960
+                    "end_tick": 168960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4646,7 +5518,11 @@
             {
                 "tick_info": {
                     "start_tick": 167040,
-                    "end_tick": 168960
+                    "end_tick": 168960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4676,7 +5552,11 @@
             {
                 "tick_info": {
                     "start_tick": 168960,
-                    "end_tick": 168960
+                    "end_tick": 168960,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -4691,7 +5571,11 @@
             {
                 "tick_info": {
                     "start_tick": 168960,
-                    "end_tick": 172800
+                    "end_tick": 172800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4735,7 +5619,11 @@
             {
                 "tick_info": {
                     "start_tick": 168960,
-                    "end_tick": 172800
+                    "end_tick": 172800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4779,7 +5667,11 @@
             {
                 "tick_info": {
                     "start_tick": 172800,
-                    "end_tick": 174720
+                    "end_tick": 174720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4809,7 +5701,11 @@
             {
                 "tick_info": {
                     "start_tick": 172800,
-                    "end_tick": 174720
+                    "end_tick": 174720,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4839,7 +5735,11 @@
             {
                 "tick_info": {
                     "start_tick": 172800,
-                    "end_tick": 172800
+                    "end_tick": 172800,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 3,
                 "position_info": {
@@ -4854,7 +5754,11 @@
             {
                 "tick_info": {
                     "start_tick": 174720,
-                    "end_tick": 175680
+                    "end_tick": 175680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4884,7 +5788,11 @@
             {
                 "tick_info": {
                     "start_tick": 174720,
-                    "end_tick": 175680
+                    "end_tick": 175680,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4914,7 +5822,11 @@
             {
                 "tick_info": {
                     "start_tick": 175680,
-                    "end_tick": 176640
+                    "end_tick": 176640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -4944,7 +5856,11 @@
             {
                 "tick_info": {
                     "start_tick": 175680,
-                    "end_tick": 176640
+                    "end_tick": 176640,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -4974,7 +5890,11 @@
             {
                 "tick_info": {
                     "start_tick": 176640,
-                    "end_tick": 178560
+                    "end_tick": 178560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -5004,7 +5924,11 @@
             {
                 "tick_info": {
                     "start_tick": 176640,
-                    "end_tick": 178560
+                    "end_tick": 178560,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -5034,7 +5958,11 @@
             {
                 "tick_info": {
                     "start_tick": 178560,
-                    "end_tick": 179520
+                    "end_tick": 179520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {
@@ -5064,7 +5992,11 @@
             {
                 "tick_info": {
                     "start_tick": 178560,
-                    "end_tick": 179520
+                    "end_tick": 179520,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -5094,7 +6026,11 @@
             {
                 "tick_info": {
                     "start_tick": 179520,
-                    "end_tick": 180480
+                    "end_tick": 180480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 2,
                 "position_info": {
@@ -5124,7 +6060,11 @@
             {
                 "tick_info": {
                     "start_tick": 179520,
-                    "end_tick": 180480
+                    "end_tick": 180480,
+                    "stime_ms": null,
+                    "etime_ms": null,
+                    "stime_dt": null,
+                    "etime_dt": null
                 },
                 "kind": 1,
                 "position_info": {

@@ -1,0 +1,4300 @@
+{
+    "track": {
+        "seq_version": 8,
+        "info": {
+            "end_tick": null,
+            "time_unit": {
+                "time_unit": 480
+            },
+            "bpm_info": [
+                {
+                    "bpm": 12500,
+                    "tick": null,
+                    "time": 0,
+                    "delta_time": 0
+                }
+            ],
+            "measure_info": [
+                {
+                    "denomi": 4,
+                    "num": 4,
+                    "tick": null,
+                    "time": 0,
+                    "delta_time": 0
+                }
+            ]
+        },
+        "sequence_data": [
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 1920,
+                    "etime_ms": 3840,
+                    "stime_dt": 1920,
+                    "etime_dt": 3840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 1920,
+                    "etime_ms": 3840,
+                    "stime_dt": 1920,
+                    "etime_dt": 3840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 3840,
+                    "etime_ms": 3840,
+                    "stime_dt": 3840,
+                    "etime_dt": 3840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 3840,
+                    "etime_ms": 3840,
+                    "stime_dt": 3840,
+                    "etime_dt": 3840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 5760,
+                    "etime_ms": 7680,
+                    "stime_dt": 5760,
+                    "etime_dt": 7680
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 5760,
+                    "etime_ms": 7680,
+                    "stime_dt": 5760,
+                    "etime_dt": 7680
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 7680,
+                    "etime_ms": 7680,
+                    "stime_dt": 7680,
+                    "etime_dt": 7680
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 7680,
+                    "etime_ms": 7680,
+                    "stime_dt": 7680,
+                    "etime_dt": 7680
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 9600,
+                    "etime_ms": 9600,
+                    "stime_dt": 9600,
+                    "etime_dt": 9600
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 9600,
+                    "etime_ms": 9600,
+                    "stime_dt": 9600,
+                    "etime_dt": 9600
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 10560,
+                    "etime_ms": 10560,
+                    "stime_dt": 10560,
+                    "etime_dt": 10560
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 20480,
+                    "right_pos": 45056
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 10560,
+                    "etime_ms": 10560,
+                    "stime_dt": 10560,
+                    "etime_dt": 10560
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 20480,
+                    "right_pos": 45056
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 11520,
+                    "etime_ms": 11520,
+                    "stime_dt": 11520,
+                    "etime_dt": 11520
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 11520,
+                    "etime_ms": 11520,
+                    "stime_dt": 11520,
+                    "etime_dt": 11520
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 13440,
+                    "etime_ms": 13440,
+                    "stime_dt": 13440,
+                    "etime_dt": 13440
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 20480,
+                    "right_pos": 45056
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 13440,
+                    "etime_ms": 13440,
+                    "stime_dt": 13440,
+                    "etime_dt": 13440
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 20480,
+                    "right_pos": 45056
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 14400,
+                    "etime_ms": 14400,
+                    "stime_dt": 14400,
+                    "etime_dt": 14400
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 14400,
+                    "etime_ms": 14400,
+                    "stime_dt": 14400,
+                    "etime_dt": 14400
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 15360,
+                    "etime_ms": 15360,
+                    "stime_dt": 15360,
+                    "etime_dt": 15360
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 20480,
+                    "right_pos": 45056
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 15360,
+                    "etime_ms": 15360,
+                    "stime_dt": 15360,
+                    "etime_dt": 15360
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 20480,
+                    "right_pos": 45056
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 17280,
+                    "etime_ms": 17280,
+                    "stime_dt": 17280,
+                    "etime_dt": 17280
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 17280,
+                    "etime_ms": 17280,
+                    "stime_dt": 17280,
+                    "etime_dt": 17280
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 18240,
+                    "etime_ms": 18240,
+                    "stime_dt": 18240,
+                    "etime_dt": 18240
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 18240,
+                    "etime_ms": 18240,
+                    "stime_dt": 18240,
+                    "etime_dt": 18240
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 19200,
+                    "etime_ms": 20160,
+                    "stime_dt": 19200,
+                    "etime_dt": 20160
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 19200,
+                    "etime_ms": 20160,
+                    "stime_dt": 19200,
+                    "etime_dt": 20160
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 20160,
+                    "etime_ms": 20160,
+                    "stime_dt": 20160,
+                    "etime_dt": 20160
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 21120,
+                    "etime_ms": 21120,
+                    "stime_dt": 21120,
+                    "etime_dt": 21120
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 21120,
+                    "etime_ms": 21120,
+                    "stime_dt": 21120,
+                    "etime_dt": 21120
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 22080,
+                    "etime_ms": 22080,
+                    "stime_dt": 22080,
+                    "etime_dt": 22080
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 22080,
+                    "etime_ms": 22080,
+                    "stime_dt": 22080,
+                    "etime_dt": 22080
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 23040,
+                    "etime_ms": 24000,
+                    "stime_dt": 23040,
+                    "etime_dt": 24000
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 23040,
+                    "etime_ms": 24000,
+                    "stime_dt": 23040,
+                    "etime_dt": 24000
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 24000,
+                    "etime_ms": 24000,
+                    "stime_dt": 24000,
+                    "etime_dt": 24000
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 24960,
+                    "etime_ms": 24960,
+                    "stime_dt": 24960,
+                    "etime_dt": 24960
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 24960,
+                    "etime_ms": 24960,
+                    "stime_dt": 24960,
+                    "etime_dt": 24960
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 25920,
+                    "etime_ms": 25920,
+                    "stime_dt": 25920,
+                    "etime_dt": 25920
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 25920,
+                    "etime_ms": 25920,
+                    "stime_dt": 25920,
+                    "etime_dt": 25920
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 26880,
+                    "etime_ms": 27840,
+                    "stime_dt": 26880,
+                    "etime_dt": 27840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 26880,
+                    "etime_ms": 27840,
+                    "stime_dt": 26880,
+                    "etime_dt": 27840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 27840,
+                    "etime_ms": 27840,
+                    "stime_dt": 27840,
+                    "etime_dt": 27840
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 28800,
+                    "etime_ms": 28800,
+                    "stime_dt": 28800,
+                    "etime_dt": 28800
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 28800,
+                    "etime_ms": 28800,
+                    "stime_dt": 28800,
+                    "etime_dt": 28800
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 29760,
+                    "etime_ms": 29760,
+                    "stime_dt": 29760,
+                    "etime_dt": 29760
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 29760,
+                    "etime_ms": 29760,
+                    "stime_dt": 29760,
+                    "etime_dt": 29760
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 30720,
+                    "etime_ms": 31680,
+                    "stime_dt": 30720,
+                    "etime_dt": 31680
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 30720,
+                    "etime_ms": 31680,
+                    "stime_dt": 30720,
+                    "etime_dt": 31680
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 31680,
+                    "etime_ms": 31680,
+                    "stime_dt": 31680,
+                    "etime_dt": 31680
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 32640,
+                    "etime_ms": 32640,
+                    "stime_dt": 32640,
+                    "etime_dt": 32640
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 32640,
+                    "etime_ms": 32640,
+                    "stime_dt": 32640,
+                    "etime_dt": 32640
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 33120,
+                    "etime_ms": 33120,
+                    "stime_dt": 33120,
+                    "etime_dt": 33120
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 33120,
+                    "etime_ms": 33120,
+                    "stime_dt": 33120,
+                    "etime_dt": 33120
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 33600,
+                    "etime_ms": 33600,
+                    "stime_dt": 33600,
+                    "etime_dt": 33600
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 33600,
+                    "etime_ms": 33600,
+                    "stime_dt": 33600,
+                    "etime_dt": 33600
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 34560,
+                    "etime_ms": 34560,
+                    "stime_dt": 34560,
+                    "etime_dt": 34560
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 34560,
+                    "etime_ms": 34560,
+                    "stime_dt": 34560,
+                    "etime_dt": 34560
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 35040,
+                    "etime_ms": 35040,
+                    "stime_dt": 35040,
+                    "etime_dt": 35040
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 35040,
+                    "etime_ms": 35040,
+                    "stime_dt": 35040,
+                    "etime_dt": 35040
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 35520,
+                    "etime_ms": 35520,
+                    "stime_dt": 35520,
+                    "etime_dt": 35520
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 35520,
+                    "etime_ms": 35520,
+                    "stime_dt": 35520,
+                    "etime_dt": 35520
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 36480,
+                    "etime_ms": 36480,
+                    "stime_dt": 36480,
+                    "etime_dt": 36480
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 36480,
+                    "etime_ms": 36480,
+                    "stime_dt": 36480,
+                    "etime_dt": 36480
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 36960,
+                    "etime_ms": 36960,
+                    "stime_dt": 36960,
+                    "etime_dt": 36960
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 36960,
+                    "etime_ms": 36960,
+                    "stime_dt": 36960,
+                    "etime_dt": 36960
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 37440,
+                    "etime_ms": 37440,
+                    "stime_dt": 37440,
+                    "etime_dt": 37440
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 37440,
+                    "etime_ms": 37440,
+                    "stime_dt": 37440,
+                    "etime_dt": 37440
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 38400,
+                    "etime_ms": 38400,
+                    "stime_dt": 38400,
+                    "etime_dt": 38400
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 38400,
+                    "etime_ms": 38400,
+                    "stime_dt": 38400,
+                    "etime_dt": 38400
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 38880,
+                    "etime_ms": 38880,
+                    "stime_dt": 38880,
+                    "etime_dt": 38880
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 38880,
+                    "etime_ms": 38880,
+                    "stime_dt": 38880,
+                    "etime_dt": 38880
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 39360,
+                    "etime_ms": 39360,
+                    "stime_dt": 39360,
+                    "etime_dt": 39360
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 39360,
+                    "etime_ms": 39360,
+                    "stime_dt": 39360,
+                    "etime_dt": 39360
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 40320,
+                    "etime_ms": 40320,
+                    "stime_dt": 40320,
+                    "etime_dt": 40320
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 40320,
+                    "etime_ms": 40320,
+                    "stime_dt": 40320,
+                    "etime_dt": 40320
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 40800,
+                    "etime_ms": 40800,
+                    "stime_dt": 40800,
+                    "etime_dt": 40800
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 40800,
+                    "etime_ms": 40800,
+                    "stime_dt": 40800,
+                    "etime_dt": 40800
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 41280,
+                    "etime_ms": 41280,
+                    "stime_dt": 41280,
+                    "etime_dt": 41280
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 41280,
+                    "etime_ms": 41280,
+                    "stime_dt": 41280,
+                    "etime_dt": 41280
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 42240,
+                    "etime_ms": 42240,
+                    "stime_dt": 42240,
+                    "etime_dt": 42240
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 42240,
+                    "etime_ms": 42240,
+                    "stime_dt": 42240,
+                    "etime_dt": 42240
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 42720,
+                    "etime_ms": 42720,
+                    "stime_dt": 42720,
+                    "etime_dt": 42720
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 42720,
+                    "etime_ms": 42720,
+                    "stime_dt": 42720,
+                    "etime_dt": 42720
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 43200,
+                    "etime_ms": 43200,
+                    "stime_dt": 43200,
+                    "etime_dt": 43200
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 43200,
+                    "etime_ms": 43200,
+                    "stime_dt": 43200,
+                    "etime_dt": 43200
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 44160,
+                    "etime_ms": 44160,
+                    "stime_dt": 44160,
+                    "etime_dt": 44160
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 44160,
+                    "etime_ms": 44160,
+                    "stime_dt": 44160,
+                    "etime_dt": 44160
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 44640,
+                    "etime_ms": 44640,
+                    "stime_dt": 44640,
+                    "etime_dt": 44640
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 44640,
+                    "etime_ms": 44640,
+                    "stime_dt": 44640,
+                    "etime_dt": 44640
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 45120,
+                    "etime_ms": 45120,
+                    "stime_dt": 45120,
+                    "etime_dt": 45120
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 45120,
+                    "etime_ms": 45120,
+                    "stime_dt": 45120,
+                    "etime_dt": 45120
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 46080,
+                    "etime_ms": 46080,
+                    "stime_dt": 46080,
+                    "etime_dt": 46080
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 46080,
+                    "etime_ms": 46080,
+                    "stime_dt": 46080,
+                    "etime_dt": 46080
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 46560,
+                    "etime_ms": 46560,
+                    "stime_dt": 46560,
+                    "etime_dt": 46560
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 46560,
+                    "etime_ms": 46560,
+                    "stime_dt": 46560,
+                    "etime_dt": 46560
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 47040,
+                    "etime_ms": 47040,
+                    "stime_dt": 47040,
+                    "etime_dt": 47040
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 47040,
+                    "etime_ms": 47040,
+                    "stime_dt": 47040,
+                    "etime_dt": 47040
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 48000,
+                    "etime_ms": 48000,
+                    "stime_dt": 48000,
+                    "etime_dt": 48000
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 48000,
+                    "etime_ms": 48000,
+                    "stime_dt": 48000,
+                    "etime_dt": 48000
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 48960,
+                    "etime_ms": 48960,
+                    "stime_dt": 48960,
+                    "etime_dt": 48960
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 49920,
+                    "etime_ms": 51360,
+                    "stime_dt": 49920,
+                    "etime_dt": 51360
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 49920,
+                    "etime_ms": 51360,
+                    "stime_dt": 49920,
+                    "etime_dt": 51360
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 51840,
+                    "etime_ms": 51840,
+                    "stime_dt": 51840,
+                    "etime_dt": 51840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 51840,
+                    "etime_ms": 51840,
+                    "stime_dt": 51840,
+                    "etime_dt": 51840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 52800,
+                    "etime_ms": 52800,
+                    "stime_dt": 52800,
+                    "etime_dt": 52800
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 53760,
+                    "etime_ms": 55200,
+                    "stime_dt": 53760,
+                    "etime_dt": 55200
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 53760,
+                    "etime_ms": 55200,
+                    "stime_dt": 53760,
+                    "etime_dt": 55200
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 55680,
+                    "etime_ms": 56640,
+                    "stime_dt": 55680,
+                    "etime_dt": 56640
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 55680,
+                    "etime_ms": 56640,
+                    "stime_dt": 55680,
+                    "etime_dt": 56640
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 56640,
+                    "etime_ms": 56640,
+                    "stime_dt": 56640,
+                    "etime_dt": 56640
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 56640,
+                    "etime_ms": 56640,
+                    "stime_dt": 56640,
+                    "etime_dt": 56640
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 57600,
+                    "etime_ms": 58560,
+                    "stime_dt": 57600,
+                    "etime_dt": 58560
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 57600,
+                    "etime_ms": 58560,
+                    "stime_dt": 57600,
+                    "etime_dt": 58560
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 58560,
+                    "etime_ms": 58560,
+                    "stime_dt": 58560,
+                    "etime_dt": 58560
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 58560,
+                    "etime_ms": 58560,
+                    "stime_dt": 58560,
+                    "etime_dt": 58560
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 59520,
+                    "etime_ms": 60480,
+                    "stime_dt": 59520,
+                    "etime_dt": 60480
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 59520,
+                    "etime_ms": 60480,
+                    "stime_dt": 59520,
+                    "etime_dt": 60480
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 60480,
+                    "etime_ms": 60480,
+                    "stime_dt": 60480,
+                    "etime_dt": 60480
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 60480,
+                    "etime_ms": 60480,
+                    "stime_dt": 60480,
+                    "etime_dt": 60480
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 61440,
+                    "etime_ms": 61440,
+                    "stime_dt": 61440,
+                    "etime_dt": 61440
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 63360,
+                    "etime_ms": 63360,
+                    "stime_dt": 63360,
+                    "etime_dt": 63360
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 63360,
+                    "etime_ms": 63360,
+                    "stime_dt": 63360,
+                    "etime_dt": 63360
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 63840,
+                    "etime_ms": 63840,
+                    "stime_dt": 63840,
+                    "etime_dt": 63840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 63840,
+                    "etime_ms": 63840,
+                    "stime_dt": 63840,
+                    "etime_dt": 63840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 64320,
+                    "etime_ms": 64320,
+                    "stime_dt": 64320,
+                    "etime_dt": 64320
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 64320,
+                    "etime_ms": 64320,
+                    "stime_dt": 64320,
+                    "etime_dt": 64320
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 65280,
+                    "etime_ms": 65280,
+                    "stime_dt": 65280,
+                    "etime_dt": 65280
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 65280,
+                    "etime_ms": 65280,
+                    "stime_dt": 65280,
+                    "etime_dt": 65280
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 65760,
+                    "etime_ms": 65760,
+                    "stime_dt": 65760,
+                    "etime_dt": 65760
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 65760,
+                    "etime_ms": 65760,
+                    "stime_dt": 65760,
+                    "etime_dt": 65760
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 66240,
+                    "etime_ms": 66240,
+                    "stime_dt": 66240,
+                    "etime_dt": 66240
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 66240,
+                    "etime_ms": 66240,
+                    "stime_dt": 66240,
+                    "etime_dt": 66240
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 67200,
+                    "etime_ms": 68160,
+                    "stime_dt": 67200,
+                    "etime_dt": 68160
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 67200,
+                    "etime_ms": 68160,
+                    "stime_dt": 67200,
+                    "etime_dt": 68160
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 67680,
+                    "etime_ms": 67680,
+                    "stime_dt": 67680,
+                    "etime_dt": 67680
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 67680,
+                    "etime_ms": 67680,
+                    "stime_dt": 67680,
+                    "etime_dt": 67680
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 68160,
+                    "etime_ms": 68160,
+                    "stime_dt": 68160,
+                    "etime_dt": 68160
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 68160,
+                    "etime_ms": 68160,
+                    "stime_dt": 68160,
+                    "etime_dt": 68160
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 69120,
+                    "etime_ms": 69120,
+                    "stime_dt": 69120,
+                    "etime_dt": 69120
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 70080,
+                    "etime_ms": 70080,
+                    "stime_dt": 70080,
+                    "etime_dt": 70080
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 71040,
+                    "etime_ms": 71040,
+                    "stime_dt": 71040,
+                    "etime_dt": 71040
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 71040,
+                    "etime_ms": 71040,
+                    "stime_dt": 71040,
+                    "etime_dt": 71040
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 71520,
+                    "etime_ms": 71520,
+                    "stime_dt": 71520,
+                    "etime_dt": 71520
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 71520,
+                    "etime_ms": 71520,
+                    "stime_dt": 71520,
+                    "etime_dt": 71520
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 72000,
+                    "etime_ms": 72000,
+                    "stime_dt": 72000,
+                    "etime_dt": 72000
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 72000,
+                    "etime_ms": 72000,
+                    "stime_dt": 72000,
+                    "etime_dt": 72000
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 72960,
+                    "etime_ms": 72960,
+                    "stime_dt": 72960,
+                    "etime_dt": 72960
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 72960,
+                    "etime_ms": 72960,
+                    "stime_dt": 72960,
+                    "etime_dt": 72960
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 73440,
+                    "etime_ms": 73440,
+                    "stime_dt": 73440,
+                    "etime_dt": 73440
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 73440,
+                    "etime_ms": 73440,
+                    "stime_dt": 73440,
+                    "etime_dt": 73440
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 73920,
+                    "etime_ms": 73920,
+                    "stime_dt": 73920,
+                    "etime_dt": 73920
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 73920,
+                    "etime_ms": 73920,
+                    "stime_dt": 73920,
+                    "etime_dt": 73920
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 74880,
+                    "etime_ms": 75840,
+                    "stime_dt": 74880,
+                    "etime_dt": 75840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 74880,
+                    "etime_ms": 75840,
+                    "stime_dt": 74880,
+                    "etime_dt": 75840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 75360,
+                    "etime_ms": 75360,
+                    "stime_dt": 75360,
+                    "etime_dt": 75360
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 40960,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 75360,
+                    "etime_ms": 75360,
+                    "stime_dt": 75360,
+                    "etime_dt": 75360
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 24576
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 75840,
+                    "etime_ms": 75840,
+                    "stime_dt": 75840,
+                    "etime_dt": 75840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 75840,
+                    "etime_ms": 75840,
+                    "stime_dt": 75840,
+                    "etime_dt": 75840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 76800,
+                    "etime_ms": 76800,
+                    "stime_dt": 76800,
+                    "etime_dt": 76800
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 78720,
+                    "etime_ms": 79200,
+                    "stime_dt": 78720,
+                    "etime_dt": 79200
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 78720,
+                    "etime_ms": 79200,
+                    "stime_dt": 78720,
+                    "etime_dt": 79200
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 79200,
+                    "etime_ms": 79200,
+                    "stime_dt": 79200,
+                    "etime_dt": 79200
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 79200,
+                    "etime_ms": 79200,
+                    "stime_dt": 79200,
+                    "etime_dt": 79200
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 79680,
+                    "etime_ms": 80160,
+                    "stime_dt": 79680,
+                    "etime_dt": 80160
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 79680,
+                    "etime_ms": 80160,
+                    "stime_dt": 79680,
+                    "etime_dt": 80160
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 80160,
+                    "etime_ms": 80160,
+                    "stime_dt": 80160,
+                    "etime_dt": 80160
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 80160,
+                    "etime_ms": 80160,
+                    "stime_dt": 80160,
+                    "etime_dt": 80160
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 80640,
+                    "etime_ms": 81120,
+                    "stime_dt": 80640,
+                    "etime_dt": 81120
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 80640,
+                    "etime_ms": 81120,
+                    "stime_dt": 80640,
+                    "etime_dt": 81120
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 81120,
+                    "etime_ms": 81120,
+                    "stime_dt": 81120,
+                    "etime_dt": 81120
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 81120,
+                    "etime_ms": 81120,
+                    "stime_dt": 81120,
+                    "etime_dt": 81120
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 81600,
+                    "etime_ms": 82080,
+                    "stime_dt": 81600,
+                    "etime_dt": 82080
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 81600,
+                    "etime_ms": 82080,
+                    "stime_dt": 81600,
+                    "etime_dt": 82080
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 82080,
+                    "etime_ms": 82080,
+                    "stime_dt": 82080,
+                    "etime_dt": 82080
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 82080,
+                    "etime_ms": 82080,
+                    "stime_dt": 82080,
+                    "etime_dt": 82080
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 82560,
+                    "etime_ms": 82560,
+                    "stime_dt": 82560,
+                    "etime_dt": 82560
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 82560,
+                    "etime_ms": 82560,
+                    "stime_dt": 82560,
+                    "etime_dt": 82560
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 83520,
+                    "etime_ms": 83520,
+                    "stime_dt": 83520,
+                    "etime_dt": 83520
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 83520,
+                    "etime_ms": 83520,
+                    "stime_dt": 83520,
+                    "etime_dt": 83520
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 84480,
+                    "etime_ms": 84480,
+                    "stime_dt": 84480,
+                    "etime_dt": 84480
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 84480,
+                    "etime_ms": 84480,
+                    "stime_dt": 84480,
+                    "etime_dt": 84480
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 85440,
+                    "etime_ms": 85440,
+                    "stime_dt": 85440,
+                    "etime_dt": 85440
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 8192,
+                    "right_pos": 32768
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 85440,
+                    "etime_ms": 85440,
+                    "stime_dt": 85440,
+                    "etime_dt": 85440
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 32768,
+                    "right_pos": 57344
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 86400,
+                    "etime_ms": 86880,
+                    "stime_dt": 86400,
+                    "etime_dt": 86880
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 86400,
+                    "etime_ms": 86880,
+                    "stime_dt": 86400,
+                    "etime_dt": 86880
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 86880,
+                    "etime_ms": 86880,
+                    "stime_dt": 86880,
+                    "etime_dt": 86880
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 86880,
+                    "etime_ms": 86880,
+                    "stime_dt": 86880,
+                    "etime_dt": 86880
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 87360,
+                    "etime_ms": 87840,
+                    "stime_dt": 87360,
+                    "etime_dt": 87840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 87360,
+                    "etime_ms": 87840,
+                    "stime_dt": 87360,
+                    "etime_dt": 87840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 87840,
+                    "etime_ms": 87840,
+                    "stime_dt": 87840,
+                    "etime_dt": 87840
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 87840,
+                    "etime_ms": 87840,
+                    "stime_dt": 87840,
+                    "etime_dt": 87840
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 88320,
+                    "etime_ms": 88800,
+                    "stime_dt": 88320,
+                    "etime_dt": 88800
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 88320,
+                    "etime_ms": 88800,
+                    "stime_dt": 88320,
+                    "etime_dt": 88800
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 88800,
+                    "etime_ms": 88800,
+                    "stime_dt": 88800,
+                    "etime_dt": 88800
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 88800,
+                    "etime_ms": 88800,
+                    "stime_dt": 88800,
+                    "etime_dt": 88800
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 89280,
+                    "etime_ms": 89760,
+                    "stime_dt": 89280,
+                    "etime_dt": 89760
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 89280,
+                    "etime_ms": 89760,
+                    "stime_dt": 89280,
+                    "etime_dt": 89760
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": [
+                    {
+                        "left_pos": null,
+                        "right_pos": null,
+                        "tick": null,
+                        "left_end_pos": null,
+                        "right_end_pos": null
+                    }
+                ]
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 89760,
+                    "etime_ms": 89760,
+                    "stime_dt": 89760,
+                    "etime_dt": 89760
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 89760,
+                    "etime_ms": 89760,
+                    "stime_dt": 89760,
+                    "etime_dt": 89760
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 90240,
+                    "etime_ms": 90240,
+                    "stime_dt": 90240,
+                    "etime_dt": 90240
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 4096,
+                    "right_pos": 28672
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 90240,
+                    "etime_ms": 90240,
+                    "stime_dt": 90240,
+                    "etime_dt": 90240
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 36864,
+                    "right_pos": 61440
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 91200,
+                    "etime_ms": 91200,
+                    "stime_dt": 91200,
+                    "etime_dt": 91200
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 28672,
+                    "right_pos": 53248
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 91200,
+                    "etime_ms": 91200,
+                    "stime_dt": 91200,
+                    "etime_dt": 91200
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 12288,
+                    "right_pos": 36864
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 92160,
+                    "etime_ms": 92160,
+                    "stime_dt": 92160,
+                    "etime_dt": 92160
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 16384,
+                    "right_pos": 40960
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 92160,
+                    "etime_ms": 92160,
+                    "stime_dt": 92160,
+                    "etime_dt": 92160
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 24576,
+                    "right_pos": 49152
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 93120,
+                    "etime_ms": 93120,
+                    "stime_dt": 93120,
+                    "etime_dt": 93120
+                },
+                "kind": 1,
+                "position_info": {
+                    "left_pos": 8192,
+                    "right_pos": 32768
+                },
+                "player_info": {
+                    "player_id": 1
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 93120,
+                    "etime_ms": 93120,
+                    "stime_dt": 93120,
+                    "etime_dt": 93120
+                },
+                "kind": 2,
+                "position_info": {
+                    "left_pos": 32768,
+                    "right_pos": 57344
+                },
+                "player_info": {
+                    "player_id": 0
+                },
+                "long_point": []
+            },
+            {
+                "tick_info": {
+                    "start_tick": null,
+                    "end_tick": null,
+                    "stime_ms": 94080,
+                    "etime_ms": 94080,
+                    "stime_dt": 94080,
+                    "etime_dt": 94080
+                },
+                "kind": 3,
+                "position_info": {
+                    "left_pos": 0,
+                    "right_pos": 65536
+                },
+                "player_info": {
+                    "player_id": 4
+                },
+                "long_point": []
+            }
+        ]
+    },
+    "difnum": 2
+}
