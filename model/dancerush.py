@@ -239,6 +239,12 @@ class DRSTrackPoint(DRSTrackStepPositionInfo):
     left_end_pos: int | None = None
     right_end_pos: int | None = None
 
+    @property
+    def to_dance_dash_end_x(self):
+        center_pos = (self.left_end_pos + self.right_end_pos) / 2
+        mapped_value = 1 + (center_pos / MAX_POS) * 8
+        return round(mapped_value)
+
 
 @dataclass
 class DRSTrackStepPlayerInfo:

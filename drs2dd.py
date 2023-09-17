@@ -4,6 +4,7 @@ import argparse
 import json
 import os
 import shutil
+from copy import deepcopy
 from dataclasses import asdict
 
 from drsxml2json import get_songdata_from_track_id
@@ -81,11 +82,10 @@ def map_line_nodes(
         )
         track_step.long_point.insert(0, initial_track_point)
 
-        for index_in_line, drs_track_point in enumerate(track_step.long_point):
+        index_in_line = 0
+        for drs_track_point in track_step.long_point:
+            index_in_line += 1
             drs_track_point: DRSTrackPoint = drs_track_point
-
-            if drs_track_point.left_end_pos or drs_track_point.right_end_pos:
-                continue  # handle shuffles later
 
             time = drs_track_point.tick / ticks_per_second
             line = DDLineNode(
@@ -103,6 +103,13 @@ def map_line_nodes(
             )
             lines.append(line)
 
+            if drs_track_point.left_end_pos and drs_track_point.right_end_pos:
+                index_in_line += 1
+                end_line = deepcopy(line)
+                end_line.position.x = drs_track_point.to_dance_dash_end_x
+                end_line.indexInLine = index_in_line
+                lines.append(end_line)
+
     return lines
 
 
@@ -114,7 +121,6 @@ def create_dd_tracks_from_DRSSongData(
         print(f'Created directory: {target_dir}')
 
     dd_bmp = int(drs_song_data.info.bpm_max / 100)
-
     folder_path = TRACK_ID_TO_PATH.get(drs_song_data.song_id)
     song_path, song_length = get_mp3_and_duration(folder_path)
     if song_path and song_length:
@@ -149,14 +155,12 @@ def create_dd_tracks_from_DRSSongData(
                 orderCountPerBeat=ORDER_COUNT_PER_BEAT,
                 sphereNodes=map_sphere_nodes(
                     difficulty,
-                    # 10 seconds because the songs are 10 seconds longer... ?
-                    float(song_length) - 10,
+                    float(song_length),
                     dd_bmp,
                 ),
                 lineNodes=map_line_nodes(
                     difficulty,
-                    # 10 seconds because the songs are 10 seconds longer... ?
-                    float(song_length) - 10,
+                    float(song_length),
                     dd_bmp,
                 ),
                 effectNodes=[],
