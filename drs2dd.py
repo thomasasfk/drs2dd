@@ -23,7 +23,7 @@ from model.dancerush import DRSSongData
 from model.dancerush import DRSSongDifficulty
 from model.dancerush import DRSTrackPoint
 from model.dancerush import DRSTrackStep
-from util import get_m4a_and_duration
+from util import get_mp3_and_duration
 from util import get_song_cover_path
 from util import ORDER_COUNT_PER_BEAT
 
@@ -116,7 +116,7 @@ def create_dd_tracks_from_DRSSongData(
     dd_bmp = int(drs_song_data.info.bpm_max / 100)
 
     folder_path = TRACK_ID_TO_PATH.get(drs_song_data.song_id)
-    song_path, song_length = get_m4a_and_duration(folder_path)
+    song_path, song_length = get_mp3_and_duration(folder_path)
     if song_path and song_length:
         shutil.copy(song_path, target_dir)
 
@@ -131,9 +131,14 @@ def create_dd_tracks_from_DRSSongData(
 
     song_paths = []
     for attr, difficulty in drs_song_data.difficulties.with_attrs_as_str.items():
+
+        if attr in ('difficulty_2a', 'difficulty_2b'):  # 2 player difficulties
+            continue
+
         target_difficulty_path = os.path.join(
             target_dir, f'{drs_song_data.song_id}_{attr}.json',
         )
+
         song_paths.append(target_difficulty_path)
         drs_beat_map = DDBeatMap(
             data=DDBeatMapData(
@@ -172,6 +177,7 @@ def create_dd_tracks_from_DRSSongData(
             json.dump(asdict(drs_beat_map), f, indent=4)
             print(f'Created file: {target_difficulty_path}')
 
+    easy, normal = song_paths
     drs_song_info_json = DDBeatMapInfoFile(
         EditorVersion='1.3.2',
         BeatMapId=drs_song_data.song_id,
@@ -179,30 +185,16 @@ def create_dd_tracks_from_DRSSongData(
         CreateTicks=0,
         CreateTime='',
         SongName=drs_song_data.info.title_name,
-        SongLength=song_length or '-1',
+        SongLength=song_length,
         SongAuthorName=drs_song_data.info.artist_name,
         LevelAuthorName='https://github.com/thomasasfk/drs2dd',
         SongPreviewSection=0,
         Bpm=str(dd_bmp),
-        SongPath=os.path.basename(song_path) if song_path else None,
+        SongPath=os.path.basename(song_path or '') or None,
         OstName=None,
-        CoverPath=os.path.basename(
-            song_cover_path,
-        ) if song_cover_path else None,
-        # TODO PROPERLY MAP DIFFICULTIES BASED ON DIF NUMBERS
-        # ALSO REMOVE 2 PLAYER DIFFICULTIES
-        DRS_Easy=os.path.basename(song_paths[0]) if len(
-            song_paths,
-        ) > 0 else None,
-        DRS_Normal=os.path.basename(song_paths[1]) if len(
-            song_paths,
-        ) > 1 else None,
-        DRS_Hard=os.path.basename(song_paths[2]) if len(
-            song_paths,
-        ) > 2 else None,
-        DRS_Expert=os.path.basename(song_paths[3]) if len(
-            song_paths,
-        ) > 3 else None,
+        CoverPath=os.path.basename(song_cover_path or '') or None,
+        DRS_Easy=os.path.basename(easy),
+        DRS_Normal=os.path.basename(normal),
     )
 
     info_file_path = os.path.join(target_dir, 'info.json')

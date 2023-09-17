@@ -82,22 +82,22 @@ SIGN_SEARCH_AREA = 850, 143, 223, 49
 find_stage = partial(match_template, template=SIGN_TEMPLATE)
 
 
-def get_m4a_and_duration(folder_path) -> tuple[str, str] | tuple[None, None]:
-    m4a_files = [f for f in os.listdir(folder_path) if f.endswith('.m4a')]
-    if not m4a_files:
+def get_mp3_and_duration(folder_path) -> tuple[str, str] | tuple[None, None]:
+    mp3_files = [f for f in os.listdir(folder_path) if f.endswith('.mp3')]
+    if not mp3_files:
         return None, None
 
-    m4a_file = os.path.join(folder_path, m4a_files[0])
+    mp3_file = os.path.join(folder_path, mp3_files[0])
     with contextlib.suppress(subprocess.CalledProcessError):
         ffprobe_cmd = [
             'ffprobe',
-            '-i', m4a_file,
+            '-i', mp3_file,
             '-show_entries', 'format=duration',
             '-v', 'error',
             '-of', 'default=noprint_wrappers=1:nokey=1',
         ]
         duration_str = subprocess.check_output(ffprobe_cmd, text=True).strip()
-        return m4a_file, duration_str
+        return mp3_file, duration_str
 
     return None, None
 

@@ -18,6 +18,7 @@ Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) 
   - [x] Parse XML files into JSON files
   - [x] Parse JSON files into DD info metadata
   - [x] Create DD beat map folder structure with song & cover
+  - [x] Parse notes & lines into DD beat map
 
 ### To-Do:
 
@@ -28,8 +29,8 @@ Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) 
   - [ ] Generate other metadata json file
 
 - Parser
-  - [ ] Actually parse notes & lines into DD beat map
   - [ ] Parse down and jump notes into DD beat map
+  - [ ] Parse shuffles into DD beat map
   - [ ] Test folder structure, sort bmp, note speed, order, etc.
 
 ---
