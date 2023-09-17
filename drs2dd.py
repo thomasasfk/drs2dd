@@ -181,7 +181,7 @@ def create_dd_tracks_from_DRSSongData(
             json.dump(asdict(drs_beat_map), f, indent=4)
             print(f'Created file: {target_difficulty_path}')
 
-    easy, normal = song_paths
+    normal, easy = song_paths
     drs_song_info_json = DDBeatMapInfoFile(
         EditorVersion='1.3.2',
         BeatMapId=drs_song_data.song_id,
