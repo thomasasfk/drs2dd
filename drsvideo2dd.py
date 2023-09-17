@@ -10,9 +10,9 @@ from alive_progress import alive_bar
 from loguru import logger
 
 from model.dancedash import create_note_sphere
+from model.dancedash import DD_LEFT
+from model.dancedash import DD_RIGHT
 from model.dancedash import DDBeatMap
-from model.dancedash import LEFT_NOTE
-from model.dancedash import RIGHT_NOTE
 from util import crop_frame
 from util import find_l
 from util import find_r
@@ -83,7 +83,7 @@ def extract_spheres_from_drs_video(video_path: str, bpm: int):  # noqa
         frames_since_l -= 1
         frames_since_r -= 1
 
-        note_order = int(
+        note_order = round(
             bps * current_position_seconds *
             ORDER_COUNT_PER_BEAT,
         )
@@ -95,7 +95,7 @@ def extract_spheres_from_drs_video(video_path: str, bpm: int):  # noqa
                     progress_percentage,
                     map_position_to_dd_x(left[0]),
                     note_order,
-                    LEFT_NOTE,
+                    DD_LEFT,
                 )
                 spheres.append(note)
 
@@ -106,7 +106,7 @@ def extract_spheres_from_drs_video(video_path: str, bpm: int):  # noqa
                     progress_percentage,
                     map_position_to_dd_x(right[0]),
                     note_order,
-                    RIGHT_NOTE,
+                    DD_RIGHT,
                 )
                 spheres.append(note)
 

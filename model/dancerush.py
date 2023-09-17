@@ -5,6 +5,9 @@ from dataclasses import field
 
 import xmltodict
 
+MIN_POS = 0
+MAX_POS = 65536
+
 
 def safe_int(value):
     try:
@@ -254,14 +257,18 @@ class DRSTrackStepPositionInfo:
     left_pos: int
     right_pos: int
 
+    @property
+    def to_dance_dash_x(self):
+        center_pos = (self.left_pos + self.right_pos) / 2
+        mapped_value = 1 + (center_pos / MAX_POS) * 8
+        return round(mapped_value)
+
 
 @dataclass
-class DRSTrackPoint:
+class DRSTrackPoint(DRSTrackStepPositionInfo):
     tick: int
-    left_pos: int
-    right_pos: int
-    left_end_pos: int
-    right_end_pos: int
+    left_end_pos: int | None = None
+    right_end_pos: int | None = None
 
 
 @dataclass
@@ -272,12 +279,13 @@ class DRSTrackStepPlayerInfo:
 DRS_LEFT = 1
 DRS_RIGHT = 2
 DRS_DOWN = 3
+DRS_JUMP = 4
 
 
 @dataclass
 class DRSTrackStep:
     tick_info: DRSTrackStepTickInfo
-    kind: DRS_LEFT | DRS_RIGHT | DRS_DOWN
+    kind: DRS_LEFT | DRS_RIGHT | DRS_DOWN | DRS_JUMP
     position_info: DRSTrackStepPositionInfo
     player_info: DRSTrackStepPlayerInfo
     long_point: list[DRSTrackPoint] = field(default_factory=list)
@@ -339,16 +347,16 @@ class DRSTrackStep:
                     tick=int(point['tick']) if point.get('tick') else None,
                     left_pos=int(point['left_pos']) if point.get(
                         'left_pos',
-                    ) else None,
+                    ) is not None else None,
                     right_pos=int(point['right_pos']) if point.get(
                         'right_pos',
-                    ) else None,
+                    ) is not None else None,
                     left_end_pos=int(point['left_end_pos']) if point.get(
                         'left_end_pos',
-                    ) else None,
+                    ) is not None else None,
                     right_end_pos=int(point['right_end_pos']) if point.get(
                         'right_end_pos',
-                    ) else None,
+                    ) is not None else None,
                 ) for point in data['long_point']
             ],
         )
