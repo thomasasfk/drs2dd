@@ -4,6 +4,8 @@ Convert data of [DANCERUSH STARDOM](https://remywiki.com/AC_DRS) tracks into [Da
 
 Curious? @thomasasfk on discord or join [drs2dd](https://discord.gg/JVWx6zmtft) and ask!
 
+https://github.com/thomasasfk/drs2dd/assets/22506439/8e2953c5-3c39-423f-971a-47bc1f6a717d
+
 ## Stuff
 
 ### Completed:
