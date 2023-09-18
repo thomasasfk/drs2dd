@@ -30,7 +30,7 @@ from model.dancerush import DRSSongData
 from model.dancerush import DRSSongDifficulty
 from model.dancerush import DRSTrackPoint
 from model.dancerush import DRSTrackStep
-from util import get_mp3_and_duration
+from util import get_ogg_and_duration
 from util import get_song_cover_path
 from util import ORDER_COUNT_PER_BEAT
 
@@ -145,7 +145,6 @@ def map_down_and_jump_notes(
         total_time_seconds: float,
         bpm: int,
 ) -> list[DDRoadBlockNode]:
-
     road_blocks = []
     for track_step in difficulty.track.sequence_data:
         if track_step.kind not in (DRS_DOWN, DRS_JUMP):
@@ -180,7 +179,7 @@ def create_dd_tracks_from_DRSSongData(
 ) -> bool:
     dd_bmp = int(drs_song_data.info.bpm_max / 100)
     folder_path = TRACK_ID_TO_PATH.get(drs_song_data.song_id)
-    song_path, song_length = get_mp3_and_duration(folder_path)
+    song_path, song_length = get_ogg_and_duration(folder_path)
 
     if not song_path or not song_length:
         print(
@@ -204,11 +203,6 @@ def create_dd_tracks_from_DRSSongData(
         if attr in ('difficulty_2a', 'difficulty_2b'):  # 2 player difficulties
             continue
 
-        target_difficulty_path = os.path.join(
-            target_dir, f'{drs_song_data.song_id}_{attr}.json',
-        )
-
-        song_paths.append(target_difficulty_path)
         sphere_notes = map_sphere_nodes(
             difficulty,
             float(song_length),
@@ -249,11 +243,25 @@ def create_dd_tracks_from_DRSSongData(
             interval=1.0,
             info='',
         )
+        target_difficulty_path = os.path.join(
+            target_dir, f'{drs_song_data.song_id}_{attr}.json',
+        )
+        song_paths.append(target_difficulty_path)
         with open(target_difficulty_path, 'w') as f:
             json.dump(asdict(drs_beat_map), f, indent=4)
             print(f'Created file: {target_difficulty_path}')
 
-    normal, easy = song_paths
+        drs_beat_map_no_blocks = deepcopy(drs_beat_map)
+        drs_beat_map_no_blocks.data.roadBlockNodes = []
+        target_difficulty_path_no_blocks = os.path.join(
+            target_dir, f'{drs_song_data.song_id}_{attr}_no_blocks.json',
+        )
+        song_paths.append(target_difficulty_path_no_blocks)
+        with open(target_difficulty_path_no_blocks, 'w') as f:
+            json.dump(asdict(drs_beat_map_no_blocks), f, indent=4)
+            print(f'Created file: {target_difficulty_path_no_blocks}')
+
+    normal, normal_no_blocks, easy, easy_no_blocks = song_paths
     drs_song_info_json = DDBeatMapInfoFile(
         EditorVersion='1.3.2',
         BeatMapId=drs_song_data.song_id,
@@ -269,8 +277,10 @@ def create_dd_tracks_from_DRSSongData(
         SongPath=os.path.basename(song_path or '') or None,
         OstName=None,
         CoverPath=os.path.basename(song_cover_path or '') or None,
-        DRS_Easy=os.path.basename(easy),
-        DRS_Normal=os.path.basename(normal),
+        DRS_Easy=os.path.basename(easy_no_blocks),
+        DRS_Normal=os.path.basename(normal_no_blocks),
+        DRS_Hard=os.path.basename(easy),
+        DRS_Expert=os.path.basename(normal),
     )
 
     info_file_path = os.path.join(target_dir, 'info.json')
@@ -308,9 +318,8 @@ if __name__ == '__main__':
     for song_id in ALL_TRACK_PATHS:
         if song_data := get_songdata_from_track_id(int(song_id)):
             try:
-                year = str(song_data.info.distribution_date)[:4]
                 created = create_dd_tracks_from_DRSSongData(
-                    song_data, f'tracks/drs2dd-{year}/{song_data.info.title_name}',
+                    song_data, f'tracks/{song_data.info.title_name}',
                 )
             except Exception as e:
                 print(f'Error creating song {song_id}: {e}')

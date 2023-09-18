@@ -1,10 +1,361 @@
-### Tracks!  Sorted by year.
+DANCERUSH STARDOM conversion tracks!
 
-- Head to the discord for downloads: https://discord.gg/vk78a7gyg7
-
-
----
-
-```bash
-ls -l . | grep -c '^d'
-```
+- 1-2-3 Jump!
+- 7 to Smoke
+- 41 Days
+- 50th Memorial Songs -Beginning Story-
+- 50th Memorial Songs -Flagship medley-
+- 50th Memorial Songs -The BEMANI History-
+- 50th Memorial Songs -二人の時 ～under the cherry blossoms～-
+- 8347
+- [E]
+- A Legend Is Born
+- A Vague Idea
+- about right
+- Act Now!
+- Afterimage d'automne
+- Aftermath
+- ALGORITHM
+- Anxiety
+- As I go
+- Astrogazer
+- ATRAX
+- Audiovisual
+- Auto Click
+- Awakening
+- Awakening Wings
+- BAAM
+- Bad Boy Birdwatch
+- Bad Riddim
+- Bad Riddim T STEP EDITION
+- bass 2 bass
+- BBoom BBoom
+- Be My Baby
+- BENJAMIN
+- BENJAMIN RUNNING MAN EDITION
+- BEYOND THE EARTH (STARDOM Remix)
+- BLACK JACKAL
+- Bloody Bounce
+- BLOW UP
+- BONE BORN
+- BOOMBAYAH-JP Ver.-
+- BOOMBAYAH-JP Ver.- ANOTHER EDITION
+- Bounce To This
+- Brand New Step
+- BREDLI
+- BREDLI RUNNING MAN EDITION
+- Broadway Walk
+- Broadway Walk CHARLESTON EDITION
+- Butterfly
+- Butterfly Twist
+- Carnival
+- Catastrophic Dance
+- Catch Our Fire! (STARDOM Remix)
+- Ch4nge M4 Life
+- Chaos of Drum
+- CHAPTER II(Ready Go)
+- Comin’ Back
+- CONNECT-
+- Crackin (Martin Garrix Edit)
+- Crank It Up
+- Crazy For You
+- Crazy Shuffle
+- Crystal Clear
+- Crystarium
+- Cyber Devotion
+- C’mon baby
+- DANCE ALL NIGHT
+- Dance With The Dead
+- DANCERUSH STARDOM ANTHEM
+- Dat Disco Swindle
+- DAWN OF FALCON
+- DEADLOCK (STARDOM Remix)
+- December in Strasbourg
+- December in Strasbourg CRAB STEP EDITION
+- Deep Vibes
+- DEVILFISHMANのテーマ
+- Din Don Dan
+- Disco Nights
+- Dive in Blue
+- Do It!
+- DO YOU WANNA PARTY!!(DJ KEN-BOW MIX)
+- Don't Be Afraid
+- Don't Rush but Dance Rush
+- Don't Speak
+- Don't Stop!!
+- Don't Stop!! RUNNING MAN EDITION
+- DOWNER & UPPER
+- DOWNER & UPPER T STEP EDITION
+- Drop It
+- Drop That Low (When I Dip)
+- Drop The Bounce
+- Dual Bladez
+- DUAL STRIKER
+- DUB I DUB
+- Easy Peasy
+- EGOISM 110
+- Electric Dance System Music
+- EMPIRE
+- ERROR CODE
+- EZ DO DANCE
+- Feelin' Good
+- Field of Dreams
+- Fire Spirit
+- Flow
+- FLOWER (STARDOM Remix)
+- Fly Away
+- Flying soda
+- Follow Tomorrow
+- Forgetting Machine
+- Forgetting Machine (RoughSketch Remix)
+- Forgetting Machine RUNNING MAN EDITION
+- FUTURE is Dead
+- Garuda
+- Garuda (Hommarju Remix)
+- Get On The Floor
+- GHOST KINGDOM
+- GHOST KINGDOM CHARLESTON EDITION
+- GHOST MODE
+- gigadelic (STARDOM Remix)
+- Gimme a Big Beat
+- glacia (STARDOM Remix)
+- Globe Glitter
+- Go Down
+- GOLDEN CROSS
+- Golden Palms
+- GRADIUS REMIX（↑↑↓↓←→←→BA Ver.)
+- Graveyard
+- Gymnopedie-kors k mix-
+- HANDS UP IN THE AIR
+- Handz Up
+- HARD MODE
+- Hastur
+- Heat Up The Dancefloor
+- Hello World
+- HighBALL
+- HighBALL T STEP EDITION
+- Higher
+- HIP
+- HIT IT!
+- Honey Bounce
+- Honey Bounce CRAB STEP EDITION
+- HoneyComb
+- Hoohah
+- HYPERDRIVE
+- I Like To BOUNCE
+- Ideal Sunset
+- Ignited Night
+- Impress
+- Insomniac Nights
+- Jalebi
+- Jetcoaster Windy
+- JOK3R
+- JOK3R RUNNING MAN EDITION
+- Jumbo Drill
+- Keep On Rising
+- Kill The Beat
+- Let's DANCE aROUND!!
+- Let's Go
+- Let's Party!!
+- Let Me See Your Dance
+- LIKE A VAMPIRE
+- Like This
+- LIT
+- Little Drop
+- Louder
+- Love Me
+- Love 2 Shuffle
+- Luminous Pajama
+- LUV CAN SAVE U
+- Majestic
+- Majestic CRAB STEP EDITION
+- Make That Body
+- Make you happy
+- Mandrake
+- MA・TSU・RI
+- melody H4CKER
+- Meltdown
+- Memories
+- Mermaid girl
+- Metric
+- Midland Mainline
+- Midnight Amaretto
+- Midnight Amaretto RUNNING MAN EDITION
+- Midnight Starlight
+- Missing You
+- MOVE! (We Keep It Movin')
+- murmur twins
+- MUTSUKI
+- MY NAME IS
+- My Time
+- Necroxis Girl
+- Neon Rider
+- neu (STARDOM Remix)
+- New Decade
+- new heaven
+- New Solution
+- NewAige
+- NewAige CHARLESTON EDITION
+- Next Stage 2022
+- Night & Day
+- Nighthiker
+- Nightlife
+- Nocturnus
+- Oboro Cybernetics
+- Official Bootleg
+- On The Floor Like
+- One Word
+- Oppress
+- Oppress CHARLESTON EDITION
+- Orange Lullaby
+- Our Soul
+- Pandora's Box
+- Party Jumpin'
+- Party Jumpin' RUNNING MAN EDITION
+- Penguin Morning
+- PERFECT HUMAN
+- Playa
+- Polar Night
+- Poochie
+- PRANK
+- Pretender
+- Prettiful!
+- RAIN
+- Raise Your Hands
+- RAVELINE ATTACK
+- Raveology
+- Raw Crawler
+- REALLY REALLY-Japanese version-
+- Red Hot Chili Samba!
+- Revolution
+- Rip It Off (Now) Rip It Off
+- RISING FIRE HAWK
+- Robot Loves Smoked-Salmon
+- Robot Loves Smoked-Salmon CRAB STEP EDITION
+- Rock The Club
+- Roughneck Disco
+- S7AGE
+- Sakura Reflection (STARDOM Remix)
+- Sakura Sunrise
+- Saturday Night Love
+- Saturday Night Love -Phunk Disco Mix-
+- Second Heaven -Samba,Samba,SomeBody MIX-
+- Second Heaven -Samba,Samba,SomeBody MIX- SPONGEBOB EDITION
+- Set Me Free
+- Set Me Free  (Hommarju Remix)
+- Shamshir
+- She Shines Under The Mirror Ball
+- SHINOBI
+- Shiva
+- Shuffle cats
+- Shuffle The Cards
+- Shuffle The Cards RUNNING MAN EDITION
+- SigSig
+- Six String Proof (DANCERUSH Style)
+- Sleepwell
+- Small Steps
+- smooooch・∀・
+- So What
+- Spacecats
+- Sparkle Smilin'
+- Special One
+- Spin & Slide
+- Starlight Kiss
+- Starlight Parade
+- Stepper
+- Summer's End
+- Summery
+- Sunrise (feat. LEO & Viola)
+- Sunshine let me find a way
+- Sweet Bordeaux Nightmare
+- Sweets (Soda Pop)
+- Switch
+- Switch SPONGEBOB EDITION
+- Synaptic
+- Synth Presets & Sample Loops
+- take me higher
+- Thank You Merry Christmas -DANCERUSH Mix-
+- The First Step
+- The GameHacker (Sampled Crazy Shuffle)
+- The Light
+- THE SAFARI (STARDOM Remix)
+- The Second Summer
+- The Stealer
+- This Beat Is
+- Too Late Snow
+- Touch Me
+- Touch My Body
+- toy boxer (DANCERUSH Style)
+- Trash
+- trigger
+- Trill auf G (DANCERUSH Style)
+- Triple Cross
+- Tropical Love
+- Tropical White
+- True Blue (STARDOM Remix)
+- True Blue (STARDOM Remix) T STEP EDITION
+- Twilight
+- Twinkle
+- U.S.A
+- UCHU
+- Undercover
+- Valkyrie
+- Vamos A Bailar
+- Villains
+- Virus Funk
+- VISIONARY
+- Visnu
+- VOLAQUAS
+- voltississimo (DANCERUSH Style)
+- Voyager
+- Waiting for you
+- Warpstep
+- WELCOME TO MY GAME
+- Where's The Party At
+- Wicked
+- Wicked SPONGEBOB EDITION
+- Without Words
+- Wowie Zowie!
+- X-ray binary
+- You Take My Soul
+- You You You
+- †渚の小悪魔ラヴリィ～レイディオ† (STARDOM Remix)
+- †渚の小悪魔ラヴリィ～レイディオ† (STARDOM Remix) SPONGEBOB EDITION
+- ↑↑↓↓←→←→BA
+- うっせぇわ
+- おーまい！らぶりー！すうぃーてぃ！だーりん！ (DANCERUSH Style)
+- ここからよろしく大作戦143
+- さよならトリップ
+- アルストロメリア (walk with you remix)
+- エコ爺
+- オネガイ・ディスコ・ミュージック
+- オンリーワンダー
+- カゴノトリ
+- サヨナラ・ヘヴン
+- スーパー戦湯ババンバーン
+- チュッチュ♪マチュピチュ
+- ドーパミン (STARDOM Remix)
+- ハッピーシンセサイザ
+- ピアノ体操第一
+- ミッドナイト☆WAR
+- ユメブキ
+- ラブキラ☆スプラッシュ
+- ランカーキラーガール (STARDOM Remix)
+- 世界の果てに約束の凱歌を (STARDOM Remix)
+- 凛として咲く花の如く
+- 十六夜セツナ
+- 君と野獣
+- 女々しくて
+- 女々しくて ANOTHER EDITION
+- 怪物
+- 新蛇姫
+- 最小三倍完全数 (DANCERUSH Style)
+- 朧
+- 灼熱Beach Side Bunny (STARDOM Remix)
+- 狂水一華
+- 紅蓮華
+- 紅蓮華 ANOTHER EDITION
+- 群青
+- 野球の遊び方　そしてその歴史　～決定版～
+- 音楽 (STARDOM Remix)
+- 黒髪乱れし修羅となりて (STARDOM Remix)
