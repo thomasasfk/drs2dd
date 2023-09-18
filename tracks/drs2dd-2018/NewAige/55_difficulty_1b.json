@@ -1,0 +1,5538 @@
+{
+    "data": {
+        "name": "NewAige difficulty_1b",
+        "intervalPerSecond": 0.0,
+        "gridSize": {
+            "x": 0,
+            "y": 0
+        },
+        "planeSize": {
+            "x": 0,
+            "y": 0
+        },
+        "orderCountPerBeat": 24,
+        "sphereNodes": [
+            {
+                "noteOrder": 96,
+                "time": 0.016380041994234384,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 120,
+                "time": 0.02047723649839221,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 192,
+                "time": 0.03276008398846877,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 240,
+                "time": 0.04095447299678442,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 288,
+                "time": 0.04914012598270315,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 336,
+                "time": 0.0573345149910188,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 384,
+                "time": 0.06552016797693754,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 432,
+                "time": 0.07371455698525319,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 480,
+                "time": 0.08190020997117191,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 528,
+                "time": 0.09009459897948757,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 552,
+                "time": 0.09418305746124847,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 576,
+                "time": 0.0982802519654063,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 672,
+                "time": 0.11466029395964068,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 768,
+                "time": 0.13104033595387507,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 864,
+                "time": 0.14742037794810944,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 960,
+                "time": 0.16380041994234382,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1008,
+                "time": 0.17199480895065947,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1056,
+                "time": 0.18018046193657822,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1080,
+                "time": 0.18427765644073604,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1104,
+                "time": 0.18837485094489387,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1128,
+                "time": 0.19246330942665477,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1152,
+                "time": 0.1965605039308126,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1176,
+                "time": 0.20065769843497044,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1200,
+                "time": 0.20475489293912824,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1224,
+                "time": 0.20884335142088914,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1248,
+                "time": 0.21294054592504696,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1272,
+                "time": 0.21703774042920482,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1392,
+                "time": 0.23751497692759702,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1416,
+                "time": 0.24160343540935791,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1488,
+                "time": 0.25389501892183136,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1512,
+                "time": 0.2579834774035923,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1584,
+                "time": 0.2702750609160658,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1608,
+                "time": 0.27436351939782666,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1776,
+                "time": 0.3030351449045346,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1800,
+                "time": 0.30712360338629546,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1872,
+                "time": 0.31941518689876897,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1896,
+                "time": 0.32350364538052984,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1968,
+                "time": 0.33579522889300334,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 1992,
+                "time": 0.3398836873747642,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2160,
+                "time": 0.3685553128814721,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2184,
+                "time": 0.37264377136323296,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2256,
+                "time": 0.38493535487570646,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2280,
+                "time": 0.38902381335746733,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2352,
+                "time": 0.4013153968699409,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2376,
+                "time": 0.40540385535170176,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2448,
+                "time": 0.41769543886417526,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2472,
+                "time": 0.42178389734593613,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2544,
+                "time": 0.43407548085840963,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2568,
+                "time": 0.4381639393401705,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2640,
+                "time": 0.450455522852644,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2664,
+                "time": 0.4545439813344049,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2736,
+                "time": 0.4668355648468784,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2760,
+                "time": 0.47092402332863925,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2832,
+                "time": 0.48321560684111275,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2856,
+                "time": 0.4873040653228736,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 2928,
+                "time": 0.4995956488353472,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3024,
+                "time": 0.5159756908295815,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3120,
+                "time": 0.5323557328238159,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3216,
+                "time": 0.5487357748180504,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3264,
+                "time": 0.556921427803969,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3312,
+                "time": 0.5651158168122847,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3360,
+                "time": 0.5733014697982034,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3408,
+                "time": 0.5814958588065191,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3456,
+                "time": 0.5896815117924378,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3504,
+                "time": 0.5978759008007535,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3552,
+                "time": 0.6060615537866721,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3600,
+                "time": 0.6142559427949879,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3648,
+                "time": 0.6224415957809065,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3696,
+                "time": 0.6306359847892222,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3744,
+                "time": 0.6388216377751409,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3768,
+                "time": 0.6429188322792987,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3792,
+                "time": 0.6470160267834566,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3840,
+                "time": 0.6552016797693753,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3840,
+                "time": 0.6552016797693753,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3864,
+                "time": 0.6592988742735331,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3888,
+                "time": 0.663396068777691,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3912,
+                "time": 0.667484527259452,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3936,
+                "time": 0.6715817217636098,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3960,
+                "time": 0.6756789162677674,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 3960,
+                "time": 0.6756789162677674,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4008,
+                "time": 0.6838645692536863,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4008,
+                "time": 0.6838645692536863,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4128,
+                "time": 0.7043418057520785,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4176,
+                "time": 0.7125361947603941,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4392,
+                "time": 0.7493847372306238,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4416,
+                "time": 0.7534819317347816,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4440,
+                "time": 0.7575791262389394,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4464,
+                "time": 0.7616763207430973,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4488,
+                "time": 0.7657647792248582,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4512,
+                "time": 0.769861973729016,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4536,
+                "time": 0.7739591682331738,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4560,
+                "time": 0.7780563627373317,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4584,
+                "time": 0.7821448212190926,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4608,
+                "time": 0.7862420157232504,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4632,
+                "time": 0.7903392102274082,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4656,
+                "time": 0.7944364047315661,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4680,
+                "time": 0.7985248632133269,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4704,
+                "time": 0.8026220577174847,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4752,
+                "time": 0.8108164467258004,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4896,
+                "time": 0.8353821417059535,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4920,
+                "time": 0.8394793362101113,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4944,
+                "time": 0.8435765307142692,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 4968,
+                "time": 0.8476649891960302,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5088,
+                "time": 0.8681422256944223,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5112,
+                "time": 0.87223942019858,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5160,
+                "time": 0.8804250731844989,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5160,
+                "time": 0.8804250731844989,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5184,
+                "time": 0.8845222676886567,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5208,
+                "time": 0.8886194621928144,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5256,
+                "time": 0.8968051151787333,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5280,
+                "time": 0.9009023096828911,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5304,
+                "time": 0.9049995041870489,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5352,
+                "time": 0.9131851571729677,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5376,
+                "time": 0.9172823516771255,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5400,
+                "time": 0.9213795461812833,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5424,
+                "time": 0.9254767406854412,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5448,
+                "time": 0.929565199167202,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5472,
+                "time": 0.9336623936713598,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5472,
+                "time": 0.9336623936713598,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5496,
+                "time": 0.9377595881755176,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5496,
+                "time": 0.9377595881755176,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5520,
+                "time": 0.9418567826796755,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5520,
+                "time": 0.9418567826796755,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5544,
+                "time": 0.9459452411614364,
+                "position": {
+                    "x": 3,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 8,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "noteOrder": 5544,
+                "time": 0.9459452411614364,
+                "position": {
+                    "x": 7,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 9,
+                "postionOffset": null,
+                "isPlayAudio": false
+            }
+        ],
+        "lineNodes": [
+            {
+                "lineGroupId": 3,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 144,
+                "time": 0.024574431002550037,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 3,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 192,
+                "time": 0.03276008398846877,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 21,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 912,
+                "time": 0.1556147669564251,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 21,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1128,
+                "time": 0.19246330942665477,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 29,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1152,
+                "time": 0.1965605039308126,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 29,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1248,
+                "time": 0.21294054592504696,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 36,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1296,
+                "time": 0.22113493493336261,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 36,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1344,
+                "time": 0.22932058791928137,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 38,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1344,
+                "time": 0.22932058791928137,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 38,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1392,
+                "time": 0.23751497692759702,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 41,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1440,
+                "time": 0.24570062991351574,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 41,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1488,
+                "time": 0.25389501892183136,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 44,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1536,
+                "time": 0.26208067190775014,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 44,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1584,
+                "time": 0.2702750609160658,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 47,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1632,
+                "time": 0.2784607139019845,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 47,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1680,
+                "time": 0.28665510291030016,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 48,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1680,
+                "time": 0.28665510291030016,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 48,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1728,
+                "time": 0.2948407558962189,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 50,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1728,
+                "time": 0.2948407558962189,
+                "position": {
+                    "x": 8,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 50,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1752,
+                "time": 0.29893795040037674,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 53,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1824,
+                "time": 0.31122079789045326,
+                "position": {
+                    "x": 2,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 53,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1848,
+                "time": 0.3153179923946111,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 56,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 1920,
+                "time": 0.32760083988468763,
+                "position": {
+                    "x": 8,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 56,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 1944,
+                "time": 0.3316980343888455,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 59,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2016,
+                "time": 0.34398088187892206,
+                "position": {
+                    "x": 2,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 59,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2040,
+                "time": 0.34807807638307986,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 60,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2064,
+                "time": 0.3521752708872377,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 60,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2112,
+                "time": 0.36036092387315644,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 62,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2112,
+                "time": 0.36036092387315644,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 62,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2136,
+                "time": 0.36445811837731423,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 65,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2208,
+                "time": 0.3767409658673908,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 65,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2232,
+                "time": 0.38083816037154866,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 68,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2304,
+                "time": 0.3931210078616252,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 68,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2328,
+                "time": 0.39721820236578304,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 71,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2400,
+                "time": 0.40950104985585956,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 71,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2424,
+                "time": 0.4135982443600174,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 74,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2496,
+                "time": 0.42588109185009393,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 74,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2520,
+                "time": 0.4299782863542518,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 74,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 2520,
+                "time": 0.4299782863542518,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 74,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 2526.0,
+                "time": 0.4299782863542518,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 77,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2592,
+                "time": 0.44226113384432836,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 77,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2616,
+                "time": 0.44635832834848616,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 77,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 2616,
+                "time": 0.44635832834848616,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 77,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 2622.0,
+                "time": 0.44635832834848616,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 80,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2688,
+                "time": 0.45864117583856273,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 80,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2712,
+                "time": 0.4627383703427206,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 80,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 2712,
+                "time": 0.4627383703427206,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 80,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 2718.0,
+                "time": 0.4627383703427206,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 83,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2784,
+                "time": 0.4750212178327971,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 83,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2808,
+                "time": 0.47911841233695496,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 83,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 2808,
+                "time": 0.47911841233695496,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 83,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 2814.0,
+                "time": 0.47911841233695496,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 86,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2880,
+                "time": 0.4914012598270315,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 86,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 2928,
+                "time": 0.4995956488353472,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 88,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 2976,
+                "time": 0.5077813018212659,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 88,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 3024,
+                "time": 0.5159756908295815,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 90,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 3072,
+                "time": 0.5241613438155003,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 90,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 3120,
+                "time": 0.5323557328238159,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 92,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 3168,
+                "time": 0.5405413858097347,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 92,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 3216,
+                "time": 0.5487357748180504,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 104,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 3624,
+                "time": 0.6183444012767487,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 104,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 3792,
+                "time": 0.6470160267834566,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 122,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4032,
+                "time": 0.6879617637578441,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 122,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 4056,
+                "time": 0.6920589582620018,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 122,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 4056,
+                "time": 0.6920589582620018,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 122,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 4080,
+                "time": 0.6961561527661597,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 122,
+                "indexInLine": 5,
+                "isSliding": false,
+                "noteOrder": 4080,
+                "time": 0.6961561527661597,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 122,
+                "indexInLine": 6,
+                "isSliding": false,
+                "noteOrder": 4086.0,
+                "time": 0.6961561527661597,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 123,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4080,
+                "time": 0.6961561527661597,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 123,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 4104,
+                "time": 0.7002446112479207,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 123,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 4104,
+                "time": 0.7002446112479207,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 123,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 4128,
+                "time": 0.7043418057520785,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 123,
+                "indexInLine": 5,
+                "isSliding": false,
+                "noteOrder": 4128,
+                "time": 0.7043418057520785,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 123,
+                "indexInLine": 6,
+                "isSliding": false,
+                "noteOrder": 4134.0,
+                "time": 0.7043418057520785,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 126,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4224,
+                "time": 0.7207218477463129,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 126,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 4248,
+                "time": 0.7248190422504707,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 126,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 4248,
+                "time": 0.7248190422504707,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 126,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 4272,
+                "time": 0.7289162367546285,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 126,
+                "indexInLine": 5,
+                "isSliding": false,
+                "noteOrder": 4272,
+                "time": 0.7289162367546285,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 126,
+                "indexInLine": 6,
+                "isSliding": false,
+                "noteOrder": 4278.0,
+                "time": 0.7289162367546285,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 127,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4272,
+                "time": 0.7289162367546285,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 127,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 4296,
+                "time": 0.7330046952363894,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 127,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 4296,
+                "time": 0.7330046952363894,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 127,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 4320,
+                "time": 0.7371018897405472,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 127,
+                "indexInLine": 5,
+                "isSliding": false,
+                "noteOrder": 4320,
+                "time": 0.7371018897405472,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 127,
+                "indexInLine": 6,
+                "isSliding": false,
+                "noteOrder": 4326.0,
+                "time": 0.7371018897405472,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 128,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4320,
+                "time": 0.7371018897405472,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 128,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 4368,
+                "time": 0.745296278748863,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 129,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4344,
+                "time": 0.741199084244705,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 129,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 4368,
+                "time": 0.745296278748863,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 148,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4800,
+                "time": 0.8190020997117191,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 148,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 4824,
+                "time": 0.8230992942158769,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 148,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 4824,
+                "time": 0.8230992942158769,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 148,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 4830.0,
+                "time": 0.8230992942158769,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 149,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4848,
+                "time": 0.8271964887200348,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 149,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 4872,
+                "time": 0.8312849472017958,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 149,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 4872,
+                "time": 0.8312849472017958,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 149,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 4878.0,
+                "time": 0.8312849472017958,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 154,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 4992,
+                "time": 0.8517621837001879,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 154,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 5016,
+                "time": 0.8558593782043457,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 154,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 5016,
+                "time": 0.8558593782043457,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 154,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 5022.0,
+                "time": 0.8558593782043457,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 155,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 5040,
+                "time": 0.8599565727085036,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 155,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 5064,
+                "time": 0.8640450311902645,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 155,
+                "indexInLine": 3,
+                "isSliding": false,
+                "noteOrder": 5064,
+                "time": 0.8640450311902645,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 155,
+                "indexInLine": 4,
+                "isSliding": false,
+                "noteOrder": 5070.0,
+                "time": 0.8640450311902645,
+                "position": {
+                    "x": 5,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 163,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 5232,
+                "time": 0.8927166566969723,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 163,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 5280,
+                "time": 0.9009023096828911,
+                "position": {
+                    "x": 6,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 13,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 167,
+                "indexInLine": 1,
+                "isSliding": false,
+                "noteOrder": 5328,
+                "time": 0.9090966986912067,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            },
+            {
+                "lineGroupId": 167,
+                "indexInLine": 2,
+                "isSliding": false,
+                "noteOrder": 5376,
+                "time": 0.9172823516771255,
+                "position": {
+                    "x": 4,
+                    "y": 0
+                },
+                "position2D": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "noteType": 12,
+                "postionOffset": null,
+                "isPlayAudio": false
+            }
+        ],
+        "effectNodes": [],
+        "roadBlockNodes": [
+            {
+                "noteOrder": 168,
+                "time": 0.02866288948431094,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 624,
+                "time": 0.10647464097372196,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 720,
+                "time": 0.12285468296795633,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 816,
+                "time": 0.13923472496219072,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 936,
+                "time": 0.159703225438186,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 1320,
+                "time": 0.2252233934151235,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 1704,
+                "time": 0.29074356139206103,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 2088,
+                "time": 0.3562637293689986,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 3432,
+                "time": 0.58558431728828,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 3528,
+                "time": 0.6019643592825143,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 3816,
+                "time": 0.6511044852652176,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 3984,
+                "time": 0.6797761107719253,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 4368,
+                "time": 0.745296278748863,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 4728,
+                "time": 0.8067192522216425,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 4776,
+                "time": 0.8149049052075613,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 5136,
+                "time": 0.8763366147027379,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            },
+            {
+                "noteOrder": 5568,
+                "time": 0.9500424356655942,
+                "position": {
+                    "x": 5,
+                    "y": 10
+                },
+                "position2D": {
+                    "x": 1.49,
+                    "y": -3.932
+                },
+                "length": 1,
+                "noteType": 14,
+                "postionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "isPlayAudio": false,
+                "startPosSelctOrder": -1,
+                "endPosSelctOrder": -1,
+                "duration": 0.000157683025
+            }
+        ],
+        "trapNodes": []
+    },
+    "beatSubs": 1,
+    "BPM": 128,
+    "songStartOffset": 0.0,
+    "NPS": "2.2",
+    "developerMode": false,
+    "noteSpeed": 1.0,
+    "noteJumpOffset": 0.0,
+    "interval": 1.0,
+    "info": ""
+}

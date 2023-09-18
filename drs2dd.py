@@ -94,7 +94,9 @@ def map_line_nodes(
         track_step.long_point.insert(0, initial_track_point)
 
         index_in_line = 0
+        last_was_shuffle_end = False
         for drs_track_point in track_step.long_point:
+            last_was_shuffle_end = False
             index_in_line += 1
             drs_track_point: DRSTrackPoint = drs_track_point
 
@@ -126,6 +128,14 @@ def map_line_nodes(
                 end_line.position.x = drs_track_point.to_dance_dash_end_x
                 end_line.indexInLine = index_in_line
                 lines.append(end_line)
+                last_was_shuffle_end = True
+
+        if last_was_shuffle_end:
+            last_line = lines[-1]
+            tail_line = deepcopy(last_line)
+            tail_line.noteOrder += ORDER_COUNT_PER_BEAT / 4
+            tail_line.indexInLine += 1
+            lines.append(tail_line)
 
     return lines
 
@@ -152,7 +162,7 @@ def map_down_and_jump_notes(
         note_order = round(bps * seconds * ORDER_COUNT_PER_BEAT)
         if track_step.kind == DRS_JUMP:
             # user jumps OVER in DD, not ON like in DRS
-            note_order += ORDER_COUNT_PER_BEAT / 2
+            note_order += ORDER_COUNT_PER_BEAT / 4
 
         road_block = DDRoadBlockNode(
             noteOrder=note_order,
@@ -199,6 +209,23 @@ def create_dd_tracks_from_DRSSongData(
         )
 
         song_paths.append(target_difficulty_path)
+        sphere_notes = map_sphere_nodes(
+            difficulty,
+            float(song_length),
+            dd_bmp,
+        )
+        line_notes = map_line_nodes(
+            difficulty,
+            float(song_length),
+            dd_bmp,
+        )
+        road_block_notes = map_down_and_jump_notes(
+            difficulty,
+            float(song_length),
+            dd_bmp,
+        )
+        total_note_count = len(sphere_notes) + \
+            len(line_notes) + len(road_block_notes)
         drs_beat_map = DDBeatMap(
             data=DDBeatMapData(
                 name=f'{drs_song_data.info.title_name} {attr}',
@@ -206,28 +233,16 @@ def create_dd_tracks_from_DRSSongData(
                 gridSize=X_Y(x=0, y=0),
                 planeSize=X_Y(x=0, y=0),
                 orderCountPerBeat=ORDER_COUNT_PER_BEAT,
-                sphereNodes=map_sphere_nodes(
-                    difficulty,
-                    float(song_length),
-                    dd_bmp,
-                ),
-                lineNodes=map_line_nodes(
-                    difficulty,
-                    float(song_length),
-                    dd_bmp,
-                ),
+                sphereNodes=sphere_notes,
+                lineNodes=line_notes,
                 effectNodes=[],
-                roadBlockNodes=map_down_and_jump_notes(
-                    difficulty,
-                    float(song_length),
-                    dd_bmp,
-                ),
+                roadBlockNodes=road_block_notes,
                 trapNodes=[],
             ),
             beatSubs=1,
             BPM=dd_bmp,
             songStartOffset=0.0,
-            NPS='0.0',
+            NPS=str(round(total_note_count / float(song_length), 2)),
             developerMode=False,
             noteSpeed=1.0,
             noteJumpOffset=0.0,
@@ -293,8 +308,9 @@ if __name__ == '__main__':
     for song_id in ALL_TRACK_PATHS:
         if song_data := get_songdata_from_track_id(int(song_id)):
             try:
+                year = str(song_data.info.distribution_date)[:4]
                 created = create_dd_tracks_from_DRSSongData(
-                    song_data, f'tracks/{song_data.info.title_name}',
+                    song_data, f'tracks/drs2dd-{year}/{song_data.info.title_name}',
                 )
             except Exception as e:
                 print(f'Error creating song {song_id}: {e}')

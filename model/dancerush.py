@@ -316,6 +316,13 @@ class DRSTrackPoint(DRSTrackStepPositionInfo):
         mapped_value = 1 + (center_pos / MAX_POS) * 8
         return round(mapped_value)
 
+    @property
+    def tail(self):
+        end_x = self.to_dance_dash_end_x
+        if end_x in range(2, 9):
+            return end_x + (end_x - self.to_dance_dash_x)
+        return end_x
+
 
 @dataclass
 class DRSTrackStepPlayerInfo:
@@ -549,7 +556,8 @@ class DRSTrack:
                 for step in data['sequence_data']
             ],
             clip=DRSClip.from_json_dict(data['clip']) if data.get(
-                'clip') is not None else None,
+                'clip',
+            ) is not None else None,
         )
 
 

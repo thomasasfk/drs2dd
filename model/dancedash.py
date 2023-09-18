@@ -67,7 +67,7 @@ DDJumpPos2D = X_Y(x=1.49, y=4.33)
 DDDownPos2D = X_Y(x=1.49, y=-3.932)
 
 DDJumpPos = X_Y(x=5, y=0)
-DDDownPos = X_Y(x=5, y=9)
+DDDownPos = X_Y(x=5, y=10)
 
 
 @dataclass
