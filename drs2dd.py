@@ -132,7 +132,7 @@ def map_down_and_jump_notes(
         note_order = round(bps * seconds * ORDER_COUNT_PER_BEAT)
         if track_step.kind == DRS_JUMP:
             # user jumps OVER in DD, not ON like in DRS
-            note_order += ORDER_COUNT_PER_BEAT / 8
+            note_order += ORDER_COUNT_PER_BEAT / 2
         elif track_step.kind == DRS_DOWN:
             # user needs to duck UNDER in DD, not go down ON like in DRS
             note_order += ORDER_COUNT_PER_BEAT / 16
