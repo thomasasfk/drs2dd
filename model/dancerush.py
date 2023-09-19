@@ -58,6 +58,14 @@ class DRSSongData:
     difficulties: DRSSongDifficulties | None = None
     info: DRSSongInfo | None = None
 
+    @property
+    def ogg(self) -> str:
+        return f'{str(self.song_id)}.ogg'
+
+    @property
+    def png(self) -> str:
+        return f'{str(self.song_id)}.png'
+
     @classmethod
     def from_xml_dict(cls, data: dict, difficulties: DRSSongDifficulties) -> DRSSongData:
         return cls(
@@ -336,6 +344,10 @@ class DRSTrackStep:
     position_info: DRSTrackStepPositionInfo
     player_info: DRSTrackStepPlayerInfo
     long_point: list[DRSTrackPoint] = field(default_factory=list)
+
+    @property
+    def is_down_or_up(self):
+        return self.kind in (DRS_DOWN, DRS_JUMP)
 
     @classmethod
     def from_xml_dict(cls, data: dict):

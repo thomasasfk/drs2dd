@@ -35,10 +35,5 @@ find . -type f -name "*.m4a" -exec sh -c 'ffmpeg -y -i "$1" "${1%.m4a}.ogg"' sh 
 
 ```bash
 # remove 10 seconds from all ogg files
-find . -type f -name "*.ogg" -exec sh -c 'DURATION=$(ffprobe -i "$0" -show_entries format=duration -v quiet -of csv="p=0"); TRIM_TIME=$(awk "BEGIN {print $DURATION - 10}"); ffmpeg -ss 0 -t $TRIM_TIME -i "$0" "${0%.mp3}-fixed.ogg"' {} \;
-```
-
-```bash
-# move the fixed ogg files to the original file name
-find . -type f -name '*-fixed.ogg' -exec sh -c 'mv "$0" "${0%-fixed.mp3}.ogg"' {} \;
+find . -type f -name "*.m4a" -exec sh -c 'DURATION=$(ffprobe -i "$0" -show_entries format=duration -v quiet -of csv="p=0"); TRIM_TIME=$(awk "BEGIN {print $DURATION - 10}"); ffmpeg -ss 0 -t $TRIM_TIME -i "$0" "${0%.m4a}.ogg"' {} \;
 ```

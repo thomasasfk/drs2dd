@@ -1,19 +1,18 @@
 DANCERUSH STARDOM conversion tracks!
 
-- 1-2-3 Jump!
+- 1-2-3 Jump
 - 7 to Smoke
 - 41 Days
 - 50th Memorial Songs -Beginning Story-
 - 50th Memorial Songs -Flagship medley-
 - 50th Memorial Songs -The BEMANI History-
-- 50th Memorial Songs -二人の時 ～under the cherry blossoms～-
+- 50th Memorial Songs -二人の時 under the cherry blossoms-
 - 8347
-- [E]
 - A Legend Is Born
 - A Vague Idea
 - about right
-- Act Now!
-- Afterimage d'automne
+- Act Now
+- Afterimage dautomne
 - Aftermath
 - ALGORITHM
 - Anxiety
@@ -24,6 +23,7 @@ DANCERUSH STARDOM conversion tracks!
 - Auto Click
 - Awakening
 - Awakening Wings
+- BA
 - BAAM
 - Bad Boy Birdwatch
 - Bad Riddim
@@ -38,6 +38,8 @@ DANCERUSH STARDOM conversion tracks!
 - Bloody Bounce
 - BLOW UP
 - BONE BORN
+- BOOMBAYAH-JP Ver-
+- BOOMBAYAH-JP Ver- ANOTHER EDITION
 - BOOMBAYAH-JP Ver.-
 - BOOMBAYAH-JP Ver.- ANOTHER EDITION
 - Bounce To This
@@ -50,11 +52,12 @@ DANCERUSH STARDOM conversion tracks!
 - Butterfly Twist
 - Carnival
 - Catastrophic Dance
-- Catch Our Fire! (STARDOM Remix)
+- Catch Our Fire (STARDOM Remix)
 - Ch4nge M4 Life
 - Chaos of Drum
 - CHAPTER II(Ready Go)
-- Comin’ Back
+- Cmon baby
+- Comin Back
 - CONNECT-
 - Crackin (Martin Garrix Edit)
 - Crank It Up
@@ -63,7 +66,6 @@ DANCERUSH STARDOM conversion tracks!
 - Crystal Clear
 - Crystarium
 - Cyber Devotion
-- C’mon baby
 - DANCE ALL NIGHT
 - Dance With The Dead
 - DANCERUSH STARDOM ANTHEM
@@ -77,28 +79,29 @@ DANCERUSH STARDOM conversion tracks!
 - Din Don Dan
 - Disco Nights
 - Dive in Blue
-- Do It!
-- DO YOU WANNA PARTY!!(DJ KEN-BOW MIX)
-- Don't Be Afraid
-- Don't Rush but Dance Rush
-- Don't Speak
-- Don't Stop!!
-- Don't Stop!! RUNNING MAN EDITION
-- DOWNER & UPPER
-- DOWNER & UPPER T STEP EDITION
+- Do It
+- DO YOU WANNA PARTY(DJ KEN-BOW MIX)
+- Dont Be Afraid
+- Dont Rush but Dance Rush
+- Dont Speak
+- Dont Stop
+- Dont Stop RUNNING MAN EDITION
+- DOWNER  UPPER
+- DOWNER  UPPER T STEP EDITION
 - Drop It
 - Drop That Low (When I Dip)
 - Drop The Bounce
 - Dual Bladez
 - DUAL STRIKER
 - DUB I DUB
+- E
 - Easy Peasy
 - EGOISM 110
 - Electric Dance System Music
 - EMPIRE
 - ERROR CODE
 - EZ DO DANCE
-- Feelin' Good
+- Feelin Good
 - Field of Dreams
 - Fire Spirit
 - Flow
@@ -123,7 +126,8 @@ DANCERUSH STARDOM conversion tracks!
 - Go Down
 - GOLDEN CROSS
 - Golden Palms
-- GRADIUS REMIX（↑↑↓↓←→←→BA Ver.)
+- GRADIUS REMIXBA Ver)
+- GRADIUS REMIXBA Ver.)
 - Graveyard
 - Gymnopedie-kors k mix-
 - HANDS UP IN THE AIR
@@ -136,7 +140,7 @@ DANCERUSH STARDOM conversion tracks!
 - HighBALL T STEP EDITION
 - Higher
 - HIP
-- HIT IT!
+- HIT IT
 - Honey Bounce
 - Honey Bounce CRAB STEP EDITION
 - HoneyComb
@@ -154,10 +158,10 @@ DANCERUSH STARDOM conversion tracks!
 - Jumbo Drill
 - Keep On Rising
 - Kill The Beat
-- Let's DANCE aROUND!!
-- Let's Go
-- Let's Party!!
 - Let Me See Your Dance
+- Lets DANCE aROUND
+- Lets Go
+- Lets Party
 - LIKE A VAMPIRE
 - Like This
 - LIT
@@ -172,7 +176,7 @@ DANCERUSH STARDOM conversion tracks!
 - Make That Body
 - Make you happy
 - Mandrake
-- MA・TSU・RI
+- MATSURI
 - melody H4CKER
 - Meltdown
 - Memories
@@ -183,7 +187,7 @@ DANCERUSH STARDOM conversion tracks!
 - Midnight Amaretto RUNNING MAN EDITION
 - Midnight Starlight
 - Missing You
-- MOVE! (We Keep It Movin')
+- MOVE (We Keep It Movin)
 - murmur twins
 - MUTSUKI
 - MY NAME IS
@@ -197,7 +201,7 @@ DANCERUSH STARDOM conversion tracks!
 - NewAige
 - NewAige CHARLESTON EDITION
 - Next Stage 2022
-- Night & Day
+- Night  Day
 - Nighthiker
 - Nightlife
 - Nocturnus
@@ -209,9 +213,9 @@ DANCERUSH STARDOM conversion tracks!
 - Oppress CHARLESTON EDITION
 - Orange Lullaby
 - Our Soul
-- Pandora's Box
-- Party Jumpin'
-- Party Jumpin' RUNNING MAN EDITION
+- Pandoras Box
+- Party Jumpin
+- Party Jumpin RUNNING MAN EDITION
 - Penguin Morning
 - PERFECT HUMAN
 - Playa
@@ -219,14 +223,14 @@ DANCERUSH STARDOM conversion tracks!
 - Poochie
 - PRANK
 - Pretender
-- Prettiful!
+- Prettiful
 - RAIN
 - Raise Your Hands
 - RAVELINE ATTACK
 - Raveology
 - Raw Crawler
 - REALLY REALLY-Japanese version-
-- Red Hot Chili Samba!
+- Red Hot Chili Samba
 - Revolution
 - Rip It Off (Now) Rip It Off
 - RISING FIRE HAWK
@@ -239,8 +243,8 @@ DANCERUSH STARDOM conversion tracks!
 - Sakura Sunrise
 - Saturday Night Love
 - Saturday Night Love -Phunk Disco Mix-
-- Second Heaven -Samba,Samba,SomeBody MIX-
-- Second Heaven -Samba,Samba,SomeBody MIX- SPONGEBOB EDITION
+- Second Heaven -SambaSambaSomeBody MIX-
+- Second Heaven -SambaSambaSomeBody MIX- SPONGEBOB EDITION
 - Set Me Free
 - Set Me Free  (Hommarju Remix)
 - Shamshir
@@ -254,25 +258,26 @@ DANCERUSH STARDOM conversion tracks!
 - Six String Proof (DANCERUSH Style)
 - Sleepwell
 - Small Steps
-- smooooch・∀・
+- smooooch
 - So What
 - Spacecats
-- Sparkle Smilin'
+- Sparkle Smilin
 - Special One
-- Spin & Slide
+- Spin  Slide
 - Starlight Kiss
 - Starlight Parade
 - Stepper
-- Summer's End
+- Summers End
 - Summery
-- Sunrise (feat. LEO & Viola)
+- Sunrise (feat. LEO  Viola)
+- Sunrise (feat LEO  Viola)
 - Sunshine let me find a way
 - Sweet Bordeaux Nightmare
 - Sweets (Soda Pop)
 - Switch
 - Switch SPONGEBOB EDITION
 - Synaptic
-- Synth Presets & Sample Loops
+- Synth Presets  Sample Loops
 - take me higher
 - Thank You Merry Christmas -DANCERUSH Mix-
 - The First Step
@@ -299,6 +304,7 @@ DANCERUSH STARDOM conversion tracks!
 - U.S.A
 - UCHU
 - Undercover
+- USA
 - Valkyrie
 - Vamos A Bailar
 - Villains
@@ -311,35 +317,32 @@ DANCERUSH STARDOM conversion tracks!
 - Waiting for you
 - Warpstep
 - WELCOME TO MY GAME
-- Where's The Party At
+- Wheres The Party At
 - Wicked
 - Wicked SPONGEBOB EDITION
 - Without Words
-- Wowie Zowie!
+- Wowie Zowie
 - X-ray binary
 - You Take My Soul
 - You You You
-- †渚の小悪魔ラヴリィ～レイディオ† (STARDOM Remix)
-- †渚の小悪魔ラヴリィ～レイディオ† (STARDOM Remix) SPONGEBOB EDITION
-- ↑↑↓↓←→←→BA
 - うっせぇわ
-- おーまい！らぶりー！すうぃーてぃ！だーりん！ (DANCERUSH Style)
+- おーまいらぶりーすうぃーてぃだーりん (DANCERUSH Style)
 - ここからよろしく大作戦143
 - さよならトリップ
 - アルストロメリア (walk with you remix)
 - エコ爺
-- オネガイ・ディスコ・ミュージック
+- オネガイディスコミュージック
 - オンリーワンダー
 - カゴノトリ
-- サヨナラ・ヘヴン
+- サヨナラヘヴン
 - スーパー戦湯ババンバーン
-- チュッチュ♪マチュピチュ
+- チュッチュマチュピチュ
 - ドーパミン (STARDOM Remix)
 - ハッピーシンセサイザ
 - ピアノ体操第一
-- ミッドナイト☆WAR
+- ミッドナイトWAR
 - ユメブキ
-- ラブキラ☆スプラッシュ
+- ラブキラスプラッシュ
 - ランカーキラーガール (STARDOM Remix)
 - 世界の果てに約束の凱歌を (STARDOM Remix)
 - 凛として咲く花の如く
@@ -351,11 +354,13 @@ DANCERUSH STARDOM conversion tracks!
 - 新蛇姫
 - 最小三倍完全数 (DANCERUSH Style)
 - 朧
+- 渚の小悪魔ラヴリィレイディオ (STARDOM Remix)
+- 渚の小悪魔ラヴリィレイディオ (STARDOM Remix) SPONGEBOB EDITION
 - 灼熱Beach Side Bunny (STARDOM Remix)
 - 狂水一華
 - 紅蓮華
 - 紅蓮華 ANOTHER EDITION
 - 群青
-- 野球の遊び方　そしてその歴史　～決定版～
+- 野球の遊び方そしてその歴史決定版
 - 音楽 (STARDOM Remix)
 - 黒髪乱れし修羅となりて (STARDOM Remix)
