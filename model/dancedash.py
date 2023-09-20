@@ -180,3 +180,18 @@ class DDBeatMapInfoFile:
         with open(info_file_path, 'w') as f:
             json.dump(asdict(self), f, indent=4)
         return info_file_path
+
+
+@dataclass
+class DDAlbumInfo:
+    BeatMapIdList: list[int]
+    OstId: int
+    OstName: str
+    CoverPath: str
+    CreateTime: int
+
+    def save_to_file(self, target_dir: str) -> str:
+        album_info_file_path = os.path.join(target_dir, 'info.json')
+        with open(album_info_file_path, 'w') as f:
+            json.dump(asdict(self), f, indent=4)
+        return album_info_file_path

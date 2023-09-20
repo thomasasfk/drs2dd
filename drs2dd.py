@@ -3,10 +3,14 @@ from __future__ import annotations
 import argparse
 import os
 import shutil
+import zipfile
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 
 from drsxml2json import ALL_TRACK_PATHS
 from drsxml2json import get_songdata_from_track_id
 from drsxml2json import TRACK_ID_TO_PATH
+from model.dancedash import DDAlbumInfo
 from model.dancedash import DDBeatMap
 from model.dancedash import DDBeatMapData
 from model.dancedash import DDBeatMapInfoFile
@@ -21,15 +25,20 @@ from model.dancedash import DRS_TO_DDS_LINE_NOTE_TYPE
 from model.dancedash import DRS_TO_DDS_NOTE_TYPE
 from model.dancedash import ORDER_COUNT_PER_BEAT
 from model.dancedash import X_Y
+from model.dancerush import ALBUM_NAME
+from model.dancerush import DEFAULT_TRACK_DIR
+from model.dancerush import DRS_ALBUM_ID
 from model.dancerush import DRS_DOWN
 from model.dancerush import DRS_JUMP
 from model.dancerush import DRSSongData
 from model.dancerush import DRSSongDifficulty
 from model.dancerush import DRSTrackPoint
+from model.dancerush import OUTPUT_ZIP_NAME
 from util import create_valid_filename
 from util import get_ogg_and_duration
 from util import get_song_cover_path
 from util import yyyymmdd_to_ticks
+from util import zipdir
 
 
 def map_sphere_nodes(
@@ -148,9 +157,9 @@ def map_down_and_jump_notes(
     return road_blocks
 
 
-def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: str = None) -> bool:
+def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: str = None) -> DDBeatMapInfoFile:
     if not target_dir:
-        target_dir = f'tracks/{create_valid_filename(song_data.info.title_name)}/'
+        target_dir = f'{DEFAULT_TRACK_DIR}/{create_valid_filename(drs_song_data.info.title_name)}/'
 
     dd_bmp = int(drs_song_data.info.bpm_max / 100)
     dd_bps = dd_bmp / 60
@@ -161,7 +170,7 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
         print(
             f'No song found for {drs_song_data.info.title_name} ({drs_song_data.song_id})',
         )
-        return False
+        return None
 
     if not os.path.exists(target_dir):
         os.makedirs(target_dir)
@@ -238,7 +247,7 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
     drs_song_info_json.save_to_file(target_dir)
 
     print(f'Created {drs_song_data.info.title_name} ({drs_song_data.song_id})')
-    return True
+    return drs_song_info_json
 
 
 if __name__ == '__main__':
@@ -259,17 +268,48 @@ if __name__ == '__main__':
             raise SystemExit(1)
 
         target_directory = create_valid_filename(song_data.info.title_name)
-        created = create_dd_tracks_from_DRSSongData(
+        info_file = create_dd_tracks_from_DRSSongData(
             song_data, target_directory,
         )
-        print(f'Song {args.song_id} created?: {created}')
+        print(f'Song {args.song_id} created?: {bool(info_file)}')
         raise SystemExit(0)
 
-    for song_id in ALL_TRACK_PATHS:
-        if song_data := get_songdata_from_track_id(int(song_id)):
+    if not os.path.exists(DEFAULT_TRACK_DIR):
+        os.makedirs(DEFAULT_TRACK_DIR)
+
+    tracks = []
+
+    def _process_track(song_id):
+        if _song_data := get_songdata_from_track_id(int(song_id)):
             try:
-                create_dd_tracks_from_DRSSongData(song_data)
+                if _info_file := create_dd_tracks_from_DRSSongData(_song_data):
+                    tracks.append(_info_file)
             except Exception as e:
                 print(f'Error creating song {song_id}: {e}')
 
+    with ThreadPoolExecutor() as executor:
+        executor.map(_process_track, ALL_TRACK_PATHS)
+    print(f'Created {len(tracks)} tracks')
+
+    album_info = DDAlbumInfo(
+        OstName='DANCERUSH STARDOM',
+        BeatMapIdList=[track.BeatMapId for track in tracks],
+        OstId=DRS_ALBUM_ID,
+        CoverPath='DANCERUSH_STARDOM.jpg',
+        CreateTime=yyyymmdd_to_ticks(datetime.now().strftime('%Y%m%d')),
+    ).save_to_file(DEFAULT_TRACK_DIR)
+    print(f'Created album info file: {album_info}')
+
+    shutil.copy('resources/drs/DANCERUSH_STARDOM.jpg', DEFAULT_TRACK_DIR)
+    if not os.path.exists('bin'):
+        os.makedirs('bin')
+
+    print('Zipping tracks...')
+    with zipfile.ZipFile(f'bin/{OUTPUT_ZIP_NAME}', 'w', zipfile.ZIP_DEFLATED) as zipf:
+        zipdir(
+            DEFAULT_TRACK_DIR, zipf,
+            f'Dance Dash_Data/StreamingAssets/NewDLC/{ALBUM_NAME}',
+        )
+
+    print(f'Created bin/{OUTPUT_ZIP_NAME}')
     raise SystemExit(0)

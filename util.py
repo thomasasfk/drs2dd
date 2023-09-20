@@ -57,3 +57,13 @@ def datetime_to_ticks(dt):
 def yyyymmdd_to_ticks(date_str: str):
     dt = datetime.strptime(date_str, '%Y%m%d')
     return datetime_to_ticks(dt)
+
+
+def zipdir(path, ziph, archiveroot):
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            actual_file_path = os.path.join(root, file)
+            archive_file_path = os.path.join(
+                archiveroot, os.path.relpath(actual_file_path, path),
+            )
+            ziph.write(actual_file_path, archive_file_path)
