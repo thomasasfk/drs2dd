@@ -35,7 +35,7 @@ from model.dancerush import DRSSongDifficulty
 from model.dancerush import DRSTrackPoint
 from model.dancerush import OUTPUT_ZIP_NAME
 from util import create_valid_filename
-from util import get_ogg_and_duration
+from util import get_drs_ogg_and_duration
 from util import get_song_cover_path
 from util import yyyymmdd_to_ticks
 from util import zipdir
@@ -165,7 +165,7 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
     dd_bps = dd_bmp / 60
 
     folder_path = TRACK_ID_TO_PATH.get(drs_song_data.song_id)
-    song_path, song_length = get_ogg_and_duration(folder_path)
+    song_path, song_length = get_drs_ogg_and_duration(folder_path)
     if not song_path or not song_length:
         print(
             f'No song found for {drs_song_data.info.title_name} ({drs_song_data.song_id})',
@@ -205,7 +205,7 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
         )
 
         total_note_count = len(sphere_notes + line_notes + road_block_notes)  # noqa
-        drs_beat_map = DDBeatMap(
+        dd_beat_map = DDBeatMap(
             data=DDBeatMapData(
                 name=f'{drs_song_data.info.title_name} {attr}',
                 sphereNodes=sphere_notes,
@@ -217,19 +217,19 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
         )
 
         song_paths.append(
-            drs_beat_map.save_to_file(
+            dd_beat_map.save_to_file(
                 target_dir, f'{attr}.json',
             ),
         )
         song_paths.append(
-            drs_beat_map.block_less.save_to_file(
+            dd_beat_map.block_less.save_to_file(
                 target_dir, f'{attr}_blockless.json',
             ),
         )
 
     normal, normal_no_blocks, easy, easy_no_blocks = song_paths
     create_ticks = yyyymmdd_to_ticks(str(drs_song_data.info.distribution_date))
-    drs_song_info_json = DDBeatMapInfoFile(
+    drs_beat_map_info = DDBeatMapInfoFile(
         CreateTicks=create_ticks,
         CreateTime=str(create_ticks),
         BeatMapId=drs_song_data.song_id,
@@ -244,15 +244,15 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
         DRS_Hard=os.path.basename(easy),
         DRS_Expert=os.path.basename(normal),
     )
-    drs_song_info_json.save_to_file(target_dir)
+    drs_beat_map_info.save_to_file(target_dir)
 
     print(f'Created {drs_song_data.info.title_name} ({drs_song_data.song_id})')
-    return drs_song_info_json
+    return drs_beat_map_info
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Create DD tracks from DRS Song Data',
+        description='Create Dance Dash tracks from DANCERUSH STARDOM Song Data',
     )
     parser.add_argument(
         '--song-id',

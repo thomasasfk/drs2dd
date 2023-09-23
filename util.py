@@ -2,11 +2,12 @@ from __future__ import annotations
 
 import contextlib
 import os
+import random
 import subprocess
 from datetime import datetime
 
 
-def get_ogg_and_duration(folder_path) -> tuple[str, str] | tuple[None, None]:
+def get_drs_ogg_and_duration(folder_path) -> tuple[str, str] | tuple[None, None]:
     ogg_files = [f for f in os.listdir(folder_path) if f.endswith('.ogg')]
     matching_files = [f for f in ogg_files if f.endswith('clip1.ogg')]
     if matching_files:
@@ -35,6 +36,16 @@ def get_song_cover_path(folder_path) -> str | None:
         return None
 
     return os.path.join(folder_path, cover_files[0])
+
+
+def get_first_image_file_in_folder(folder_path) -> str | None:
+    image_files = [
+        f for f in os.listdir(folder_path) if f.endswith('.png') or f.endswith('.jpg')
+    ]
+    if not image_files:
+        return None
+
+    return os.path.join(folder_path, image_files[0])
 
 
 def create_valid_filename(input_string: str):
@@ -67,3 +78,26 @@ def zipdir(path, ziph, archiveroot):
                 archiveroot, os.path.relpath(actual_file_path, path),
             )
             ziph.write(actual_file_path, archive_file_path)
+
+
+def random_10_digit_int():
+    return random.randint(10 ** 9, 10 ** 10 - 1)
+
+
+def convert_egg_to_ogg_and_get_length(egg_path: str):
+    ogg_path = egg_path.replace('.egg', '.ogg')
+    subprocess.run(
+        ['ffmpeg', '-loglevel', 'quiet', '-y', '-i', egg_path, ogg_path],
+        check=True,
+    )
+    ffprobe_cmd = [
+        'ffprobe',
+        '-i', ogg_path,
+        '-show_entries', 'format=duration',
+        '-v', 'error',
+        '-of', 'default=noprint_wrappers=1:nokey=1',
+    ]
+    duration_str = subprocess.check_output(
+        ffprobe_cmd, text=True,
+    ).strip()
+    return os.path.basename(ogg_path), float(duration_str)

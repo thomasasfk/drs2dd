@@ -8,7 +8,7 @@ from datetime import datetime
 import pytest
 
 from util import create_valid_filename
-from util import get_ogg_and_duration
+from util import get_drs_ogg_and_duration
 from util import get_song_cover_path
 
 
@@ -27,7 +27,7 @@ def test_get_ogg_and_duration(file_names, expected_output, tmpdir, mocker):
 
     mocker.patch('subprocess.check_output', return_value='10')
 
-    ogg_file, duration_str = get_ogg_and_duration(str(folder_path))
+    ogg_file, duration_str = get_drs_ogg_and_duration(str(folder_path))
 
     if ogg_file:
         ogg_file = os.path.basename(ogg_file)
@@ -44,7 +44,7 @@ def test_get_ogg_and_duration_subprocess_error(tmpdir, mocker):
         side_effect=subprocess.CalledProcessError(1, 'cmd'),
     )
 
-    ogg_file, duration_str = get_ogg_and_duration(str(folder_path))
+    ogg_file, duration_str = get_drs_ogg_and_duration(str(folder_path))
 
     assert (ogg_file, duration_str) == (None, None)
 
