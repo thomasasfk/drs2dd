@@ -3,6 +3,10 @@ from __future__ import annotations
 import json
 import os
 from dataclasses import dataclass
+from dataclasses import field
+
+from model.dancedash import DD_LINE_LEFT
+from model.dancedash import DD_LINE_RIGHT
 
 
 @dataclass
@@ -78,6 +82,10 @@ class FSInfoDat:
     songTimeOffset: int
     customData: FSDatCustomData
     difficultyBeatmapSets: list[FSDifficultyBeatMapSets]
+
+    @property
+    def bps(self):
+        return self.beatsPerMinute / 60
 
     @classmethod
     def from_json_dict(cls, json_dict: dict) -> FSInfoDat:
@@ -195,14 +203,71 @@ class FSBeatMapFileNote:
     customData: FSBeatMapFileNoteCustomData
 
 
+FS_RIGHT_COLOUR = (0.0, 1.0, 3.0, 1.0)
+FS_LEFT_COLOUR = (2.0, 1.5, 0.0, 1.0)
+
+FS_LONG_NOTE_TO_DD_NOTE_TYPE = {
+    FS_RIGHT_COLOUR: DD_LINE_RIGHT,
+    FS_LEFT_COLOUR: DD_LINE_LEFT,
+}
+
+
 @dataclass
 class FSBeatMapFileObstacleCustomData:
     interactable: bool
     fake: bool
     position: tuple[float, float]
-    scale: tuple[float, float]
+    scale: tuple
     color: tuple[float, float, float, float]
     localRotation: tuple[float, float, float] | None = None
+
+    @property
+    def height(self):
+        return self.scale[1]
+
+    @property
+    def y(self):
+        _, y = self.position
+        return y
+
+    @property
+    def x(self):
+        x, _ = self.position
+        return x
+
+    @property
+    def is_fs(self):
+        return all(
+            [
+                self.height == 0.1,
+                self.y == -0.25,
+                self.fake,
+            ],
+        )
+
+    @property
+    def is_fs_slider(self) -> bool:
+        return self.scale[0] == 1.0 and self.is_fs
+
+    @property
+    def is_tail(self) -> bool:
+        return self.scale[0] == 1.5 and self.is_fs
+
+    @property
+    def dd_x(self):
+        if not self.is_fs:
+            raise ValueError('This is not a FS note')
+
+        if self.x < -1.5 or self.x > 1.5:
+            raise ValueError('Input should be between -1.5 and 1.5')
+
+        normalized = (self.x + 1.5) / 3.0
+        mapped_value = round(normalized * 8 + 1)
+        return int(mapped_value)
+
+    @property
+    def dd_note_type(self):
+        return FS_LONG_NOTE_TO_DD_NOTE_TYPE[self.color]
 
 
 @dataclass
@@ -214,15 +279,24 @@ class FSBeatMapFileObstacle:
     width: int
     customData: FSBeatMapFileObstacleCustomData
 
+    def is_part_of_last_obstacle(self, last_obstacle: FSBeatMapFileObstacle) -> bool:
+        if self.time < last_obstacle.time:
+            return False
+
+        if self.time > last_obstacle.time + last_obstacle.duration:
+            return False
+
+        return True
+
 
 @dataclass
 class FSBeatMapFile:
     version: str
     customData: FSBeatMapFileCustomData
-    events: list
-    notes: list
-    obstacles: list
-    waypoints: list
+    notes: list[FSBeatMapFileNote]
+    obstacles: list[FSBeatMapFileObstacle]
+    events: list[FSBeatMapFileEvent] = field(default_factory=list)
+    waypoints: list = field(default_factory=list)
 
     @classmethod
     def from_json_dict(cls, json_dict: dict) -> FSBeatMapFile:
@@ -273,7 +347,11 @@ class FSBeatMapFile:
                         '_customData'
                     ] else None,
                     scale=tuple(obstacle['_customData']['_scale']),
-                    color=tuple(obstacle['_customData']['_color']),
+                    # type: ignore
+                    color=tuple(
+                        float(c)
+                        for c in obstacle['_customData']['_color']
+                    ),
                 ),
             ) for obstacle in json_dict['_obstacles']
         ]

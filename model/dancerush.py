@@ -543,7 +543,7 @@ class DRSTrack:
     def from_xml_dict(cls, data: dict):
         data = data['data']
 
-        # not really representing the data properly, but we need this for timings on 9 songs (i think)
+        # not really representing the data properly, but we need this for timings on ver 9 songs (i think)
         clip = None
         if 'rec_data' in data and data['rec_data'] and type(data['rec_data']['clip']) is not list:
             clip = DRSClip.from_xml_dict(data['rec_data']['clip'])

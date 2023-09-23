@@ -80,8 +80,8 @@ def zipdir(path, ziph, archiveroot):
             ziph.write(actual_file_path, archive_file_path)
 
 
-def random_10_digit_int():
-    return random.randint(10 ** 9, 10 ** 10 - 1)
+def random_9_digit_int():
+    return random.randint(10**8, 10**9 - 1)
 
 
 def convert_egg_to_ogg_and_get_length(egg_path: str) -> tuple[str, float]:
