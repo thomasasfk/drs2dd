@@ -22,13 +22,13 @@ from util import random_9_digit_int
 from util import yyyymmdd_to_ticks
 
 
-def map_sphere_nodes(fs_beat_map: FSBeatMapFile, bps: int, total_time_seconds: float) -> list[DDSphereNode]:
+def map_sphere_nodes(fs_beat_map: FSBeatMapFile, total_time_seconds: float) -> list[DDSphereNode]:
     spheres = []
     ...
     return spheres
 
 
-def map_line_nodes(fs_beat_map: FSBeatMapFile, bps: int, total_time_seconds: float) -> list[DDLineNode]:
+def map_line_nodes(fs_beat_map: FSBeatMapFile, total_time_seconds: float) -> list[DDLineNode]:
     lines = []
 
     line_obstacles = [
@@ -52,8 +52,10 @@ def map_line_nodes(fs_beat_map: FSBeatMapFile, bps: int, total_time_seconds: flo
                     lineGroupId=line_group_id,
                     indexInLine=index_in_line,
                     noteOrder=round(
-                        bps * (obstacle.time + multiplier) *
-                        ORDER_COUNT_PER_BEAT,
+                        (
+                            (obstacle.time + multiplier) *
+                            ORDER_COUNT_PER_BEAT
+                        ) - ORDER_COUNT_PER_BEAT,
                     ),
                     time=fs_beat_map.customData.time / total_time_seconds,
                     position=X_Y(x=obstacle.customData.dd_x, y=0),
@@ -75,7 +77,7 @@ def map_line_nodes(fs_beat_map: FSBeatMapFile, bps: int, total_time_seconds: flo
     return lines
 
 
-def map_down_and_jump_notes(fs_beat_map: FSBeatMapFile, bps: int, total_time_seconds: float) -> list[DDRoadBlockNode]:
+def map_down_and_jump_notes(fs_beat_map: FSBeatMapFile, total_time_seconds: float) -> list[DDRoadBlockNode]:
     spheres = []
     ...
     return spheres
@@ -113,10 +115,10 @@ def create_dd_tracks_from_fs(fs_map_dir: str) -> DDBeatMapInfoFile:
         for difficulty_set in difficulty_set.difficultyBeatmaps:
             beat_map: FSBeatMapFile = difficulty_set.get_beatmap(fs_map_dir)
 
-            sphere_notes = map_sphere_nodes(beat_map, fs_info.bps, song_length)
-            line_notes = map_line_nodes(beat_map, fs_info.bps, song_length)
+            sphere_notes = map_sphere_nodes(beat_map, song_length)
+            line_notes = map_line_nodes(beat_map, song_length)
             road_block_notes = map_down_and_jump_notes(
-                beat_map, fs_info.bps, song_length,
+                beat_map, song_length,
             )
 
             total_note_count = len(sphere_notes + line_notes + road_block_notes)  # noqa

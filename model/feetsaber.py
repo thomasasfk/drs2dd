@@ -258,10 +258,10 @@ class FSBeatMapFileObstacleCustomData:
         if not self.is_fs:
             raise ValueError('This is not a FS note')
 
-        if self.x < -1.5 or self.x > 1.5:
+        if self.x < -2.5 or self.x > 1.5:
             raise ValueError('Input should be between -1.5 and 1.5')
 
-        normalized = (self.x + 1.5) / 3.0
+        normalized = (self.x + 2.5) / 4.0
         mapped_value = round(normalized * 8 + 1)
         return int(mapped_value)
 
