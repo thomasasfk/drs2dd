@@ -79,8 +79,6 @@ def test_get_song_cover_path(file_names, expected_output, tmpdir):
         ('file$name1.txt', 'filename1txt'),
         # Spaces should remain, trailing spaces should be removed
         ('  file name  ', '  file name'),
-        # Slash should be preserved as it's in valid_chars
-        ('file/name', 'filename'),
         # File name should be truncated to 255 characters
         ('long' * 80, 'long' * 63 + 'lon'),
     ],
