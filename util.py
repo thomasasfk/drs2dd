@@ -84,7 +84,7 @@ def random_10_digit_int():
     return random.randint(10 ** 9, 10 ** 10 - 1)
 
 
-def convert_egg_to_ogg_and_get_length(egg_path: str):
+def convert_egg_to_ogg_and_get_length(egg_path: str) -> tuple[str, float]:
     ogg_path = egg_path.replace('.egg', '.ogg')
     subprocess.run(
         ['ffmpeg', '-loglevel', 'quiet', '-y', '-i', egg_path, ogg_path],
