@@ -161,8 +161,13 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
     if not target_dir:
         target_dir = f'{DEFAULT_TRACK_DIR}/{create_valid_filename(drs_song_data.info.title_name)}/'
 
-    dd_bmp = int(drs_song_data.info.bpm_max / 100)
-    dd_bps = dd_bmp / 60
+    highest_bpm = max(
+        drs_song_data.difficulties.difficulty_1a.track.info.bpm_info, key=lambda x: x.bpm,
+    ).bpm
+    # note we don't use drs_song_data.info.bpm_max as it is not always correct... sometimes higher bpms exist.
+    # not sure why.
+    dd_bpm = int(highest_bpm / 100)
+    dd_bps = dd_bpm / 60
 
     folder_path = TRACK_ID_TO_PATH.get(drs_song_data.song_id)
     song_path, song_length = get_drs_ogg_and_duration(folder_path)
@@ -212,7 +217,7 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
                 lineNodes=line_notes,
                 roadBlockNodes=road_block_notes,
             ),
-            BPM=dd_bmp,
+            BPM=dd_bpm,
             NPS=str(round(total_note_count / song_length_f, 2)),
         )
 
@@ -236,7 +241,7 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
         SongName=drs_song_data.info.title_name,
         SongLength=song_length,
         SongAuthorName=drs_song_data.info.artist_name,
-        Bpm=str(dd_bmp),
+        Bpm=str(dd_bpm),
         SongPath=os.path.basename(song_path),
         CoverPath=os.path.basename(song_cover_path or '') or None,
         DRS_Easy=os.path.basename(easy_no_blocks),
