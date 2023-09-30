@@ -10,6 +10,20 @@ Curious? @thomasasfk on discord
 
 ---
 
+### How do I install these?
+
+- Right click Dance Dash on Steam
+- Manage > Browse local files (will open explorer)
+- Drag `DANCERUSH_STARDOM.zip` into the folder
+- Right click > Extract Here (7zip)
+
+Note, if you don't use 7zip - you may need to drag the folder manually.
+
+Target directory for Custom Albums is: `steamapps\common\Dance Dash\Dance Dash_Data\StreamingAssets\NewDLC`
+
+
+---
+
 ### Setup:
 
 - Install Python 3.10 (pyenv recommended)
