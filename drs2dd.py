@@ -21,13 +21,13 @@ from model.dancedash import DDJumpPos2D
 from model.dancedash import DDLineNode
 from model.dancedash import DDRoadBlockNode
 from model.dancedash import DDSphereNode
+from model.dancedash import DRS2DD_MAP_PREFIX
 from model.dancedash import DRS_TO_DDS_LINE_NOTE_TYPE
 from model.dancedash import DRS_TO_DDS_NOTE_TYPE
 from model.dancedash import ORDER_COUNT_PER_BEAT
 from model.dancedash import X_Y
 from model.dancerush import ALBUM_NAME
 from model.dancerush import DEFAULT_TRACK_DIR
-from model.dancerush import DRS_ALBUM_ID
 from model.dancerush import DRS_DOWN
 from model.dancerush import DRS_JUMP
 from model.dancerush import DRSSongData
@@ -45,15 +45,16 @@ def map_sphere_nodes(
         difficulty: DRSSongDifficulty,
         total_time_seconds: float,
         bps: float,
-        ticks_per_second: float,
 ) -> list[DDSphereNode]:
     spheres = []
     for track_step in difficulty.track.sequence_data:
         if track_step.long_point or track_step.is_down_or_up:
             continue
 
-        if track_step.tick_info.start_tick:
-            seconds = track_step.tick_info.end_tick / ticks_per_second
+        if track_step.tick_info.end_tick:
+            seconds = difficulty.track.info.determine_seconds_of_tick(
+                track_step.tick_info.end_tick,
+            )
         else:
             seconds = track_step.tick_info.stime_ms / 1000
 
@@ -72,7 +73,6 @@ def map_line_nodes(
         difficulty: DRSSongDifficulty,
         total_time_seconds: float,
         bps: float,
-        ticks_per_second: float,
 ) -> list[DDLineNode]:
     lines = []
     for line_group_id, track_step in enumerate(difficulty.track.sequence_data, start=1):
@@ -95,7 +95,9 @@ def map_line_nodes(
             index_in_line += 1
 
             if drs_track_point.tick:
-                seconds = drs_track_point.tick / ticks_per_second
+                seconds = difficulty.track.info.determine_seconds_of_tick(
+                    drs_track_point.tick,
+                )
             else:
                 seconds = drs_track_point.point_time / 1000
 
@@ -126,15 +128,16 @@ def map_down_and_jump_notes(
         difficulty: DRSSongDifficulty,
         total_time_seconds: float,
         bps: float,
-        ticks_per_second: float,
 ) -> list[DDRoadBlockNode]:
     road_blocks = []
     for track_step in difficulty.track.sequence_data:
         if not track_step.is_down_or_up:
             continue
 
-        if track_step.tick_info.start_tick:
-            seconds = track_step.tick_info.end_tick / ticks_per_second
+        if track_step.tick_info.end_tick:
+            seconds = difficulty.track.info.determine_seconds_of_tick(
+                track_step.tick_info.end_tick,
+            )
         else:
             seconds = track_step.tick_info.stime_ms / 1000
 
@@ -161,12 +164,9 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
     if not target_dir:
         target_dir = f'{DEFAULT_TRACK_DIR}/{create_valid_filename(drs_song_data.info.title_name)}/'
 
-    highest_bpm = max(
-        drs_song_data.difficulties.difficulty_1a.track.info.bpm_info, key=lambda x: x.bpm,
-    ).bpm
-    # note we don't use drs_song_data.info.bpm_max as it is not always correct... sometimes higher bpms exist.
-    # not sure why.
-    dd_bpm = int(highest_bpm / 100)
+    dd_bpm = int(
+        drs_song_data.difficulties.difficulty_1a.track.info.highest_bpm / 100,
+    )
     dd_bps = dd_bpm / 60
 
     folder_path = TRACK_ID_TO_PATH.get(drs_song_data.song_id)
@@ -193,20 +193,15 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
         if attr in ('difficulty_2a', 'difficulty_2b'):  # 2 player difficulties
             continue
 
-        ticks_per_second = None
-        if difficulty.track.clip and difficulty.track.clip.end_time:
-            end_time_seconds = difficulty.track.clip.end_time / 1000
-            ticks_per_second = difficulty.track.info.end_tick / end_time_seconds
-
         song_length_f = float(song_length)
         sphere_notes = map_sphere_nodes(
-            difficulty, song_length_f, dd_bps, ticks_per_second,
+            difficulty, song_length_f, dd_bps,
         )
         line_notes = map_line_nodes(
-            difficulty, song_length_f, dd_bps, ticks_per_second,
+            difficulty, song_length_f, dd_bps,
         )
         road_block_notes = map_down_and_jump_notes(
-            difficulty, song_length_f, dd_bps, ticks_per_second,
+            difficulty, song_length_f, dd_bps,
         )
 
         total_note_count = len(sphere_notes + line_notes + road_block_notes)  # noqa
@@ -237,7 +232,8 @@ def create_dd_tracks_from_DRSSongData(drs_song_data: DRSSongData, target_dir: st
     drs_beat_map_info = DDBeatMapInfoFile(
         CreateTicks=create_ticks,
         CreateTime=str(create_ticks),
-        BeatMapId=drs_song_data.song_id,
+        OstId=DRS2DD_MAP_PREFIX,
+        BeatMapId=DRS2DD_MAP_PREFIX + drs_song_data.song_id,
         SongName=drs_song_data.info.title_name,
         SongLength=song_length,
         SongAuthorName=drs_song_data.info.artist_name,
@@ -298,8 +294,8 @@ if __name__ == '__main__':
 
     album_info = DDAlbumInfo(
         OstName='DANCERUSH STARDOM',
-        BeatMapIdList=[track.BeatMapId for track in tracks],
-        OstId=DRS_ALBUM_ID,
+        BeatMapIdList=sorted([track.BeatMapId for track in tracks]),
+        OstId=DRS2DD_MAP_PREFIX,
         CoverPath='DANCERUSH_STARDOM.jpg',
         CreateTime=yyyymmdd_to_ticks(datetime.now().strftime('%Y%m%d')),
     ).save_to_file(DEFAULT_TRACK_DIR)

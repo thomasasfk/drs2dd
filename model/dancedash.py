@@ -21,6 +21,8 @@ DD_ROAD_BLOCK = 14
 
 ORDER_COUNT_PER_BEAT = 24
 
+DRS2DD_MAP_PREFIX = 44_52_53_000  # 44 = D, 52 = R, 53 = S
+
 DRS_TO_DDS_NOTE_TYPE = {
     DRS_LEFT: DD_LEFT,
     DRS_RIGHT: DD_RIGHT,
@@ -157,8 +159,8 @@ class DDBeatMapInfoFile:
     SongPath: str
     CreateTicks: int
     CreateTime: str
+    OstId: int
     EditorVersion: str = '1.3.2'
-    OstId: int = 0
     LevelAuthorName: str = 'https://github.com/thomasasfk/drs2dd'
     SongPreviewSection: int = 0
     OstName: str | None = None
