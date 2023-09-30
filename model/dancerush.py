@@ -13,6 +13,8 @@ DRS_RIGHT = 2
 DRS_DOWN = 3
 DRS_JUMP = 4
 
+TPS_MULTIPLIER = 0.08  # Multiply this by BPM to get ticks per second
+
 DRS_ALBUM_ID = 2022121400
 ALBUM_NAME = f'DANCERUSH STARDOM ({DRS_ALBUM_ID})'
 DEFAULT_TRACK_DIR = f'tracks/{ALBUM_NAME}/'
@@ -169,6 +171,31 @@ class DRSTrackInfo:
     time_unit: DRSTrackTimeInfo
     bpm_info: list[DRSTrackBPMInfo] = field(default_factory=list)
     measure_info: list[DRSTrackMeasureInfo] = field(default_factory=list)
+
+    @property
+    def highest_bpm(self) -> int:
+        return max(bpm_info.bpm for bpm_info in self.bpm_info)
+
+    def determine_seconds_of_tick(self, target_tick: int) -> float:
+        total_seconds = 0.0
+        relevant_bpm_infos = sorted(
+            [b for b in self.bpm_info if b.tick <= target_tick],
+            key=lambda x: x.tick,
+            reverse=True,
+        )
+
+        for idx, current_bpm in enumerate(relevant_bpm_infos[:-1]):
+            next_bpm = relevant_bpm_infos[idx + 1]
+            tick_range = current_bpm.tick - next_bpm.tick
+            ticks_per_second = next_bpm.bpm * TPS_MULTIPLIER
+            seconds_for_range = tick_range / ticks_per_second
+            total_seconds += seconds_for_range
+
+        closest_bpm_info = relevant_bpm_infos[0]
+        remaining_ticks = target_tick - closest_bpm_info.tick
+        ticks_per_second = closest_bpm_info.bpm * TPS_MULTIPLIER
+        total_seconds += remaining_ticks / ticks_per_second
+        return total_seconds
 
     @classmethod
     def from_xml_dict(cls, data: dict):
