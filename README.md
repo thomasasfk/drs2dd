@@ -6,8 +6,7 @@ Curious? @thomasasfk on discord
 
 ### Download the tracks here:
 
-- https://mega.nz/file/OSZWTSaT#ORVsxy-WNFJkhJFFD431bDxmFmkJK2eTyHsAKISFRvg (all songs)
-- https://mega.nz/folder/eKYnUSwD#z1wwOJwr6O0aii13HWeSdw (individual songs)
+- https://mega.nz/file/KbB1DSjb#_sepIa5KmyWVChnCMyaZxqztzQuXXDI3AMgXEdpR7-8 (all songs)
 
 ---
 
