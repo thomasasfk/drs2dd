@@ -29,11 +29,54 @@ find . -type f -name "song.json" -exec rm -f {} \;
 ```
 
 ```bash
-# Find all M4A audio files in the current directory and its subdirectories, and convert them to ogg format using ffmpeg.
-find . -type f -name "*.m4a" -exec sh -c 'ffmpeg -y -i "$1" "${1%.m4a}.ogg"' sh {} \;
+# remove 10 seconds from all m4as and convert to ogg files
+find . -type f -name "*.m4a" -exec sh -c 'DURATION=$(ffprobe -i "$0" -show_entries format=duration -v quiet -of csv="p=0"); TRIM_TIME=$(awk "BEGIN {print $DURATION - 10}"); ffmpeg -y -ss 0 -t $TRIM_TIME -i "$0" "${0%.m4a}.ogg"' {} \;
 ```
 
 ```bash
-# remove 10 seconds from all ogg files
-find . -type f -name "*.m4a" -exec sh -c 'DURATION=$(ffprobe -i "$0" -show_entries format=duration -v quiet -of csv="p=0"); TRIM_TIME=$(awk "BEGIN {print $DURATION - 10}"); ffmpeg -ss 0 -t $TRIM_TIME -i "$0" "${0%.m4a}.ogg"' {} \;
+#!/bin/bash
+find . -type f -name "*.2dx" -exec sh -c '
+  dir=$(dirname "$0")
+  filename=$(basename "$0")
+  file_without_extension="${filename%.*}"
+
+  if echo "$filename" | grep -qE "clip|pre"; then
+    echo "Skipping $filename"
+    exit 0
+  fi
+
+  cd "$dir" || exit 1
+  2dxdump "$filename"
+  ffmpeg -y -i "0.wav" "${file_without_extension}clip1.ogg"
+' {} \;
+```
+
+```bash
+find . -type f -name "1.wav" -exec rm -f {} \;
+```
+
+```bash
+#!/bin/bash
+find . -type f -name "*.s3p" -exec sh -c '
+  dir=$(dirname "$0")
+  filename=$(basename "$0")
+  file_without_extension="${filename%.*}"
+
+  output_file="${file_without_extension}clip1.ogg"
+
+  if echo "$filename" | grep -qE "clip|pre"; then
+    echo "Skipping $filename"
+    exit 0
+  fi
+
+  cd "$dir" || exit 1
+  if [ -f "$output_file" ]; then
+    echo "Skipping as $output_file already exists."
+    exit 0
+  fi
+
+  # uhh yea deal with it lol
+  ../../../../../.venv/Scripts/python ../../../../../s3p_unpack.py --input "$filename"
+  ffmpeg -y -i "0.wma" "$output_file"
+' {} \;
 ```

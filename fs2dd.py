@@ -152,6 +152,7 @@ def create_dd_tracks_from_fs(fs_map_dir: str) -> DDBeatMapInfoFile:
 
     create_ticks = yyyymmdd_to_ticks(datetime.now().strftime('%Y%m%d'))
     dd_beat_map_info = DDBeatMapInfoFile(
+        OstId=random_9_digit_int(),
         CreateTicks=create_ticks,
         CreateTime=str(create_ticks),
         BeatMapId=random_9_digit_int(),
