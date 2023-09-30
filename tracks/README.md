@@ -28,6 +28,7 @@ DANCERUSH STARDOM conversion tracks!
 - Bad Boy Birdwatch
 - Bad Riddim
 - Bad Riddim T STEP EDITION
+- BANG BANG BANG
 - bass 2 bass
 - BBoom BBoom
 - Be My Baby
@@ -40,10 +41,9 @@ DANCERUSH STARDOM conversion tracks!
 - BONE BORN
 - BOOMBAYAH-JP Ver-
 - BOOMBAYAH-JP Ver- ANOTHER EDITION
-- BOOMBAYAH-JP Ver.-
-- BOOMBAYAH-JP Ver.- ANOTHER EDITION
 - Bounce To This
 - Brand New Step
+- Break Free ftZedd
 - BREDLI
 - BREDLI RUNNING MAN EDITION
 - Broadway Walk
@@ -127,7 +127,6 @@ DANCERUSH STARDOM conversion tracks!
 - GOLDEN CROSS
 - Golden Palms
 - GRADIUS REMIXBA Ver)
-- GRADIUS REMIXBA Ver.)
 - Graveyard
 - Gymnopedie-kors k mix-
 - HANDS UP IN THE AIR
@@ -158,6 +157,7 @@ DANCERUSH STARDOM conversion tracks!
 - Jumbo Drill
 - Keep On Rising
 - Kill The Beat
+- LADY
 - Let Me See Your Dance
 - Lets DANCE aROUND
 - Lets Go
@@ -177,6 +177,7 @@ DANCERUSH STARDOM conversion tracks!
 - Make you happy
 - Mandrake
 - MATSURI
+- MEGA SHAKE IT
 - melody H4CKER
 - Meltdown
 - Memories
@@ -221,6 +222,7 @@ DANCERUSH STARDOM conversion tracks!
 - Playa
 - Polar Night
 - Poochie
+- POP TEAM EPIC
 - PRANK
 - Pretender
 - Prettiful
@@ -256,6 +258,7 @@ DANCERUSH STARDOM conversion tracks!
 - Shuffle The Cards RUNNING MAN EDITION
 - SigSig
 - Six String Proof (DANCERUSH Style)
+- SKYs the limit
 - Sleepwell
 - Small Steps
 - smooooch
@@ -267,9 +270,9 @@ DANCERUSH STARDOM conversion tracks!
 - Starlight Kiss
 - Starlight Parade
 - Stepper
+- Summer Venus
 - Summers End
 - Summery
-- Sunrise (feat. LEO  Viola)
 - Sunrise (feat LEO  Viola)
 - Sunshine let me find a way
 - Sweet Bordeaux Nightmare
@@ -301,10 +304,10 @@ DANCERUSH STARDOM conversion tracks!
 - True Blue (STARDOM Remix) T STEP EDITION
 - Twilight
 - Twinkle
-- U.S.A
 - UCHU
 - Undercover
 - USA
+- USA ANOTHER EDITION
 - Valkyrie
 - Vamos A Bailar
 - Villains
@@ -317,10 +320,12 @@ DANCERUSH STARDOM conversion tracks!
 - Waiting for you
 - Warpstep
 - WELCOME TO MY GAME
+- What Do You Mean
 - Wheres The Party At
 - Wicked
 - Wicked SPONGEBOB EDITION
 - Without Words
+- Without You
 - Wowie Zowie
 - X-ray binary
 - You Take My Soul
@@ -334,7 +339,9 @@ DANCERUSH STARDOM conversion tracks!
 - オネガイディスコミュージック
 - オンリーワンダー
 - カゴノトリ
+- サイレントマジョリティー
 - サヨナラヘヴン
+- シュガーソングとビターステップ
 - スーパー戦湯ババンバーン
 - チュッチュマチュピチュ
 - ドーパミン (STARDOM Remix)
@@ -346,6 +353,7 @@ DANCERUSH STARDOM conversion tracks!
 - ランカーキラーガール (STARDOM Remix)
 - 世界の果てに約束の凱歌を (STARDOM Remix)
 - 凛として咲く花の如く
+- 制服のマネキン
 - 十六夜セツナ
 - 君と野獣
 - 女々しくて
