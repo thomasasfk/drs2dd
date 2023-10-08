@@ -61,5 +61,6 @@ Generate full DD Beat Map from Feet Saber directory (WIP)
 ```bash
 .venv/Scripts/python fs2dd.py --fs-map-dir "path/to/map/folder"
 .venv/Scripts/python fs2dd.py --fs-map-id 229ed
+.venv/Scripts/python fs2dd.py --fs-map-ids 229ed,299b5
 .venv/Scripts/python fs2dd.py --fs-playlist-id 3474
 ```

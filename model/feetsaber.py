@@ -100,7 +100,7 @@ class FSInfoDat:
         contributors = [
             FSContributor(**remove_underscore_from_keys(contributor)) for contributor in
             custom_data_raw['_contributors']
-        ]
+        ] if '_contributors' in custom_data_raw else []
 
         editors = {
             editor: FSEditor(version=data['version']) for editor, data in custom_data_raw['_editors'].items() if
@@ -130,10 +130,16 @@ class FSInfoDat:
                         difficultyLabel=beatmap['_customData'].get(
                             '_difficultyLabel',
                         ),
-                        editorOffset=beatmap['_customData']['_editorOffset'],
-                        editorOldOffset=beatmap['_customData']['_editorOldOffset'],
+                        editorOffset=beatmap['_customData'].get(
+                            '_editorOffset',
+                        ),
+                        editorOldOffset=beatmap['_customData'].get(
+                            '_editorOldOffset',
+                        ),
                         suggestions=beatmap['_customData'].get('_suggestions'),
-                        requirements=beatmap['_customData']['_requirements'],
+                        requirements=beatmap['_customData'].get(
+                            '_requirements',
+                        ),
                     ),
                 ) for beatmap in dbset['_difficultyBeatmaps']
             ]
@@ -248,9 +254,9 @@ class FSBeatMapFileObstacleCustomData:
     track: str
     interactable: bool
     fake: bool
-    position: tuple[float, float]
     scale: tuple
-    color: tuple[float, float, float, float]
+    position: tuple[float, float] | None
+    color: tuple[float, float, float, float] | None
     localRotation: tuple[float, float, float] | None = None
 
     @property
@@ -259,8 +265,9 @@ class FSBeatMapFileObstacleCustomData:
 
     @property
     def is_fs(self) -> bool:
-        _, y = self.position
-        return self.height == 0.1 and y == -0.25 and self.fake
+        if not self.position:
+            return False
+        return self.height == 0.1 and self.position[1] == -0.25 and self.fake
 
     @property
     def is_fs_slider(self) -> bool:
@@ -344,7 +351,7 @@ class FSBeatMapFile:
     @classmethod
     def from_json_dict(cls, json_dict: dict) -> FSBeatMapFile:
         custom_data = FSBeatMapFileCustomData(
-            time=json_dict['_customData']['_time'],
+            time=json_dict['_customData'].get('_time'),
             bookmarks=[
                 FSBeatMapFileBookmark(
                     time=bm['_time'],
@@ -371,7 +378,7 @@ class FSBeatMapFile:
                 cutDirection=note['_cutDirection'],
                 customData=FSBeatMapFileNoteCustomData(
                     position=tuple(note['_customData']['_position']),
-                ) if '_customData' in note else None,
+                ) if '_customData' in note and '_position' in note['_customData'] else None,
             ) for note in json_dict['_notes']
         ]
 
@@ -384,9 +391,11 @@ class FSBeatMapFile:
                 width=obstacle['_width'],
                 customData=FSBeatMapFileObstacleCustomData(
                     track=obstacle['_customData'].get('_track'),
-                    interactable=obstacle['_customData']['_interactable'],
-                    fake=obstacle['_customData']['_fake'],
-                    position=tuple(obstacle['_customData']['_position']),
+                    interactable=obstacle['_customData'].get('_interactable'),
+                    fake=obstacle['_customData'].get('_fake'),
+                    position=tuple(
+                        obstacle['_customData']['_position'],
+                    ) if '_position' in obstacle['_customData'] else None,
                     localRotation=tuple(obstacle['_customData']['_localRotation']) if '_localRotation' in obstacle[
                         '_customData'
                     ] else None,
@@ -395,7 +404,7 @@ class FSBeatMapFile:
                     color=tuple(
                         float(c)
                         for c in obstacle['_customData']['_color']
-                    ),
+                    ) if '_color' in obstacle['_customData'] else None,
                 ) if '_customData' in obstacle else None,
             ) for obstacle in json_dict['_obstacles']
         ]
