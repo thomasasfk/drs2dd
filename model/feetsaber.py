@@ -127,10 +127,12 @@ class FSInfoDat:
                     noteJumpMovementSpeed=beatmap['_noteJumpMovementSpeed'],
                     noteJumpStartBeatOffset=beatmap['_noteJumpStartBeatOffset'],
                     customData=FSBeatMapCustomData(
-                        difficultyLabel=beatmap['_customData']['_difficultyLabel'],
+                        difficultyLabel=beatmap['_customData'].get(
+                            '_difficultyLabel',
+                        ),
                         editorOffset=beatmap['_customData']['_editorOffset'],
                         editorOldOffset=beatmap['_customData']['_editorOldOffset'],
-                        suggestions=beatmap['_customData']['_suggestions'],
+                        suggestions=beatmap['_customData'].get('_suggestions'),
                         requirements=beatmap['_customData']['_requirements'],
                     ),
                 ) for beatmap in dbset['_difficultyBeatmaps']
@@ -211,9 +213,18 @@ class FSBeatMapFileNote:
 
     @property
     def to_dd_x(self) -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9:
+        if not self.customData:
+            if self.lineIndex == 0:
+                return 2
+            elif self.lineIndex == 1:
+                return 4
+            elif self.lineIndex == 2:
+                return 6
+            elif self.lineIndex == 3:
+                return 8
         x = self.customData.position[0]
         x_min, x_max = -2, 1
-        y_min, y_max = 1, 9
+        y_min, y_max = 2, 8
         y = (x - x_min) * (y_max - y_min) / (x_max - x_min) + y_min
         return round(y)
 
@@ -271,7 +282,7 @@ class FSBeatMapFileObstacle:
 
     def to_dd_x(self, x: float = None) -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9:
         x_min, x_max = -2, 1
-        y_min, y_max = 1, 9
+        y_min, y_max = 2, 8
         if not x:
             x = self.customData.position[0]
         if x < x_min:
@@ -301,12 +312,16 @@ class FSBeatMapFileObstacle:
 
     @property
     def is_down(self) -> bool:
+        if not self.customData:
+            return False
         if not self.customData.track:
             return False
         return self.customData.track.casefold() == 'DownArch'.casefold()
 
     @property
     def is_up(self) -> bool:
+        if not self.customData:
+            return False
         if not self.customData.track:
             return False
         return self.customData.track.casefold() == 'JumpBar'.casefold()
@@ -335,7 +350,7 @@ class FSBeatMapFile:
                     time=bm['_time'],
                     name=bm['_name'],
                     color=bm['_color'],
-                ) for bm in json_dict['_customData']['_bookmarks']
+                ) for bm in json_dict['_customData'].get('_bookmarks') or []
             ],
         )
 
@@ -356,7 +371,7 @@ class FSBeatMapFile:
                 cutDirection=note['_cutDirection'],
                 customData=FSBeatMapFileNoteCustomData(
                     position=tuple(note['_customData']['_position']),
-                ),
+                ) if '_customData' in note else None,
             ) for note in json_dict['_notes']
         ]
 
@@ -381,7 +396,7 @@ class FSBeatMapFile:
                         float(c)
                         for c in obstacle['_customData']['_color']
                     ),
-                ),
+                ) if '_customData' in obstacle else None,
             ) for obstacle in json_dict['_obstacles']
         ]
 
