@@ -69,17 +69,90 @@ def map_line_nodes(
 ) -> list[DDLineNode]:
     lines = []
 
-    # line_obstacles = [
-    #     o for o in fs_beat_map.obstacles if o.customData.is_fs_slider
-    # ]
-    # left_obstacles = [
-    #     o for o in line_obstacles if o.customData.dd_note_type == DD_LEFT
-    # ]
-    # right_obstacles = [
-    #     o for o in line_obstacles if o.customData.dd_note_type == DD_RIGHT
-    # ]
+    line_obstacles = [
+        o for o in fs_beat_map.obstacles if o.customData.is_fs
+    ]
 
-    # todo: implement lines
+    obstacles_by_type = {
+        DD_LINE_LEFT: [
+            o for o in line_obstacles if o.customData.dd_note_type == DD_LINE_LEFT
+        ],
+        DD_LINE_RIGHT: [
+            o for o in line_obstacles if o.customData.dd_note_type == DD_LINE_RIGHT
+        ],
+    }
+
+    index_in_line = 0
+    line_group_id = 1
+    last_obstacle = None
+    for note_type, obstacles in obstacles_by_type.items():
+        for obstacle in obstacles:
+            if obstacle.is_part_of_last_obstacle(last_obstacle) and not obstacle.customData.is_fs_slider:
+                index_in_line += 1
+                is_left = obstacle.customData.position[0] < last_obstacle.customData.position[0]
+                last_obstacle_x = lines[-1].position.x
+                lines.append(
+                    DDLineNode(
+                        lineGroupId=line_group_id,
+                        indexInLine=index_in_line,
+                        noteOrder=round(obstacle.time * ORDER_COUNT_PER_BEAT),
+                        time=(fs_info_dat.bps * obstacle.time) /
+                        total_time_seconds,
+                        position=X_Y(
+                            last_obstacle_x +
+                            (-1 if is_left else 1), y=0,
+                        ),
+                        noteType=note_type,
+                    ),
+                )
+                index_in_line += 1
+                lines.append(
+                    DDLineNode(
+                        lineGroupId=line_group_id,
+                        indexInLine=index_in_line,
+                        noteOrder=round(
+                            obstacle.time * ORDER_COUNT_PER_BEAT,
+                        ) + ORDER_COUNT_PER_BEAT / 4,
+                        time=(fs_info_dat.bps * obstacle.time) /
+                        total_time_seconds,
+                        position=X_Y(
+                            last_obstacle_x +
+                            (-1 if is_left else 1), y=0,
+                        ),
+                        noteType=note_type,
+                    ),
+                )
+                last_obstacle = obstacle
+                continue
+
+            if not obstacle.is_part_of_last_obstacle(last_obstacle):
+                index_in_line = 0
+                line_group_id += 1
+
+            lines.append(
+                DDLineNode(
+                    lineGroupId=line_group_id,
+                    indexInLine=index_in_line,
+                    noteOrder=round(obstacle.time * ORDER_COUNT_PER_BEAT),
+                    time=(fs_info_dat.bps * obstacle.time) /
+                    total_time_seconds,
+                    position=X_Y(x=obstacle.to_dd_x(), y=0),
+                    noteType=note_type,
+                ),
+            )
+            index_in_line += 1
+            lines.append(
+                DDLineNode(
+                    lineGroupId=line_group_id,
+                    indexInLine=index_in_line,
+                    noteOrder=round(obstacle.end_time * ORDER_COUNT_PER_BEAT),
+                    time=(fs_info_dat.bps * obstacle.time) /
+                    total_time_seconds,
+                    position=X_Y(x=obstacle.end_to_dd_x, y=0),
+                    noteType=note_type,
+                ),
+            )
+            last_obstacle = obstacle
 
     return lines
 
@@ -179,7 +252,7 @@ def create_dd_tracks_from_fs(fs_map_dir: str) -> DDBeatMapInfoFile:
 
     create_ticks = yyyymmdd_to_ticks(datetime.now().strftime('%Y%m%d'))
     dd_beat_map_info = DDBeatMapInfoFile(
-        OstId=random_9_digit_int(),
+        OstId=0,  # default
         CreateTicks=create_ticks,
         CreateTime=str(create_ticks),
         BeatMapId=random_9_digit_int(),

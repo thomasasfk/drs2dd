@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import math
 import os
 from dataclasses import dataclass
 from dataclasses import field
@@ -209,8 +210,12 @@ class FSBeatMapFileNote:
     customData: FSBeatMapFileNoteCustomData
 
     @property
-    def to_dd_x(self):
-        return 0  # TODO
+    def to_dd_x(self) -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9:
+        x = self.customData.position[0]
+        x_min, x_max = -2, 1
+        y_min, y_max = 1, 9
+        y = (x - x_min) * (y_max - y_min) / (x_max - x_min) + y_min
+        return round(y)
 
 
 FS_RIGHT_COLOUR = (0.0, 1.0, 3.0, 1.0)
@@ -264,6 +269,32 @@ class FSBeatMapFileObstacle:
     width: int
     customData: FSBeatMapFileObstacleCustomData
 
+    def to_dd_x(self, x: float = None) -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9:
+        x_min, x_max = -2, 1
+        y_min, y_max = 1, 9
+        if not x:
+            x = self.customData.position[0]
+        if x < x_min:
+            x = -2
+        elif x > x_max:
+            x = 1
+        y = (x - x_min) * (y_max - y_min) / (x_max - x_min) + y_min
+        return round(y)
+
+    @property
+    def end_to_dd_x(self) -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9:
+        opposite_angle = self.customData.localRotation[1]
+        if opposite_angle == 0.0:
+            return self.to_dd_x()
+        # this angle calculation came out of nowhere, fix this with proper math or something idk
+        opposite_length = self.duration * \
+            math.sin(math.radians(opposite_angle))
+        return self.to_dd_x(x=self.customData.position[0] + (opposite_length * 6.4))
+
+    @property
+    def has_rotation(self) -> bool:
+        return self.customData.localRotation[1] != 0.0
+
     @property
     def end_time(self):
         return self.time + self.duration
@@ -280,7 +311,9 @@ class FSBeatMapFileObstacle:
             return False
         return self.customData.track.casefold() == 'JumpBar'.casefold()
 
-    def is_part_of_last_obstacle(self, last_obstacle: FSBeatMapFileObstacle) -> bool:
+    def is_part_of_last_obstacle(self, last_obstacle: FSBeatMapFileObstacle | None) -> bool:
+        if not last_obstacle:
+            return False
         return last_obstacle.time <= self.time <= last_obstacle.end_time
 
 
@@ -317,14 +350,8 @@ class FSBeatMapFile:
         notes = [
             FSBeatMapFileNote(
                 time=note['_time'],
-                lineIndex=note['_lineIndex'] *
-                1000 if len(                     # line index is meant to be between 0 and 3, but sometimes it can be  # noqa
-                    str(note['_lineIndex']),     # a 4 digit between like 1000 - 3500 (????)                           # noqa
-                ) == 1 else note['_lineIndex'],  # https://bsmg.wiki/mapping/difficulty-format-v2.html#lineindex       # noqa
-                lineLayer=note['_lineLayer'] *
-                1000 if len(
-                    str(note['_lineLayer']),
-                ) == 1 else note['_lineLayer'],
+                lineIndex=note['_lineIndex'],
+                lineLayer=note['_lineLayer'],
                 type=note['_type'],
                 cutDirection=note['_cutDirection'],
                 customData=FSBeatMapFileNoteCustomData(
