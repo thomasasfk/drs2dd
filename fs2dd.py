@@ -200,7 +200,10 @@ def create_dd_tracks_from_fs(fs_map_dir: str, prefix_dir: str = '', ost_id: int 
             fs_map_dir,
         ) if f.endswith('.egg')
     ][0]
-    target_dir = f'{prefix_dir}/{fs_info.songName} - {fs_info.levelAuthorName}'
+    dir_name = f'{fs_info.songName} - {fs_info.levelAuthorName}'.replace('/', '-').replace('?', '').replace('\\', '-').replace(  # noqa
+        ':', '-',
+    ).replace('*', '-').replace("\"", '-').replace('<', '-').replace('>', '-').replace('|', '-').replace('.', '-').replace(' ', '-')  # noqa
+    target_dir = f'{prefix_dir}/{dir_name}'
     if not os.path.exists(target_dir):
         os.makedirs(target_dir)
 
@@ -296,6 +299,10 @@ if __name__ == '__main__':
         help='The ID to fetch the Feet Saber map zip', required=False,
     )
     parser.add_argument(
+        '--fs-map-ids', type=str,
+        help='IDs to fetch the Feet Saber map zip, separated by comma', required=False,
+    )
+    parser.add_argument(
         '--fs-playlist-id', type=str,
         help='The ID to fetch the Feet Saber playlist', required=False,
     )
@@ -339,6 +346,49 @@ if __name__ == '__main__':
             BeatMapIdList=sorted([track.BeatMapId for track in tracks]),
             OstId=ost_id,
             CoverPath=os.path.basename(album_cover_path),
+            CreateTime=yyyymmdd_to_ticks(datetime.now().strftime('%Y%m%d')),
+        ).save_to_file(target_dir)
+        print(f'Created album info file: {album_info}')
+
+        print('Zipping tracks...')
+        with zipfile.ZipFile(f'bin/{ost_id}.zip', 'w', zipfile.ZIP_DEFLATED) as zipf:
+            zipdir(
+                target_dir, zipf,
+                f'Dance Dash_Data/StreamingAssets/NewDLC/{ost_id}',
+            )
+
+        print(f'Created bin/{ost_id}.zip')
+        raise SystemExit(0)
+
+    if args.fs_map_ids:
+        ost_id = random_9_digit_int()
+        fs_map_ids = args.fs_map_ids.split(',')
+        target_dir = f'bin/{ost_id}'
+
+        fs_map_urls = [
+            get_feet_saber_map_from_id(fs_map_id) for fs_map_id in fs_map_ids
+        ]
+
+        def download_and_process_track(url, target_dir, ost_id):
+            fs_map_dir = download_and_extract_zip(url)
+            track = create_dd_tracks_from_fs(fs_map_dir, target_dir, ost_id)
+            return track
+
+        tracks = []
+        with ThreadPoolExecutor() as executor:
+            future_to_url = {
+                executor.submit(download_and_process_track, url, target_dir, ost_id): url for url in
+                fs_map_urls
+            }
+            for future in concurrent.futures.as_completed(future_to_url):
+                track = future.result()
+                tracks.append(track)
+
+        album_info = DDAlbumInfo(
+            OstName=f'Feet Saber - {ost_id}',
+            BeatMapIdList=sorted([track.BeatMapId for track in tracks]),
+            OstId=ost_id,
+            CoverPath='',
             CreateTime=yyyymmdd_to_ticks(datetime.now().strftime('%Y%m%d')),
         ).save_to_file(target_dir)
         print(f'Created album info file: {album_info}')
