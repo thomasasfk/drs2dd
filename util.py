@@ -3,8 +3,13 @@ from __future__ import annotations
 import contextlib
 import os
 import random
+import shutil
 import subprocess
+import tempfile
+import zipfile
 from datetime import datetime
+
+import requests
 
 
 def get_drs_ogg_and_duration(folder_path) -> tuple[str, str] | tuple[None, None]:
@@ -81,7 +86,7 @@ def zipdir(path, ziph, archiveroot):
 
 
 def random_9_digit_int():
-    return random.randint(10**8, 10**9 - 1)
+    return random.randint(10 ** 8, 10 ** 9 - 1)
 
 
 def convert_egg_to_ogg_and_get_length(egg_path: str) -> tuple[str, float]:
@@ -101,3 +106,67 @@ def convert_egg_to_ogg_and_get_length(egg_path: str) -> tuple[str, float]:
         ffprobe_cmd, text=True,
     ).strip()
     return os.path.basename(ogg_path), float(duration_str)
+
+
+def get_feet_saber_map_from_id(beat_saber_map_id: str) -> str:
+    response = requests.get(
+        f'https://beatsaver.com/api/maps/id/{beat_saber_map_id}',
+    )
+    response.raise_for_status()
+    response_dict = response.json()
+    return response_dict['versions'][0]['downloadURL']
+
+
+def get_feet_saber_maps_from_playlist(playlist_id: str) -> tuple[list[str], str, str]:
+    response = requests.get(
+        f'https://beatsaver.com/api/playlists/id/{playlist_id}/0',
+    )
+    response.raise_for_status()
+    response_dict = response.json()
+    download_urls = [
+        song['map']['versions'][0]['downloadURL']
+        for song in response_dict['maps']
+    ]
+    image_url = response_dict['playlist']['playlistImage']
+    author = response_dict['playlist']['owner']['name']
+    return download_urls, image_url, author
+
+
+def download_image_from_url(url, target_path):
+    response = requests.get(url, stream=True)
+    response.raise_for_status()  # Raise exception for bad responses
+
+    content_type = response.headers['content-type']
+    if 'jpeg' in content_type or 'jpg' in content_type:
+        ext = '.jpg'
+    elif 'png' in content_type:
+        ext = '.png'
+    else:
+        ext = '.jpg'
+
+    with open(f'{target_path}{ext}', 'wb') as file:
+        for chunk in response.iter_content(chunk_size=8192):
+            file.write(chunk)
+
+    print(f'Downloaded image to {target_path}{ext}')
+
+    return f'{target_path}{ext}'
+
+
+def download_and_extract_zip(url):
+    tmpdirname = tempfile.mkdtemp()  # Manually creating a temporary directory
+
+    try:
+        response = requests.get(url, stream=True)
+        zip_path = os.path.join(tmpdirname, 'downloaded.zip')
+        with open(zip_path, 'wb') as out_file:
+            for chunk in response.iter_content(chunk_size=8192):
+                out_file.write(chunk)
+
+        with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+            zip_ref.extractall(tmpdirname)
+
+        return tmpdirname
+    except Exception as e:
+        shutil.rmtree(tmpdirname)
+        raise e

@@ -22,8 +22,8 @@ from model.dancedash import DDLineNode
 from model.dancedash import DDRoadBlockNode
 from model.dancedash import DDSphereNode
 from model.dancedash import DRS2DD_MAP_PREFIX
-from model.dancedash import DRS_TO_DDS_LINE_NOTE_TYPE
-from model.dancedash import DRS_TO_DDS_NOTE_TYPE
+from model.dancedash import DRS_TO_DD_LINE_NOTE_TYPE
+from model.dancedash import DRS_TO_DD_NOTE_TYPE
 from model.dancedash import ORDER_COUNT_PER_BEAT
 from model.dancedash import X_Y
 from model.dancerush import ALBUM_NAME
@@ -63,7 +63,7 @@ def map_sphere_nodes(
                 noteOrder=round(bps * seconds * ORDER_COUNT_PER_BEAT),
                 time=seconds / total_time_seconds,
                 position=X_Y(x=track_step.position_info.to_dance_dash_x, y=0),
-                noteType=DRS_TO_DDS_NOTE_TYPE[track_step.kind],
+                noteType=DRS_TO_DD_NOTE_TYPE[track_step.kind],
             ),
         )
     return spheres
@@ -108,7 +108,7 @@ def map_line_nodes(
                     noteOrder=round(bps * seconds * ORDER_COUNT_PER_BEAT),
                     time=seconds / total_time_seconds,
                     position=X_Y(x=drs_track_point.to_dance_dash_x, y=0),
-                    noteType=DRS_TO_DDS_LINE_NOTE_TYPE[track_step.kind],
+                    noteType=DRS_TO_DD_LINE_NOTE_TYPE[track_step.kind],
                 ),
             )
 
