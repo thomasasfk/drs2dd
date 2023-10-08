@@ -318,9 +318,9 @@ class FSBeatMapFile:
             FSBeatMapFileNote(
                 time=note['_time'],
                 lineIndex=note['_lineIndex'] *
-                1000 if len(
-                    str(note['_lineIndex']),
-                ) == 1 else note['_lineIndex'],
+                1000 if len(                     # line index is meant to be between 0 and 3, but sometimes it can be  # noqa
+                    str(note['_lineIndex']),     # a 4 digit between like 1000 - 3500 (????)                           # noqa
+                ) == 1 else note['_lineIndex'],  # https://bsmg.wiki/mapping/difficulty-format-v2.html#lineindex       # noqa
                 lineLayer=note['_lineLayer'] *
                 1000 if len(
                     str(note['_lineLayer']),
