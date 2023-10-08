@@ -5,8 +5,10 @@ import os
 from dataclasses import dataclass
 from dataclasses import field
 
+from model.dancedash import DD_LEFT
 from model.dancedash import DD_LINE_LEFT
 from model.dancedash import DD_LINE_RIGHT
+from model.dancedash import DD_RIGHT
 
 
 @dataclass
@@ -193,6 +195,10 @@ class FSBeatMapFileNoteCustomData:
     position: tuple[float, float]
 
 
+FS_LEFT_NOTE = 0
+FS_RIGHT_NOTE = 1
+
+
 @dataclass
 class FSBeatMapFileNote:
     time: float
@@ -201,6 +207,10 @@ class FSBeatMapFileNote:
     type: int
     cutDirection: int
     customData: FSBeatMapFileNoteCustomData
+
+    @property
+    def to_dd_x(self):
+        return 0  # TODO
 
 
 FS_RIGHT_COLOUR = (0.0, 1.0, 3.0, 1.0)
@@ -211,9 +221,15 @@ FS_LONG_NOTE_TO_DD_NOTE_TYPE = {
     FS_LEFT_COLOUR: DD_LINE_LEFT,
 }
 
+FS_TO_DD_NOTE_TYPE = {
+    FS_LEFT_NOTE: DD_LEFT,
+    FS_RIGHT_NOTE: DD_RIGHT,
+}
+
 
 @dataclass
 class FSBeatMapFileObstacleCustomData:
+    track: str
     interactable: bool
     fake: bool
     position: tuple[float, float]
@@ -222,52 +238,21 @@ class FSBeatMapFileObstacleCustomData:
     localRotation: tuple[float, float, float] | None = None
 
     @property
-    def height(self):
+    def height(self) -> float:
         return self.scale[1]
 
     @property
-    def y(self):
+    def is_fs(self) -> bool:
         _, y = self.position
-        return y
-
-    @property
-    def x(self):
-        x, _ = self.position
-        return x
-
-    @property
-    def is_fs(self):
-        return all(
-            [
-                self.height == 0.1,
-                self.y == -0.25,
-                self.fake,
-            ],
-        )
+        return self.height == 0.1 and y == -0.25 and self.fake
 
     @property
     def is_fs_slider(self) -> bool:
         return self.scale[0] == 1.0 and self.is_fs
 
     @property
-    def is_tail(self) -> bool:
-        return self.scale[0] == 1.5 and self.is_fs
-
-    @property
-    def dd_x(self):
-        if not self.is_fs:
-            raise ValueError('This is not a FS note')
-
-        if self.x < -2.5 or self.x > 1.5:
-            raise ValueError('Input should be between -1.5 and 1.5')
-
-        normalized = (self.x + 2.5) / 4.0
-        mapped_value = round(normalized * 8 + 1)
-        return int(mapped_value)
-
-    @property
-    def dd_note_type(self):
-        return FS_LONG_NOTE_TO_DD_NOTE_TYPE[self.color]
+    def dd_note_type(self) -> DD_LINE_RIGHT | DD_LINE_LEFT | None:
+        return FS_LONG_NOTE_TO_DD_NOTE_TYPE.get(self.color)
 
 
 @dataclass
@@ -279,14 +264,24 @@ class FSBeatMapFileObstacle:
     width: int
     customData: FSBeatMapFileObstacleCustomData
 
+    @property
+    def end_time(self):
+        return self.time + self.duration
+
+    @property
+    def is_down(self) -> bool:
+        if not self.customData.track:
+            return False
+        return self.customData.track.casefold() == 'DownArch'.casefold()
+
+    @property
+    def is_up(self) -> bool:
+        if not self.customData.track:
+            return False
+        return self.customData.track.casefold() == 'JumpBar'.casefold()
+
     def is_part_of_last_obstacle(self, last_obstacle: FSBeatMapFileObstacle) -> bool:
-        if self.time < last_obstacle.time:
-            return False
-
-        if self.time > last_obstacle.time + last_obstacle.duration:
-            return False
-
-        return True
+        return last_obstacle.time <= self.time <= last_obstacle.end_time
 
 
 @dataclass
@@ -322,8 +317,14 @@ class FSBeatMapFile:
         notes = [
             FSBeatMapFileNote(
                 time=note['_time'],
-                lineIndex=note['_lineIndex'],
-                lineLayer=note['_lineLayer'],
+                lineIndex=note['_lineIndex'] *
+                1000 if len(
+                    str(note['_lineIndex']),
+                ) == 1 else note['_lineIndex'],
+                lineLayer=note['_lineLayer'] *
+                1000 if len(
+                    str(note['_lineLayer']),
+                ) == 1 else note['_lineLayer'],
                 type=note['_type'],
                 cutDirection=note['_cutDirection'],
                 customData=FSBeatMapFileNoteCustomData(
@@ -340,6 +341,7 @@ class FSBeatMapFile:
                 duration=obstacle['_duration'],
                 width=obstacle['_width'],
                 customData=FSBeatMapFileObstacleCustomData(
+                    track=obstacle['_customData'].get('_track'),
                     interactable=obstacle['_customData']['_interactable'],
                     fake=obstacle['_customData']['_fake'],
                     position=tuple(obstacle['_customData']['_position']),

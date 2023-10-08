@@ -59,5 +59,11 @@ Generate full DD Beat Map from json files in repository (no --song-id does all)
 Generate full DD Beat Map from Feet Saber directory (WIP)
 
 ```bash
-.venv/Scripts/python fs2dd.py ...  # WIP when I have time.
+# WIP when I have time.  https://beatsaver.com/maps/229ed is what i've been using to test.
+.venv/Scripts/python fs2dd.py --fs-map-dir "229ed (Yell! (DJ Shimamura Remix) [feat. Moimoi] [Feet saber] - KikaeAeon)"
 ```
+
+### Feet Saber TODO:
+
+- Map 1-9 x position of notes (model/feetsaber.py:213)
+- Map timings and logic for line notes (fs2dd.py:74)

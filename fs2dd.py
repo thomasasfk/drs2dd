@@ -5,15 +5,23 @@ import os
 import shutil
 from datetime import datetime
 
-from model.dancedash import DD_LEFT
+from model.dancedash import DD_LINE_LEFT
+from model.dancedash import DD_LINE_RIGHT
 from model.dancedash import DDBeatMap
 from model.dancedash import DDBeatMapData
 from model.dancedash import DDBeatMapInfoFile
+from model.dancedash import DDDownPos
+from model.dancedash import DDDownPos2D
+from model.dancedash import DDJumpPos
+from model.dancedash import DDJumpPos2D
 from model.dancedash import DDLineNode
 from model.dancedash import DDRoadBlockNode
 from model.dancedash import DDSphereNode
 from model.dancedash import ORDER_COUNT_PER_BEAT
 from model.dancedash import X_Y
+from model.feetsaber import FS_LEFT_NOTE
+from model.feetsaber import FS_RIGHT_NOTE
+from model.feetsaber import FS_TO_DD_NOTE_TYPE
 from model.feetsaber import FSBeatMapFile
 from model.feetsaber import FSInfoDat
 from util import convert_egg_to_ogg_and_get_length
@@ -22,65 +30,83 @@ from util import random_9_digit_int
 from util import yyyymmdd_to_ticks
 
 
-def map_sphere_nodes(fs_beat_map: FSBeatMapFile, total_time_seconds: float) -> list[DDSphereNode]:
-    spheres = []
-    ...
-    return spheres
+def map_sphere_nodes(
+        fs_beat_map: FSBeatMapFile,
+        fs_info_dat: FSInfoDat,
+        total_time_seconds: float,
+) -> list[DDSphereNode]:
+
+    def process_notes(note_type: FS_LEFT_NOTE | FS_RIGHT_NOTE, line_type: DD_LINE_LEFT | DD_LINE_RIGHT):
+        all_lines_of_type = [
+            o for o in fs_beat_map.obstacles if o.customData.dd_note_type == line_type
+        ]
+        all_notes = [
+            n for n in fs_beat_map.notes if n.type == note_type
+        ]
+        non_overlapping_notes = [
+            note for note in all_notes
+            if not any(obstacle.time <= note.time < obstacle.end_time for obstacle in all_lines_of_type)
+        ]
+        return [
+            DDSphereNode(
+                noteOrder=round(note.time * ORDER_COUNT_PER_BEAT),
+                time=(fs_info_dat.bps * note.time) / total_time_seconds,
+                position=X_Y(x=note.to_dd_x, y=0),
+                noteType=FS_TO_DD_NOTE_TYPE[note.type],
+            )
+            for note in non_overlapping_notes
+        ]
+
+    spheres = process_notes(FS_LEFT_NOTE, DD_LINE_LEFT) + \
+        process_notes(FS_RIGHT_NOTE, DD_LINE_RIGHT)
+    return sorted(spheres, key=lambda s: s.noteOrder)
 
 
-def map_line_nodes(fs_beat_map: FSBeatMapFile, total_time_seconds: float) -> list[DDLineNode]:
+def map_line_nodes(
+        fs_beat_map: FSBeatMapFile,
+        fs_info_dat: FSInfoDat,
+        total_time_seconds: float,
+) -> list[DDLineNode]:
     lines = []
 
-    line_obstacles = [
-        o for o in fs_beat_map.obstacles if o.customData.is_fs_slider
-    ]
-    left_obstacles = [
-        o for o in line_obstacles if o.customData.dd_note_type == DD_LEFT
-    ]
-    right_obstacles = [  # noqa
-        o for o in line_obstacles if o.customData.dd_note_type != DD_LEFT
-    ]  # noqa
-    line_group_id = 1
+    # line_obstacles = [
+    #     o for o in fs_beat_map.obstacles if o.customData.is_fs_slider
+    # ]
+    # left_obstacles = [
+    #     o for o in line_obstacles if o.customData.dd_note_type == DD_LEFT
+    # ]
+    # right_obstacles = [
+    #     o for o in line_obstacles if o.customData.dd_note_type == DD_RIGHT
+    # ]
 
-    index_in_line = 0
-    for idx, obstacle in enumerate(left_obstacles):
-
-        for multiplier in (0, obstacle.duration):  # line start and line end
-            index_in_line += 1
-            lines.append(
-                DDLineNode(
-                    lineGroupId=line_group_id,
-                    indexInLine=index_in_line,
-                    noteOrder=round(
-                        (
-                            (obstacle.time + multiplier) *
-                            ORDER_COUNT_PER_BEAT
-                        ) - ORDER_COUNT_PER_BEAT,
-                    ),
-                    time=fs_beat_map.customData.time / total_time_seconds,
-                    position=X_Y(x=obstacle.customData.dd_x, y=0),
-                    noteType=obstacle.customData.dd_note_type,
-                ),
-            )
-
-        # todo(aggg figure this out i give up for today)
-
-        is_last_obstacle = idx == len(left_obstacles) - 1
-        next_obstacle = left_obstacles[
-            idx +
-            1
-        ] if not is_last_obstacle else None
-        if next_obstacle and not next_obstacle.is_part_of_last_obstacle(obstacle):
-            line_group_id += 1
-            index_in_line = 0
+    # todo: implement lines
 
     return lines
 
 
-def map_down_and_jump_notes(fs_beat_map: FSBeatMapFile, total_time_seconds: float) -> list[DDRoadBlockNode]:
-    spheres = []
-    ...
-    return spheres
+def map_down_and_jump_notes(
+        fs_beat_map: FSBeatMapFile,
+        fs_info_dat: FSInfoDat,
+        total_time_seconds: float,
+) -> list[DDRoadBlockNode]:
+    def create_block(obstacle, position, position2D):
+        return DDRoadBlockNode(
+            noteOrder=round(obstacle.time * ORDER_COUNT_PER_BEAT) +
+            (ORDER_COUNT_PER_BEAT / 16),
+            time=(fs_info_dat.bps * obstacle.time) / total_time_seconds,
+            position=position,
+            position2D=position2D,
+        )
+
+    downs = [
+        create_block(o, DDDownPos, DDDownPos2D)
+        for o in fs_beat_map.obstacles if o.is_down
+    ]
+    ups = [
+        create_block(o, DDJumpPos, DDJumpPos2D)
+        for o in fs_beat_map.obstacles if o.is_up
+    ]
+    return sorted(downs + ups, key=lambda r: r.noteOrder)
 
 
 def create_dd_tracks_from_fs(fs_map_dir: str) -> DDBeatMapInfoFile:
@@ -112,19 +138,19 @@ def create_dd_tracks_from_fs(fs_map_dir: str) -> DDBeatMapInfoFile:
 
     song_paths = []
     for difficulty_set in fs_info.difficultyBeatmapSets:
-        for difficulty_set in difficulty_set.difficultyBeatmaps:
-            beat_map: FSBeatMapFile = difficulty_set.get_beatmap(fs_map_dir)
+        for difficulty in difficulty_set.difficultyBeatmaps:
+            beat_map: FSBeatMapFile = difficulty.get_beatmap(fs_map_dir)
 
-            sphere_notes = map_sphere_nodes(beat_map, song_length)
-            line_notes = map_line_nodes(beat_map, song_length)
+            sphere_notes = map_sphere_nodes(beat_map, fs_info, song_length)
+            line_notes = map_line_nodes(beat_map, fs_info, song_length)
             road_block_notes = map_down_and_jump_notes(
-                beat_map, song_length,
+                beat_map, fs_info, song_length,
             )
 
             total_note_count = len(sphere_notes + line_notes + road_block_notes)  # noqa
             dd_beat_map = DDBeatMap(
                 data=DDBeatMapData(
-                    name=f'{fs_info.songName}',
+                    name=fs_info.songName,
                     sphereNodes=sphere_notes,
                     lineNodes=line_notes,
                     roadBlockNodes=road_block_notes,
@@ -133,9 +159,10 @@ def create_dd_tracks_from_fs(fs_map_dir: str) -> DDBeatMapInfoFile:
                 NPS=str(round(total_note_count / song_length, 2)),
             )
 
+            difficulty_name = f'{difficulty_set.beatmapCharacteristicName}_{difficulty.difficulty}'
             song_paths.append(
                 dd_beat_map.save_to_file(
-                    target_dir, 'a.json',
+                    target_dir, f'{difficulty_name}.json',
                 ),
             )
 
