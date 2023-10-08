@@ -230,7 +230,7 @@ class FSBeatMapFileNote:
                 return 8
         x = self.customData.position[0]
         x_min, x_max = -2, 1
-        y_min, y_max = 2, 8
+        y_min, y_max = FS_LANE_LEFT, FS_LANE_RIGHT
         y = (x - x_min) * (y_max - y_min) / (x_max - x_min) + y_min
         return round(y)
 
@@ -278,6 +278,13 @@ class FSBeatMapFileObstacleCustomData:
         return FS_LONG_NOTE_TO_DD_NOTE_TYPE.get(self.color)
 
 
+# dance dash notes can go from 1 to 9, with 1 being the leftmost and 9 being the rightmost
+# these values determine the furthest left and right notes can go when converted to dd
+# reason being that feet saber entire stage is smaller, so we need to scale the notes
+FS_LANE_LEFT = 2
+FS_LANE_RIGHT = 8
+
+
 @dataclass
 class FSBeatMapFileObstacle:
     time: float
@@ -289,7 +296,7 @@ class FSBeatMapFileObstacle:
 
     def to_dd_x(self, x: float = None) -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9:
         x_min, x_max = -2, 1
-        y_min, y_max = 2, 8
+        y_min, y_max = FS_LANE_LEFT, FS_LANE_RIGHT
         if not x:
             x = self.customData.position[0]
         if x < x_min:
