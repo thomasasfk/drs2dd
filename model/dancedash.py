@@ -53,8 +53,8 @@ class DDLineNode:
     time: float
     position: X_Y
     noteType: int
-    position2D: X_Y = X_Y(x=0, y=0)
-    size: X_Y_Z = X_Y_Z(x=1, y=1, z=1)
+    position2D: X_Y = field(default_factory=lambda: X_Y(x=0, y=0))
+    size: X_Y_Z = field(default_factory=lambda: X_Y_Z(x=1, y=1, z=1))
     isPlayAudio: bool = False
     postionOffset: X_Y_Z | None = None
     isSliding: bool = False
@@ -79,8 +79,8 @@ class DDSphereNode:
     time: float
     position: X_Y
     noteType: DD_LEFT | DD_RIGHT
-    position2D: X_Y = X_Y(x=0, y=0)
-    size: X_Y_Z = X_Y_Z(x=1, y=1, z=1)
+    position2D: X_Y = field(default_factory=lambda: X_Y(x=0, y=0))
+    size: X_Y_Z = field(default_factory=lambda: X_Y_Z(x=1, y=1, z=1))
     postionOffset: dict | None = None
     isPlayAudio: bool = False
 
@@ -99,8 +99,8 @@ class DDRoadBlockNode:
     position: X_Y
     position2D: X_Y
     length: int = 1
-    postionOffset: X_Y_Z = X_Y_Z(x=0, y=0, z=0)
-    size: X_Y_Z = X_Y_Z(x=1, y=1, z=1)
+    postionOffset: X_Y_Z = field(default_factory=lambda: X_Y_Z(x=0, y=0, z=0))
+    size: X_Y_Z = field(default_factory=lambda: X_Y_Z(x=1, y=1, z=1))
     noteType: DD_ROAD_BLOCK = DD_ROAD_BLOCK
     isPlayAudio: bool = False
     startPosSelctOrder: int = -1
@@ -115,8 +115,8 @@ class DDBeatMapData:
     lineNodes: list[DDLineNode]
     roadBlockNodes: list[DDRoadBlockNode]
     intervalPerSecond: float = 0.0
-    gridSize: X_Y = X_Y(x=0, y=0)
-    planeSize: X_Y = X_Y(x=0, y=0)
+    gridSize: X_Y = field(default_factory=lambda: X_Y(x=0, y=0))
+    planeSize: X_Y = field(default_factory=lambda: X_Y(x=0, y=0))
     orderCountPerBeat: int = ORDER_COUNT_PER_BEAT
     effectNodes: list = field(default_factory=list)
     trapNodes: list = field(default_factory=list)
