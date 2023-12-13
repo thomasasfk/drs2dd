@@ -165,7 +165,9 @@ class FSInfoDat:
             songFilename=json_dict['_songFilename'],
             coverImageFilename=json_dict['_coverImageFilename'],
             environmentName=json_dict['_environmentName'],
-            allDirectionsEnvironmentName=json_dict['_allDirectionsEnvironmentName'],
+            allDirectionsEnvironmentName=json_dict.get(
+                '_allDirectionsEnvironmentName',
+            ),
             songTimeOffset=json_dict['_songTimeOffset'],
             customData=custom_data,
             difficultyBeatmapSets=difficulty_beatmaps_list,
@@ -363,7 +365,7 @@ class FSBeatMapFile:
                 FSBeatMapFileBookmark(
                     time=bm['_time'],
                     name=bm['_name'],
-                    color=bm['_color'],
+                    color=bm.get('_color'),
                 ) for bm in json_dict['_customData'].get('_bookmarks') or []
             ],
         )
@@ -422,12 +424,12 @@ class FSBeatMapFile:
             events=events,
             notes=notes,
             obstacles=obstacles,
-            waypoints=json_dict['_waypoints'],
+            waypoints=json_dict.get('_waypoints'),
         )
 
     @classmethod
     def from_json_file(cls, json_file: str) -> FSBeatMapFile:
         import json
-        with open(json_file) as f:
+        with open(json_file, encoding='utf-8') as f:
             json_dict = json.load(f)
         return cls.from_json_dict(json_dict)
