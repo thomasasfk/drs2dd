@@ -34,9 +34,9 @@ def get_drs_ogg_and_duration(folder_path) -> tuple[str, str] | tuple[None, None]
 
 
 def get_song_cover_path(folder_path) -> str | None:
-    cover_files = [
+    cover_files = sorted([
         f for f in os.listdir(folder_path) if f.startswith('jk_') and f.endswith('_b.png')
-    ]
+    ])
     if not cover_files:
         return None
 
